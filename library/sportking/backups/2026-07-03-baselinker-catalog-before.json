@@ -1,0 +1,1215 @@
+{
+  "status": "SUCCESS",
+  "products": {
+    "1321037000": {
+      "is_bundle": false,
+      "ean": "8715839050851",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 8.5,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733234,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Gokart na pedały Fiat 500",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Berg",
+          "Szerokość pojazdu": "49",
+          "Kod producenta": "8715839050851",
+          "Wiek dziecka": "2 lata +",
+          "Rodzaj": "na pedały",
+          "Kolor": "biały",
+          "Maksymalne obciążenie": "30",
+          "Długość pojazdu": "83",
+          "Waga produktu z opakowaniem jednostkowym": "8.5",
+          "Certyfikaty, opinie, atesty": "CE",
+          "Kod taryfy celnej": "95030010",
+          "EAN": "8715839050851"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Gokart na pedały BERG Buzzy Fiat 500</h2> <p>Berg</p> <p>Druga odsłona gokarta z rodziny Buzzy firmy BERG. Tutaj w wersji na licencji Fiata 500! Zobacz jak Twoje dziecko będzie się uczyć pedałować na tym niezwykłym gokarcie. Fiat 500 to design, styl i elegancja od najmłodszych lat. Wysoka jakość i niepowtarzalny wygląd powoduje, że nikt nie przejdzie obok tego malucha obojętnie. Wysoka jakość użytych materiałów gwarantuje długie, bezproblemowe użytkowanie. Zrób prezent swemu dziecku i cieszcie się razem wspaniałą zabawą!</p> <p><b>Gokarty na pedały dla dzieci</b></p> <p><b>Czterokołowiec na pedały</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/9e4e1d7738ea810df74299666b1cade4.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>EAN:</b> 8715839050851</li> <li><b>Wiek:</b> 2-5</li> <li><b>Waga [kg]:</b> 7.0000</li> <li><b>Maks. waga użytkownika [kg]:</b> 30</li> <li><b>Wymiary [DxSxW]:</b> 83 x 49 x 50</li> <li><b>Regulowana kierownica:</b> tak</li> <li><b>Skrzynia biegów:</b> nie dotyczy</li> <li><b>Kolor:</b> biały</li> <li><b>Producent:</b> Berg</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p>Berg Buzzy na licencji Fiata to piękna wersja popularnego modelu BERG Buzzy. Pojazd jest przeznaczony dla dzieci od 2-5 worku życia i dzięki regulowanemu siedzisku, rośnie wraz z maluchem pozwalając mu cieszyć się pojazdem przez okres kilku lat. Ten model gokarta jest odpowiednim wyborem dla twojego dziecka, jeśli połączymy design i bezpieczeństwo produktu firmy Berg z nowoczesnym wyglądem popularnego Fiata 500.</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/9315c0d6a8b1618124186d4d99c2458d.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/5ad4b4085aed1e4323da719cdbca8f15.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 1
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 799.99,
+        "9073": 3585.11
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12408",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/466c958785739b649eb119b91774e86a.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/9e4e1d7738ea810df74299666b1cade4.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/9315c0d6a8b1618124186d4d99c2458d.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/5ad4b4085aed1e4323da719cdbca8f15.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/ce6066b1f127cfb5b53bc883be4873bd.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/3166949591bc48b6ca97c0dc42030bcd.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/af33f7e2a1b63a004f723efcf13324c3.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/055997f66f8abbd4f88923119fad56a1.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/3a5bdcc9e14a53a295023c3b7281d585.jpg",
+        "10": "https://upload.cdn.baselinker.com/products/4293/766a700a0bf5622e257b131370386a96.jpg",
+        "11": "https://upload.cdn.baselinker.com/products/4293/49e15911ec58ec615e31a05792ddcfc2.jpg"
+      },
+      "videos": {}
+    },
+    "1321037004": {
+      "is_bundle": false,
+      "ean": "8715839053227",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 4.7,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733239,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Koło zapasowe do gokartów X-plore BERG",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Berg",
+          "Kod producenta": "15.63.23.00",
+          "Rozmiar": "400",
+          "Kolor": "czarny",
+          "Wiek dziecka": "3 lata +",
+          "Waga produktu z opakowaniem jednostkowym": "4.7",
+          "Certyfikaty, opinie, atesty": "CE",
+          "Kod taryfy celnej": "87149990",
+          "EAN": "8715839053227"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Koło zapasowe do gokartów X-plore BERG</h2><p>Berg</p><p>Koło zapasowe dla gokartów X-plore BFR oraz X-plore BFR-3 marki Berg. W komplecie pokrowiec, sztyca oraz kompletne koło. Nie daj się zaskoczyć nagłej awarii.</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/67675626e03731f567e65e9dca490a87.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>ASIN:</b> B00U16J8IS</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 1
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 489,
+        "9073": 2191.87
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12412",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/67675626e03731f567e65e9dca490a87.jpg"
+      },
+      "videos": {}
+    },
+    "1321036997": {
+      "is_bundle": false,
+      "ean": "8715839066678",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 0.15,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733233,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Gokart BERG Rubicon Czerwony",
+        "features": {
+          "Stan": "Nowy",
+          "Marka": "Berg",
+          "Kod producenta": "24.30.13.00",
+          "Wiek dziecka": "2 lata +",
+          "Materiał": "plastik",
+          "Kolor": "czerwony",
+          "Waga produktu z opakowaniem jednostkowym": "0.15",
+          "Kod taryfy celnej": "95030010",
+          "EAN": "8715839066678"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h1>BERG GOKART NA PEDAŁY BUZZY DLA DZIECI NA LICENCJI JEEP RUBICON</h1> <p>Wymarzony gokart firmy Berg gwarantuje mnóstwo wspaniałej i bezpiecznej zabawy. Dzieci z wypiekami na twarzy obserwują świat tym bardziej jeśli chodzi o podobne pojazdy, dlatego niewątpliwie przyniesie on wiele radości każdemu małemu kierowcy.</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Charakterystyka:</p> <ul> <li>Kod produktu: 24.30.13.00</li> <li><b>Gokart na licencji Jeep Rubicon dla dzieci</b> <b>posiada regulację siedziska oraz kierownicy.</b></li> <li><b>Gokart został wyposażony w piankowe koła, które sprawdzą się doskonale na różnych powierzchniach. </b>Dodatkowo przednie kółka są skrętne dla wygodniejszego prowadzenia i skręcania.</li> <li>Możliwość jazdy do przodu i do tyłu.</li> <li><b>Maksymalne obciążenie wynosi 30 kg.</b></li> <li>Zestaw do samodzielnego montażu.</li> <li><b>Pojazd przeznaczony dla dzieci od 2 do 5 roku życia.</b></li> <li>Waga gokarta: 7.5 kg.</li> </ul> <p>Wymiary: 83 dł. x 49 szer. x 50 wys. (cm).</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/668bd169163eb2ed5f3a89a423ab60b1.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/eda57b3693c499162d4a3b1106a3d192.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Berg to holenderska firma, która od ponad trzydziestu lat bazuje na dwóch filarach: tradycji i innowacji. Za swoją misję uważa podtrzymywanie i rozwijanie talentu wynalazczego oraz ducha pionierstwa, tak aby w procesie opracowywania i produkcji wygląd zewnętrzny oraz jakość techniczna pozwalały osiągnąć solidność wykonania i ponadczasową oryginalność. Zdaniem firmy, idealny pojazd dziecięcy powinien zapewniać nie tylko wielostronne możliwości zabawy, ale także umożliwiać zdrowy rozwój fizyczny dziecka i możliwie jak najdłuższe korzystanie z zabawki.</p>\n\t\t</section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 5
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 699.99,
+        "9073": 3137.11
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12405",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/668bd169163eb2ed5f3a89a423ab60b1.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/eda57b3693c499162d4a3b1106a3d192.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/9beb521be6805992bf820609aa7481de.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/588e8746e8377b7c1c1af6d65e960421.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/90d3db13a0bd4c4c47eba1f2ae5ec343.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/0793b995f36b10c36ee288abfe13e4eb.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/00373a83e92019a4bef0a5f8a9835687.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/ef9bf4a586502d312b8c77e6d371f93b.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/fae6d9f2c1129014397242ab91735d8d.jpg",
+        "10": "https://upload.cdn.baselinker.com/products/4293/b5c6a6ba6b5cbda38a3a2c9c8f58cd29.jpg",
+        "11": "https://upload.cdn.baselinker.com/products/4293/7e85132a0ce7d8782a472b887b37fc16.jpg",
+        "12": "https://upload.cdn.baselinker.com/products/4293/b8fcadcc59b3bd93c2a87036597c231b.jpg"
+      },
+      "videos": {}
+    },
+    "1321036999": {
+      "is_bundle": false,
+      "ean": "8715839077766",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 6,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733235,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Rowerek biegowy BERG Biky City Czerwony",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Berg",
+          "Kolor": "czerwony",
+          "Kod producenta": "24.75.31.00",
+          "Model": "City",
+          "Wiek dziecka": "2 lata +",
+          "Rama": "Aluminiowa",
+          "Hamulec": "Brak",
+          "Rozmiar koła w calach": "12\"",
+          "Maksymalna waga dziecka": "30",
+          "Waga": "4.8",
+          "Waga produktu z opakowaniem jednostkowym": "6",
+          "Kod taryfy celnej": "95030010",
+          "EAN": "8715839077766"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/55db2d9497731bfc4d4eca344f026f0c.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<h1>Berg 24.75.31.00 Biky City Red rower biegowy</h1> <h2>Producent: BERG Toys B.V.</h2>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<ul> <li>BERG Biky to rower biegowy dla dzieci w wieku od 2 do 5 lat. Dzięki charakterystycznemu wzornictwu i podwójnemu widelcowi przedniemu rower górski marki Bergy jest przyciągającym wzrok i fajnym wyglądem. Rower jest wykonany z lekkiego magnezu. Ma ogranicznik kąta skrętu, regulowane siodełko i wygodne opony pneumatyczne.</li> <li>Dzięki zastosowaniu najnowszych technik produkcji i zastosowaniu lekkiego magnezu firma Bergg stworzyła wyjątkowo stabilną ramę o bardzo niskiej wadze. Dzięki temu rower można bardzo wygodnie manewrować, a przede wszystkim fantastyczną jazdę.</li> <li>Dzięki głębokiemu wejściu i regulowanemu siodełku rower jest bardzo dostępny i nadaje się dla dzieci o wzroście od 85 cm do 120 cm. Zacisk siodłowy jest zintegrowany z ramą i można go łatwo obsługiwać za pomocą dołączonego klucza imbusowego. W ten sposób można łatwo i bezstopniowo ustawić odpowiednią wysokość.</li> <li>Rower biegowy to najlepsze przygotowanie do samodzielnej jazdy na rowerze. Równowaga na dwóch kołach i jednocześnie kierowanie (nauka), to dla małych dzieci jest już wielkim wyzwaniem. Aby zapobiec przypadkowemu rozłożeniu kierownicy, rower górski wyposażony jest w ogranicznik kąta skrętu, który można ustawić w pozycji dla początkujących i zaawansowanych.</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>rodzaj zawieszenia</b>: Przednie</li> <li><b>zawarte komponenty</b>: BERG Biky City Red</li> <li><b>waga przedmiotu</b>: 4.76 kilograms</li> <li><b>opis przedziału wiekowego</b>: 5 lat</li> <li><b>punkt znaku wypunktowania</b>: BERG Biky to rower biegowy dla dzieci w wieku od 2 do 5 lat. Dzięki charakterystycznemu wzornictwu i podwójnemu widelcowi przedniemu rower górski marki Bergy jest przyciągającym wzrok i fajnym wyglądem. Rower jest wykonany z lekkiego magnezu. Ma ogranicznik kąta skrętu, regulowane siodełko i wygodne opony pneumatyczne., Dzięki zastosowaniu najnowszych technik produkcji i zastosowaniu lekkiego magnezu firma Bergg stworzyła wyjątkowo stabilną ramę o bardzo niskiej wadze. Dzięki temu rower można bardzo wygodnie manewrować, a przede wszystkim fantastyczną jazdę., Dzięki głębokiemu wejściu i regulowanemu siodełku rower jest bardzo dostępny i nadaje się dla dzieci o wzroście od 85 cm do 120 cm. Zacisk siodłowy jest zintegrowany z ramą i można go łatwo obsługiwać za pomocą dołączonego klucza imbusowego. W ten sposób można łatwo i bezstopniowo ustawić odpowiednią wysokość., Rower biegowy to najlepsze przygotowanie do samodzielnej jazdy na rowerze. Równowaga na dwóch kołach i jednocześnie kierowanie (nauka), to dla małych dzieci jest już wielkim wyzwaniem. Aby zapobiec przypadkowemu rozłożeniu kierownicy, rower górski wyposażony jest w ogranicznik kąta skrętu, który można ustawić w pozycji dla początkujących i zaawansowanych.</li> <li><b>podmiotowy charakter</b>: Laufrad</li> <li><b>marka</b>: Berg</li> <li><b>zalecane maksymalne obciążenie</b>: 30 kilograms</li> <li><b>ogólne słowo kluczowe</b>: BERG; Pojazd, dzieci, rowerek biegowy, ślizgacz;</li> <li><b>numer części</b>: 24.75.31.00</li> <li><b>styl</b>: Czerwony</li> <li><b>płeć docelowa</b>: male</li> <li><b>kolor</b>: czerwony</li> <li><b>nazwa typu elementu</b>: rowerek biegowy</li> <li><b>waga opakowania przedmiotu</b>: 5.88 kilograms</li> <li><b>typ roweru</b>: Rower dziecięcy, Rower miejski</li> <li><b>producent</b>: BERG Toys B.V.</li> <li><b>zewnętrznie przypisany identyfikator produktu</b>: 8715839077766</li> <li><b>zalecane węzły przeglądania</b>: 26576718031, 20659660031</li> <li><b>numer modelu</b>: BERG Biky City Red</li> <li><b>specjalna funkcja</b>: Lekki</li> <li><b>rok modelowy</b>: 2021</li> <li><b>nazwa przedmiotu</b>: Berg 24.75.31.00 Biky City Red rower biegowy</li> <li><b>data premiery</b>: 2021-01-02T00:00:01Z</li> <li><b>data uruchomienia strony produktu</b>: 2021-02-19T05:46:01.985Z</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 2
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 469.99,
+        "9073": 2106.71
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12407",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/55db2d9497731bfc4d4eca344f026f0c.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/d3da9ed742399071df32bed90f564319.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/b6371b86e636b84f75d2f6212572c6d1.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/c34e3570a9c88a791a10d77707ca8eea.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/6eced891dd8d9a3aa19abfe6ee2646aa.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/24d316a42daf2abe415789ebdda8d91f.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/2f51c5d53ea85752885493441387b455.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/78acbb8fa4a2f6ed6293176e0d99c86d.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/1c7a81b967dd4c68a38d3d15ddb1f95b.jpg"
+      },
+      "videos": {}
+    },
+    "1321036998": {
+      "is_bundle": false,
+      "ean": "8715839080728",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 7,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733234,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Gokart na pedały Berg Galaxy",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Berg",
+          "Szerokość pojazdu": "49",
+          "Kod producenta": "24.30.07.00",
+          "Wiek dziecka": "2 lata +",
+          "Rodzaj": "na pedały",
+          "Kolor": "czarny",
+          "Maksymalne obciążenie": "30",
+          "Długość pojazdu": "83",
+          "Waga produktu z opakowaniem jednostkowym": "7",
+          "Kod taryfy celnej": "95030010",
+          "EAN": "8715839080728"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Firma BERG Toys rozpoczęła produkcję gokartów w roku 1985, gdy Henk van den Berg zbudował, mając zaledwie 15 lat, swój pierwszy gokart. Gokarty na pedały BERG są znane z solidnej budowy i wygodnych siedzeń. Praktycznie niezniszczalne i ponadczasowe. Wszystkie nasze zabawki projektujemy i budujemy z myślą o zapewnieniu wielu lat przygód i zabawy. Dzięki szerokiej ofercie pojazdów typu gokarty, przyczepki, ciężarówki oraz dzięki wielu innym akcesoriom, radość z naszych zabawek może trwać przez wiele, wiele lat. Odkryj nowe modele gokartów i baw się nimi tak dobrze, jak my, gdy je konstruowaliśmy!</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Buzzy Galaxy to najnowszy model gokarta na pedały firmy Berg, przeznaczony dla dzieci od 2 do 5 lat. Nowoczesny design i funkcjonalność powoduje, że nikt nie przejdzie obok tego malucha obojętnie. Nawet na najostrzejszych zakrętach stopy trzymają się pedałów, a jazda tym gokartem jest lekka i przyjemna. Standardowe 4 kółka powodują, że pojazd ten jest o wiele stabilniejszy od popularnych trójkołowców! Wysoka jakość użytych materiałów gwarantuje długą, bezproblemową eksploatację. Zrób prezent swojemu maluchowi, nie zwlekaj!</b></p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/c3f324bef5b833c944ad08c4c4acbac6.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>Wiek: 2-5</b></li> <li><b>Waga (kg): 7</b></li> <li><b>Maksymalna waga użytkownika (kg): 30</b></li> <li><b>Wymiary (długość x szerokość x wysokość): 83 x 49 x 50</b></li> <li><b>Regulowana kierownica: tak</b></li> <li><b>Kolor: czarny / pomarańczowy</b></li> </ul>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/3bc70222f7fdedc98744c0b71fafd35e.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/d8cc41348ae2b07e677b7af90d3846b3.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/dc17d3cd7aacc6e3a136827b5df641c9.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 1
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 799.99,
+        "9073": 3585.11
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12406",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/c3f324bef5b833c944ad08c4c4acbac6.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/3bc70222f7fdedc98744c0b71fafd35e.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/d8cc41348ae2b07e677b7af90d3846b3.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/dc17d3cd7aacc6e3a136827b5df641c9.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/081239ce6d94e39063984751d8a52d2d.jpg"
+      },
+      "videos": {}
+    },
+    "1321037006": {
+      "is_bundle": false,
+      "ean": "8715839100655",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 4.2,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733235,
+      "manufacturer_id": 1226699,
+      "text_fields": {
+        "name": "Rowerek biegowy BERG Biky biały",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Berg",
+          "Kolor": "biały",
+          "Kod producenta": "Berg",
+          "Model": "BERG Biky Cross",
+          "Wiek dziecka": "2 lata +",
+          "Rama": "Aluminiowa",
+          "Hamulec": "Tył",
+          "Rozmiar koła w calach": "12\"",
+          "Maksymalna waga dziecka": "30",
+          "Waga": "4.2",
+          "Waga produktu z opakowaniem jednostkowym": "4.2",
+          "Certyfikaty, opinie, atesty": "CE|EN 71|TUV",
+          "Informacje dot. bezpieczeństwa i zgodności produktu": "Do użytku pod bezpośrednim nadzorem osoby dorosłej|Konieczność stosowania środków ochronnych. Nie używać w ruchu ulicznym",
+          "Kod taryfy celnej": "95030010",
+          "EAN": "8715839100655"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/24aa62ec91893a9dd8cced07f8031992.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Rowerek biegowy BERG Biky biały</h2>\n<p>Berg</p>\n<p>BERG Biky biało - różowy to mały rowerek biegowy przeznaczony dla dzieci, które dopiero uczą się jazdy na rowerach. Nie posiada pedałów, dlatego nauka może przebiegać dzięki niemu jeszcze łatwiej. Pomaga w rozwijaniu umiejętności utrzymywania równowagi, a przy tym gwarantuje odpowiednią dawkę ruchu na świeżym powietrzu wraz ze świetną zabawą. Model wyposażony jest w szerokie pompowane koła umieszczone na dwóch krytych łożyskach, wygodną kierownicę oraz regulowane siodełko i kierownicę. Wszystkie użyte materiały są bardzo wysokiej jakości, zachwyca też kolorystyka. Świetny prezent dla każdego dziecka!\n</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/a5d9ef20d4b5ce0d2e45092ca9d1ce2d.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul><li><b>Color:</b> biały</li><li><b>Regulowana kierownica:</b> tak</li><li><b>Wiek:</b> 2-5</li><li><b>Skrzynia biegów:</b> nie dotyczy</li></ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/8cfa737e00454725b1835b6f1f0bb55a.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/47a4225d187c4adce05d489b46149671.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/b182d8d221413fefe7cf7cc0f5aa0e79.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 4
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 354,
+        "9073": 1587.07
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12414",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/a5d9ef20d4b5ce0d2e45092ca9d1ce2d.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/8cfa737e00454725b1835b6f1f0bb55a.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/47a4225d187c4adce05d489b46149671.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/b182d8d221413fefe7cf7cc0f5aa0e79.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/24aa62ec91893a9dd8cced07f8031992.jpg"
+      },
+      "videos": {}
+    },
+    "1321036991": {
+      "is_bundle": false,
+      "ean": "8717775441250",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 10,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733228,
+      "manufacturer_id": 2136100,
+      "text_fields": {
+        "name": "Szczudła BS Toys GA125",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Kod producenta": "GA125",
+          "Marka": "BS Toys",
+          "Kolor": "niebieski",
+          "Wiek dziecka": "4 lata +",
+          "Bohater / Bajka": "brak",
+          "Szerokość produktu": "22",
+          "Wysokość produktu": "5.5",
+          "Głębokość produktu": "22",
+          "Waga produktu z opakowaniem jednostkowym": "10",
+          "Kod taryfy celnej": "95030070",
+          "Certyfikaty, opinie, atesty": "CE|EN 71|LGA",
+          "EAN": "8717775441250"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/6e79057106f1dd181837c8d32ed5b5cc.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>BS TOYS SZCZUDŁA KUBEŁKOWE GA125</b></p> <p><b>BS Toys</b></p> <p>BS Toys (dawniej BuitenSpeel) to holenderska firma promująca aktywne spędzanie czasu na świeżym powietrzu. Główną domeną producenta są gry plenerowe, które pozwalają dzieciom na wspaniałą zabawę, a przy okazji wpływają korzystnie na ich zdrowie, koordynację ruchową i kreatywność.</p> <p>Kubełkowe szczudła to wspaniała zabawka plenerowa dla wszystkich wielbicieli zwariowanych wyścigów i nie tylko. Kto będzie pierwszy na mecie? Wygląd szczudeł możesz zmieniać dzięki dołączonym naklejkom do ozdabiania. Możesz z nich zrobić robota, kwiatowy ogród lub śmieszną buźkę.</p> <p>Materiał: plastik</p> <p>Wymiary: wysokość 12 cm, średnica 13 cm</p> <p>Maksymalna waga dziecka 50 kg</p> <p>Wiek: od 3 lat</p> <p><b>Ostrzeżenie:</b></p> <p>kod produktu :GA125</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>BS Toys (dawniej BuitenSpeel) to holenderska firma promująca aktywne spędzanie czasu na świeżym powietrzu. Główną domeną producenta są gry plenerowe, które pozwalają dzieciom na wspaniałą zabawę, a przy okazji wpływają korzystnie na ich zdrowie, koordynację ruchową i kreatywność.</p> <p>Kubełkowe szczudła to wspaniała zabawka plenerowa dla wszystkich wielbicieli zwariowanych wyścigów i nie tylko. Kto będzie pierwszy na mecie? Wygląd szczudeł możesz zmieniać dzięki dołączonym naklejkom do ozdabiania. Możesz z nich zrobić robota, kwiatowy ogród lub śmieszną buźkę.</p> <p>Materiał: plastik</p> <p>Wymiary: wysokość 12 cm, średnica 13 cm</p> <p>Maksymalna waga dziecka 50 kg</p> <p>Wiek: od 3 lat</p> <p><b>Ostrzeżenie:</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/bf5682fce9c6035eadc5f8e5658238e1.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/1666caab0cf89c949ae23038b678a9f3.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 2
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 40,
+        "9073": 180.35
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12399",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/bf5682fce9c6035eadc5f8e5658238e1.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/6e79057106f1dd181837c8d32ed5b5cc.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/1666caab0cf89c949ae23038b678a9f3.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/6f6c2732448ac4fd6a65cbbd057c1f0e.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/dd0edb019e56c364d7f67a86d8068337.jpg"
+      },
+      "videos": {}
+    },
+    "1321036994": {
+      "is_bundle": false,
+      "ean": "8717775441519",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 0,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733231,
+      "manufacturer_id": 1226702,
+      "text_fields": {
+        "name": "Zmywalne kolorowanki w rozmiarze XL Buiten Speel",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Kod producenta": "GA151",
+          "Marka": "Buiten Speel",
+          "Wiek dziecka": "3 lata +",
+          "Kod taryfy celnej": "95030070",
+          "EAN": "8717775441519"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Zmywalne kolorowanki w rozmiarze XL Buiten Speel</h2> <p>Buiten Speel</p> <p>Zestaw zawiera trzy duże kolorowanki o wymiarach 80cm x 80cm. Materiał z którego zostały wykonane, jak i osiem załączonych, kolorowych markerów, pozwalają na wielokrotne ozdabianie rysunków. Duże kolorowanki można czyścić za pomocą wilgotnej szmatki .</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/c6d072a3614ac843c2eeb8c767d21120.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p>Trzy sympatyczne duże kolorowanki, pełne zabawnych szczegółów zostały umieszczone na zmywalnych arkuszach, które zachęcają do malowania samodzielnego lub w gronie przyjaciół. Wystarczy je rozłożyć i chwycić za mazak, by rozwijać się twórczo.</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/9d41733cbb37885ef6375d432072e0f4.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 5
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 54,
+        "9073": 243.07
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12402",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/c6d072a3614ac843c2eeb8c767d21120.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/9d41733cbb37885ef6375d432072e0f4.jpg"
+      },
+      "videos": {}
+    },
+    "1321036995": {
+      "is_bundle": false,
+      "ean": "8717775442103",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 0,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733232,
+      "manufacturer_id": 1226702,
+      "text_fields": {
+        "name": "Buiten Speel - Przybijanka Dino 6+",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Buiten Speel",
+          "Kod producenta": "GA210",
+          "Wiek dziecka": "6 lat +",
+          "Minimalna liczba graczy": "nie dotyczy",
+          "Maksymalna liczba graczy": "Nie dotyczy",
+          "Minimalny wiek dziecka": "6",
+          "Kod taryfy celnej": "95030070",
+          "EAN": "8717775442103"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Gra nabijanka zabawka \"stwórz własnego dinozaura\" to jeden z trzech zestawów zabawek drewnianych, które rozbudzą kreatywność Twojego dziecka. W zestawie znajdują się klocki, które pomogą stworzyć każdemu maluchowi wymarzonego dinozaura. Klocki można dowolnie mocować na podstawę, dzięki czemu każda kolejna dodana część, będzie czyniła go wyjątkowym. Pobudź fantazję swojej pociechy. Stworzony przez Ciebie dinozaur będzie z pewnością nieocenionym towarzyszem podczas każdej Waszej wędrówki!</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/2e7b9dac184cc5a7f5495d5026bad9ad.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 2
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 64,
+        "9073": 287.87
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12403",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/2e7b9dac184cc5a7f5495d5026bad9ad.jpg"
+      },
+      "videos": {}
+    },
+    "1321036996": {
+      "is_bundle": false,
+      "ean": "8717775442127",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 0,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733231,
+      "manufacturer_id": 1226702,
+      "text_fields": {
+        "name": "Zabawka stwórz własnego busa Buiten Speel",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Kod producenta": "B00HVWR2OW",
+          "Marka": "Buiten Speel",
+          "Wiek dziecka": "18 m +",
+          "Kod taryfy celnej": "95030099",
+          "EAN": "8717775442127"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/6264299a06d0a476db2e0ab46480b677.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<h2>Zabawka stwórz własnego busa Buiten Speel</h2><p>Buiten Speel</p><p>Zabawka \"stwórz własnego busa\" to trzecia opcja zestawu do kreatywnego tworzenia przez nasze dziecko. Można dowolnie mocować klocki na naszym busie, nadając mu różne kolory, kształty i charakter. Zabawa wspaniale rozwija wyobraźnię i rozbudza kreatywność naszego malca. Chcesz rozwinąć wyobraźnię swojego dziecka? Podaruj mu drewnianą zabawkę firmy Buiten Speel! Na pewno będziesz zadowolony!</p>\n\t\t</section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 2
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 64,
+        "9073": 287.87
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12404",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/6264299a06d0a476db2e0ab46480b677.jpg"
+      },
+      "videos": {}
+    },
+    "1321037003": {
+      "is_bundle": false,
+      "ean": "8718469460724",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 14,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733238,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Trenażer ścianka EXIT Kickback Rebounder 84x84 cm",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Exit",
+          "Kod producenta": "43.01.10.00",
+          "Wiek dziecka": "3 lata +",
+          "Bohater / Bajka": "brak",
+          "Kolor": "czarny",
+          "Elementy zestawu": "zestaw treningowy",
+          "Liczba elementów w zestawie": "2",
+          "Szerokość produktu": "84",
+          "Głębokość produktu": "84",
+          "Waga produktu z opakowaniem jednostkowym": "14",
+          "Kod taryfy celnej": "95069990",
+          "EAN": "8718469460724"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Trenażer Exit Kickback M Rebounder - rama siatkowa</h2>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/fdadef2f3348ce990a9f0e3f9943f5f5.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Urządzenie wielofunkcyjne&nbsp;<b>EXIT KICKBACK REBOUNDER</b>&nbsp;jest doskonałym urządzeniem do rozwijania umiejętności piłkarskich.</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/e51b888e5d66c81b4960de6f9df9696b.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Cechy produktu:</b></p> <ul> <li>solidna konstrukcja,</li> <li>możliwość dostosowania kąta nachylenia między 35⁰, a 90⁰,</li> <li>dzięki wzmocnionym paskom piłka wraca w szybkim tempie,</li> <li>rama cynkowana, malowana proszkowo na kolor czarny wraz z dwiema kotwicami zabezpieczającymi.</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Zastosowanie produktu:</b></p> <ul> <li>ścianka do odbijania, umożliwia <b>trening podań</b> i <b>kontroli nad piłką</b></li> <li>trenażer może być wykorzystywany do różnego rodzaju <b>szkoleń</b> i <b>specjalistycznych treningów</b></li> <li>idealnie nadaje się również do siatkówki, piłki ręcznej i piłki wodnej ( rzut/wystawa, przyjęcie, obrona)</li> </ul>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/fdadef2f3348ce990a9f0e3f9943f5f5.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/c7e6aad0c482992f8355cc28b807a660.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/306dbb64611c959d0571a73c01e9d382.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 3
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 380,
+        "9073": 1703.55
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12411",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/fdadef2f3348ce990a9f0e3f9943f5f5.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/e51b888e5d66c81b4960de6f9df9696b.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/c7e6aad0c482992f8355cc28b807a660.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/306dbb64611c959d0571a73c01e9d382.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/286398724c0ff40443fc6c69cddc4ed7.jpg"
+      },
+      "videos": {}
+    },
+    "1321036993": {
+      "is_bundle": false,
+      "ean": "8718469462360",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 1,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733230,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Bramka do piłki nożnej Flexx składana EXIT",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Exit",
+          "Szerokość bramki": "120",
+          "Wysokość bramki": "88",
+          "Kod producenta": "40.00.01.00",
+          "Model": "Flex",
+          "Rodzaj": "przenośna",
+          "Głębokość bramki": "30",
+          "Waga": "0.88",
+          "Waga produktu z opakowaniem jednostkowym": "1",
+          "Kod taryfy celnej": "95069990",
+          "EAN": "8718469462360"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Bramka do piłki nożnej Flexx składana EXIT</h2> <p>Exit</p> <p>Bramka składana Flexx firmy Exit to sprzęt dedykowany do zabawy w plenerze. Doskonałe rozwiązanie dla osób aktywnych, zarówno dzieci, jak i dorosłych. Bramka Flexx jest lekka i prosta do rozłożenia. Doskonale sprawdzi się podczas różnego rodzaju gier w różnych warunkach. Świetna do zastosowania na plaży, w ogrodzie czy na sali gimnastycznej. Zapakowana w wygodny pokrowiec jest trwała i wytrzymała. Mega design i funkcjonalność!</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/0812d1094ee66768a923e2cca418b11e.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/29ac62fcdcbe78411308aa07f8e458ee.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/d3ae91315199dcd3355753f71df54515.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/0812d1094ee66768a923e2cca418b11e.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 10
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 89,
+        "9073": 399.87
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12401",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/d3ae91315199dcd3355753f71df54515.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/0812d1094ee66768a923e2cca418b11e.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/29ac62fcdcbe78411308aa07f8e458ee.jpg"
+      },
+      "videos": {}
+    },
+    "1321037001": {
+      "is_bundle": false,
+      "ean": "8718469466955",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 41,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733236,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Zestaw do koszykówki Exit Comet",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Marka": "Exit",
+          "Kod producenta": "46.65.10.00",
+          "Model": "Comet",
+          "Typ": "na zewnątrz (outdoor)",
+          "Rodzaj": "zestaw",
+          "Elementy zestawu": "obręcz|siatka|stojak|tablica",
+          "Waga": "95",
+          "Średnica obręczy": "45",
+          "Grubość obręczy": "17.5",
+          "Liczba zaczepów na siatkę": "12",
+          "Waga produktu z opakowaniem jednostkowym": "41",
+          "Kod taryfy celnej": "95069990",
+          "EAN": "8718469466955"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h1>Kosz do koszykówki Exit Comet przenośny z obręczą uchylną</h1> <ul> <li><b>regulowana wysokość</b>&nbsp;w zakresie od 230&nbsp;do 305 cm</li> <li><b>mobilny</b>, dzięki kołom w podstawie</li> <li><b>stabilny</b>, podstawę można piaskiem (150 kg)</li> <li>producentem jest <b>holenderska firma EXIT</b>, która&nbsp;specjalizuje się w produkcji&nbsp;<b>wysokiej jakości sprzętu&nbsp;</b>rekreacyjno&nbsp;- sportowego&nbsp;</li> <li><b>najpopularniejszy model</b>&nbsp;zestawu do koszykówki w ofercie marki EXIT</li> </ul> <p>&nbsp;</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<h2>Regulowana wysokość</h2> <p>Zamontowane z tyłu pokrętło umożliwia łatwą zmianę wysokości tablicy - dzięki temu mogę z zestawu korzystać zarówno dzieci jak i dorośli.</p> <p>EXIT Comet można dostosować do 6 różnych wysokości:</p> <ul> <li>230 cm</li> <li>245 cm</li> <li>260 cm</li> <li>275 cm</li> <li>290 cm</li> <li>305 cm (odpowiednia dla gry osób dorosłych)</li> </ul>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ef68264373ab0d57ad211dd14dceb30f.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Bezpieczeństwo</h2> <p>Każdy z worków należy wypełnić piaskiem (do 30 kg na worek, piasek nie jest dołączony do zestawu). Pokrowiec zamykany jest na zamek błyskawiczny i wykonany jest z materiału odpornego na działanie warunków atmosferycznych.</p> <h2>Całkowita przeciwwaga waży około 150 kg, co zapewnia stabilność całego zestawu.</h2> <p>&nbsp;</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<h2>Mobilność</h2> <p>Dzięki zamontowanym u podstawie kółkom, zestaw można łatwo przestawiać. Wystarczy pochylić słup zestawu do tyłu, oprzeć go na kółkach i przesunąć w wybrane miejsce.&nbsp;</p> <p>&nbsp;</p> <h2>Jakość wykonania&nbsp;</h2> <p>Stabilna konstrukcja wykonana ze stali, rury o średnicy&nbsp;76 mm, malowana proszkowo na kolor czarny - dzięki czemu jest bardziej odporna na niekorzystne warunki atmosferyczne.&nbsp;</p> <p>Obręcz do koszykówki :&nbsp;ø 45 cm x 17.5 mm</p> <p>Tablica ma wymiary: 112 x 72 cm. Została wykonana z przezroczystego poliwęglanu zapewniają kilkuletnią żywotność nawet podczas intensywnego użytkowania!</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/3545d03ba1a72867ddb39669880853c9.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/9d764bd3f8aff0b7830bdc8ba6374f45.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/cedb26b0bd6bc37089d7956271fb3033.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/7755ed7f97c9030d2873997ed1c4ea2a.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ef68264373ab0d57ad211dd14dceb30f.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 1
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 1269,
+        "9073": 5686.27
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12409",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/193f1338d9741f0a6475925c73d6b6fc.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/ef68264373ab0d57ad211dd14dceb30f.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/9d764bd3f8aff0b7830bdc8ba6374f45.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/cedb26b0bd6bc37089d7956271fb3033.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/7755ed7f97c9030d2873997ed1c4ea2a.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/62569e07a1f3a130c12cc8891bda4f64.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/883fa6a514eb79835eda82b235344b45.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/7eee5f726f1e76578d246ee911bae133.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/3545d03ba1a72867ddb39669880853c9.jpg"
+      },
+      "videos": {}
+    },
+    "1321037002": {
+      "is_bundle": false,
+      "ean": "8718469468911",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 14.6,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733237,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Stół do wody i piasku i piknikowy Aksent EXIT (1 ławka) z parasolem",
+        "features": {
+          "Stan": "Nowy",
+          "Stan opakowania": "oryginalne",
+          "Kod producenta": "52.05.08.45",
+          "Marka": "Exit",
+          "Wiek dziecka": "3 lata +",
+          "Kolor": "szary",
+          "Elementy zestawu": "2 shovels|Rake|Stół do piachu i wody",
+          "Wysokość produktu": "50",
+          "Szerokość produktu": "88.9",
+          "Długość": "95.1",
+          "Waga produktu z opakowaniem jednostkowym": "14.6",
+          "Kod taryfy celnej": "95030099",
+          "EAN": "8718469468911"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/844768debe435aa7c2b447fcf5f2ac42.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>EXIT DREWNIANY STÓŁ PIKNIKOWY AKSENT DELUXE Z ŁAWECZKĄ I PARASOLEM</b></p> <p><b>EXIT</b></p> <p>Drewniany stół piknikowy Aksent marki Exit będzie świetnym uzupełnieniem przydomowego placu zabaw. Stolik posiada 2 zielone pojemniki, które można wypełnić piaskiem i wodą lub po prostu wykorzystać je jako pojemniki na zabawki. Ławeczka umieszczona jest z jednej strony stolika, dzięki czemu dzieci mogą się bawić na siedząco lub stojąco. Znajdujące się w zestawie narzędzia ogrodnicze: grabki i 2 łopatki uatrakcyjnią zabawę. Stolik można zakryć pokrywą i wówczas zyskamy tradycyjny stół piknikowy, który posłuży dzieciom jako miejsce do rysowania, malowania, czy spożywania posiłków. Dołączony parasol zapewni ochronę przed szkodliwym promieniowaniem UV.</p> <p>Stolik piknikowy EXIT wykonany jest z drewna cedrowego z certyfikatem FSC® 100%, co oznacza że drewno użyte do jej produkcji pochodzi z lasów zarządzanych w sposób zrównoważony. Drewno cedrowe jest z natury odporne na warunki atmosferyczne, takie jak deszcz, dlatego nie gnije i nie rozwarstwia się. Ponadto drewno użyte do produkcji stolików nigdy nie jest traktowane szkodliwymi chemikaliami, dzięki czemu jest przyjazne dla środowiska a także bezpieczne dla dzieci.</p> <p>Zawartość zestawu:</p> <ul> <li>stół piknikowy z 1 ławeczką</li> <li>pokrywa</li> <li>2 zielone pojemniki</li> <li>parasol przeciwsłoneczny</li> <li>narzędzia ogrodnicze (2 łopatki i grabki).</li> </ul> <p>Wymiary stołu (dł x szer x wys): 94 x 94 x 50 cm</p> <p>Wiek: od 3 lat</p> <p><b>Ostrzeżenie:</b></p> <p>kod produktu :52.05.08.45</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Drewniany stół piknikowy Aksent marki Exit będzie świetnym uzupełnieniem przydomowego placu zabaw. Stolik posiada 2 zielone pojemniki, które można wypełnić piaskiem i wodą lub po prostu wykorzystać je jako pojemniki na zabawki. Ławeczka umieszczona jest z jednej strony stolika, dzięki czemu dzieci mogą się bawić na siedząco lub stojąco. Znajdujące się w zestawie narzędzia ogrodnicze: grabki i 2 łopatki uatrakcyjnią zabawę. Stolik można zakryć pokrywą i wówczas zyskamy tradycyjny stół piknikowy, który posłuży dzieciom jako miejsce do rysowania, malowania, czy spożywania posiłków. Dołączony parasol zapewni ochronę przed szkodliwym promieniowaniem UV.</p> <p>Stolik piknikowy EXIT wykonany jest z drewna cedrowego z certyfikatem FSC® 100%, co oznacza że drewno użyte do jej produkcji pochodzi z lasów zarządzanych w sposób zrównoważony. Drewno cedrowe jest z natury odporne na warunki atmosferyczne, takie jak deszcz, dlatego nie gnije i nie rozwarstwia się. Ponadto drewno użyte do produkcji stolików nigdy nie jest traktowane szkodliwymi chemikaliami, dzięki czemu jest przyjazne dla środowiska a także bezpieczne dla dzieci.</p> <p>Zawartość zestawu:</p> <ul> <li>stół piknikowy z 1 ławeczką</li> <li>pokrywa</li> <li>2 zielone pojemniki</li> <li>parasol przeciwsłoneczny</li> <li>narzędzia ogrodnicze (2 łopatki i grabki).</li> </ul> <p>Wymiary stołu (dł x szer x wys): 94 x 94 x 50 cm</p> <p>Wiek: od 3 lat</p> <p><b>Ostrzeżenie:</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/475375f702365f3bc4cfb723fe28a005.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/475375f702365f3bc4cfb723fe28a005.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 2
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 509,
+        "9073": 2281.47
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12410",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/475375f702365f3bc4cfb723fe28a005.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/844768debe435aa7c2b447fcf5f2ac42.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/29e8b383f25e0400c453f4c00d97787d.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/dd3775d9b0364698ad17dc1777127d67.jpg"
+      },
+      "videos": {}
+    },
+    "1321037005": {
+      "is_bundle": false,
+      "ean": "8720088262511",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "10.00.70.40",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 17,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733240,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Trampolina EXIT Tiggy dla dziecka 3+ z siatką zabezpieczającą ø140cm czarno",
+        "features": {
+          "Stan": "Nowy",
+          "Marka": "Exit",
+          "Kod producenta": "10.00.70.40",
+          "Maks. obciążenie": "25",
+          "Rodzaj": "z siatką",
+          "Rozmiar (ft)": "4,5 (140 cm)",
+          "Wiek dziecka": "3 lata +",
+          "Wysokość całkowita": "198",
+          "Bohater / Bajka": "brak",
+          "Kształt": "okrągły",
+          "Liczba nóżek": "6",
+          "Liczba sprężyn/lin": "30",
+          "Liczba słupków": "6",
+          "Średnica": "140",
+          "Waga produktu z opakowaniem jednostkowym": "17",
+          "Wysokość od podłoża": "34",
+          "Wysokość siatki": "164",
+          "Kod taryfy celnej": "95069990",
+          "EAN": "8720088262511"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/a209130b6171b4e0b01e172a9a4770e6.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h2>Trampolina EXIT Tiggy dla dziecka 3+ z siatką zabezpieczającą ø140cm czarno</h2>\n<p>Exit</p>\n<p>Trampolina EXIT Tiggy junior z siatką zabezpieczającą ø140cm czarno/żółta to mini trampolina dla dzieci w wieku od trzech do pięciu lat. Ta kompaktowa i okrągła trampolina z siatką zabezpieczającą ma czarno-żółta krawędź ochronną z fajnym nadrukiem tygrysa i niski stopień, dzięki czemu nawet małe dzieci mogą z łatwością wejść na trampolinę. Najmłodsi mogą doświadczyć wspaniałej zabawy ze skokami na trampolinie Tiggy junior firmy EXIT Toys.\nPierwszy skok: Ponieważ nie możesz zacząć skakać na trampolinie wystarczająco wcześnie, trampolina EXIT Tiggy junior została opracowana specjalnie dla małych dzieci. W przeciwieństwie do większych trampolin, ta trampolina ma zamiast sprężyn gumki. Gumki zapewniają płynne odbicie i miękkie lądowanie, dzięki czemu organizm nie jest obciążony, a małe dzieci mogą z radością i dumą oddawać pierwsze skoki. Czy przypadkowo coś przegapiłeś? Wtedy Twoje dziecko zostanie złapane przez dostarczoną siatkę zabezpieczającą. Siatka zabezpieczająca jest przymocowana do maty do skakania, dzięki czemu dzieci nigdy nie mogą włożyć stóp ani dłoni między gumki. Bardzo pewne rozwiązanie!\n365 dni zabawy w skoki: Trampolina Tiggy junior firmy EXIT Toys jest łatwa w montażu, ponieważ nie są wymagane żadne śruby. Twoja trampolina zostanie rozłożona w mgnieniu oka.\nDo domu: Kolejną zaletą EXIT Tiggy dla dziecka jest to, że dzięki kompaktowemu kształtowi nadaje się również do użytku w pomieszczeniach. Jeśli pogoda nie dopisuje, możesz po prostu ustawić trampolinę w pomieszczeniu. Maluchy mogą wskoczyć na trampolinę EXIT Tiggy junior przez cały rok!</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/84203101065b88df5f24a666b6be288e.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/c439dbf5cd492e16204873c9ba267a36.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/8f40d9098c4ad0158f8a9a86a346113d.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/e32b2e5a8132487e5bfd37e8fb06442e.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ad2cd9f280c140d31a6e57a4f153d150.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/06b429e0b5f742f786b2b7a74512ad66.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/bb54f9c3cf2374013ceb7e05fdc48164.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/18f4b29db134a031965ced7ebab4b43c.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 3
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 540,
+        "9073": 2420.35
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12413",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/a209130b6171b4e0b01e172a9a4770e6.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/5ad2dd4c08ffbd347c6ed860ac14f475.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/84203101065b88df5f24a666b6be288e.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/c439dbf5cd492e16204873c9ba267a36.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/8f40d9098c4ad0158f8a9a86a346113d.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/e32b2e5a8132487e5bfd37e8fb06442e.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/ad2cd9f280c140d31a6e57a4f153d150.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/06b429e0b5f742f786b2b7a74512ad66.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/bb54f9c3cf2374013ceb7e05fdc48164.jpg",
+        "10": "https://upload.cdn.baselinker.com/products/4293/18f4b29db134a031965ced7ebab4b43c.jpg",
+        "11": "https://upload.cdn.baselinker.com/products/4293/6d7d3b226fae3bd80ee0e07ac867959d.jpg"
+      },
+      "videos": {}
+    },
+    "1321037007": {
+      "is_bundle": false,
+      "ean": "8720088262511",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 17,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733240,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Trampolina EXIT Tiggy dla dziecka 3+ z siatką zabezpieczającą ø140cm czarno",
+        "features": {
+          "Stan": "Nowy",
+          "Marka": "Exit",
+          "Kod producenta": "10.00.70.40",
+          "Wysokość całkowita": "198",
+          "Wysokość od podłoża": "34",
+          "Wysokość siatki": "164",
+          "Liczba sprężyn/lin": "30",
+          "Liczba słupków": "6",
+          "Rodzaj": "z siatką",
+          "Wiek dziecka": "3 lata +",
+          "Rozmiar (ft)": "4,5 (140 cm)",
+          "Maks. obciążenie": "25",
+          "Bohater / Bajka": "brak",
+          "Kształt": "okrągły",
+          "Liczba nóżek": "6",
+          "Średnica": "140",
+          "Waga produktu z opakowaniem jednostkowym": "17",
+          "Kod taryfy celnej": "95069990",
+          "EAN": "8720088262511"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h1>Trampolina domowa EXIT Tiggy Junior ø140 cm</h1>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p>Trampolina EXIT Tiggy junior to mini-trampolina <b>dla dzieci w wieku od trzech do pięciu lat.</b> Ta kompaktowa, okrągła trampolina z siatką zabezpieczającą. Posiada osłonę w kolorze czarno-zielonym z chłodnym tygrysim nadrukiem i niską ramę, dzięki czemu małe dzieci mogą z łatwością dostać się na trampolinę.</p> <p>&nbsp;</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/b26f76f2349348f04b02e81f514364b3.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p><b>Pierwszy skok</b></p> <p>Trampolina EXIT Tiggy została <b>zaprojektowana z myślą o maluchach</b>. Zastosowano w niej gumy, które zastępują sprężyny używane w większych trampolinach. Sprawia to, że odbicie jest bardziej elastyczne a lądowanie miękkie, dzięki czemu jest mniej odczuwalne przez dzieci.</p> <p><b>Małe dzieci mogą spokojnie z dumą prezentować na trampolinie swoje pierwsze kroki i skoki.</b></p> <p><b>Co się w stanie nieudanego skoku?</b></p> <p>Siatka zabezpieczająca uratuje dziecko. Przytrzyma je aby nie wypadło poza trampolinę. Siatka przymocowana jest bezpośrednio do maty, dziecięce rączki i stopy nie mają szans się w nią zaplątać lub dostać pomiędzy gumki. Jest bardzo bezpieczna!&nbsp;</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Możliwość używania przez 365 dni w roku!</b></p> <p>Trampolina Tiggy junior od EXIT Toys jest łatwa w montażu. W ciągu czterdziestu pięciu minut trampolina jest gotowa do użytku.</p> <p><b>Zaletą trampoliny EXIT Tiggy Junior jest to, że ze względu na swoje kompaktowe rozmiary nadaje się zarówno do użytku na zewnątrz jak i wewnątrz pomieszczeń</b>.</p> <p>Gdy pogoda na dworze nie dopisuje, można z łatwością przenieść trampolinę do środka. <b>Trampolina w pokoju dziecięcym to świetny pomysł na codzienną dawkę ruchu. </b></p> <p>Skakanie na trampolinie dobrze wpływa na rozwój psychomotoryczny dzieci. Uczy lepszej koordynacji ruchowej i rozwija poczucie równowagi.&nbsp;</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/1938926ad0a83dcbb0482e3441f2981c.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/be10adcb1c6a5472e5090b6caf98a2d4.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>Materiał ramy:</b>&nbsp;metalowa, malowana proszkowo na kolor czarny</li> <li><b>Materiał maty do skakania</b>: polipropylen (PP)</li> <li><b>Osłona zabezpieczająca</b>: PVC / polietylen (PE) &nbsp;/ EPE</li> <li><b>Średnica nóg</b>: ø 20 x 1.0 mm</li> <li><b>Wysokość ramy</b>: 34 cm</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<ul> <li>błyskawiczny zamek zabezpieczający</li> <li>prosty w obsłudze</li> <li>z daleka widać czy trampolina jest prawidłowo zapięta</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/6aff8dafdaac895d65971d89fef53ea3.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li><b>Średnica słupków</b>: ø 25 x 1.2 mm</li> <li><b>Ilość słupków</b>: 6</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/fd3b5dc8282d3080e694cc9fc7e93659.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<ul> <li>30 elastycznych gum o długości 40 cm,&nbsp;zastępują sprężyny używane w większych trampolinach.</li> <li>Sprawia to, że odbicie jest bardziej elastyczne a lądowanie miękkie, dzięki czemu jest mniej odczuwalne przez dzieci.&nbsp;</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Specyfikacja:</b></p> <ul> <li><b>Przeznaczenie</b>:&nbsp;dla dzieci, do użytku zarówno wewnątrz jak i na zewnątrz</li> <li><b>Rozmiar</b>: ø 140 cm</li> <li><b>Średnica trampoliny</b>: 170 cm</li> <li><b>Wysokość trampoliny</b>: 198 cm</li> <li><b>Powierzchnia do skakania</b>: 106 cm</li> <li><b>Waga użytkownika</b>: 25 kg</li> <li><b>Minimalny wiek użytkownika</b>: 3 lata</li> <li><b>Maksymalny wiek użytkownika</b>: 5 lat</li> <li><b>Znaki jakości</b>: TÜV, CE, GS, EN 71</li> <li><b>Czas montażu</b>: 45 minut (2 osoby dorosłe)</li> <li><b>Waga trampoliny</b>: 17 kg</li> </ul>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/097a84a406434ace558e51ace682e668.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/097a84a406434ace558e51ace682e668.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>W zestawie:</b></p> <ul> <li>mata do skakania &nbsp;</li> <li>czarno-zielona osłona z nadrukiem tygrysa</li> <li>30 elastycznych gum o długości 40 cm</li> <li>6 metalowych nóg</li> <li>siatka zabezpieczająca z zamkiem błyskawicznym</li> <li>instrukcja montażu i obsługi</li> </ul> <p>&nbsp;</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/1938926ad0a83dcbb0482e3441f2981c.jpg\" /></section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 3
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 439,
+        "9073": 1967.87
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12415",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/097a84a406434ace558e51ace682e668.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/b26f76f2349348f04b02e81f514364b3.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/6aff8dafdaac895d65971d89fef53ea3.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/fd3b5dc8282d3080e694cc9fc7e93659.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/1938926ad0a83dcbb0482e3441f2981c.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/be10adcb1c6a5472e5090b6caf98a2d4.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/6e2e315f9b0e86026ea0fbb1df7e6f83.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/b249354cca7d092d4e9778794170ba67.jpg"
+      },
+      "videos": {}
+    },
+    "1321036992": {
+      "is_bundle": false,
+      "ean": "8720088263013",
+      "asin": "",
+      "parent_id": 0,
+      "sku": "",
+      "tags": [],
+      "tax_rate": 23,
+      "weight": 14,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "star": 0,
+      "category_id": 3733229,
+      "manufacturer_id": 1226700,
+      "text_fields": {
+        "name": "Tor wodny Exit",
+        "features": {
+          "Stan": "Nowy",
+          "Kod producenta": "56.20.09.00",
+          "Rodzaj": "tor wodny",
+          "Marka": "Exit",
+          "Wiek dziecka": "3 lata +",
+          "Bohater / Bajka": "brak",
+          "Długość": "150",
+          "Szerokość produktu": "150",
+          "Obciążenie maksymalne": "100",
+          "Kolor": "szary",
+          "Waga produktu z opakowaniem jednostkowym": "14",
+          "Kod taryfy celnej": "95030095",
+          "EAN": "8720088263013"
+        },
+        "description": "<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<h1>Wodny plac zabaw fontanna EXIT SPRINGLE 150x150 cm</h1>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>Exit Springle to interaktywne urządzenie do zabawy z wodą.</p> <p>Gwarantuje fantastyczną rozrywkę dla dzieci i dorosłych. <b>Chlapanie, przelewanie i zabawy w fontannie to ulubione zajęcia dzieci podczas ciepłych, słonecznych dni. </b>Dzięki Exit Springle taka zabawa może zamienić się w towarzyską grę, w której liczy się<b> refleks i zręczność.&nbsp;</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/c531cc9dddd40fb41418843cfe936c80.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p>EXIT Sprinqle zbudowane jest z <b>dziewięciu płytek</b>. Każda płytka posiada dyszę wodną, z której raz po raz <b>tryska strumień wody. </b></p> <p>Do systemu dysz należy podłączyć wąż ogrodowy z wodą. <b>Manualnie </b>lub za pomocą darmowej <b>aplikacji Exit Springle</b> możliwa jest zmiana sposobu tryskania wody (częstotliwość, wysokość strumienia).</p> <p><b>Skrzynka kontrolna</b>, dostarczana wraz z produktem, posiada wbudowane trzy gry. Aby zmienić program, wystarczy dotknąć jej stopą.&nbsp;</p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/5018614a23c5fd663e0fba0dc1547dc7.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/2c28ac1ed25261566e3f635b2f1cc74a.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p>Wbudowane programy umożliwiają: gonienie za strumieniami wody, unikanie ich lub ich łapanie.</p> <p>Istnieje możliwość zmiany kształtu płytek z klasycznego układu 3x3 na <b>„grę w klasy”</b></p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ea69336919a6fe110a587621d979cb7d.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p><b>Wystarczy jedno kliknięcie</b></p> <p>Płytki są łatwe w montażu i mogą być umieszczone w układzie kwadratowym lub w kształcie „gry w klasy”. Sam zdecyduj, jak mają być ułożone płytki, przymocuj ja na „klik” za pomocą złączek, a następnie przymocuj dysze do skrzynki kontrolnej. Za pomocą klocków \"EXIT click blocks\" możesz ozdobić płytki cyframi lub innymi kształtami. Zaprojektuj ich wygląd według własnego pomysłu.</p> <p><b>Chcesz zmienić kształt? Żadne problem! Rozłącz płytki i dysze, ułóż je na nowo, podłącz i ciesz się zabawą na nowo!</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/a39a108730b14a3b54a0137ae8574fdf.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ea69336919a6fe110a587621d979cb7d.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"text-item\">\n<p><b>Fontanna Exit Springle</b></p> <p>Skrzynka kontrolna zawiera trzy wyjątkowe gry wodne. Rzuć wyzwanie swoim przyjaciołom i zagrajcie w \"pościg\". Zobacz, komu uda się złapać najwięcej wodnych strumieni. Następnie szybko stuknij stopą w skrzynkę kontrolną, i pozwól aby jedna z pozostałych gier wodnych Cię zaskoczyła.</p>\n\t\t</section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/2c28ac1ed25261566e3f635b2f1cc74a.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p><b>Aplikacja EXIT Springle</b>&nbsp;została stworzona dla żądnych wrażeń użytkowników. Zawiera aż siedem różnych gier wodnych. Poprzez Bluetooth łączy się z płytkami i uruchamia wybraną grę. Aplikacja jest prosta w obsłudze i przyjazna &nbsp;graficznie, dzięki czemu dzieci mogą ją samodzielnie obsługiwać.</p> <p><b>Bezpieczna zabawa</b></p> <p>Ze względu na bezpieczeństwo dzieci, wszystkie płytki Sprinqle posiadają specjalną antypoślizgową powierzchnię. Dodatkowo płytki zabezpieczone są zieloną obwódkę, która dokładnie pokrywa każdy róg płytek. Regulator ciśnienia na skrzynce kontrolnej pozwala określić wysokość strumienia wodnych, dzięki czemu nawet najmłodsi mogą cieszyć się zabawą w fontannie Exit Springle.</p> <p><b>Tego lata Twoje dzieci czeka wiele godzin aktywnej zabawy z fontanną EXIT Springle.</b></p>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/ea69336919a6fe110a587621d979cb7d.jpg\" /></section>\n\t</div>\n\t<div class=\"item item-6\">\n\t\t<section class=\"image-item\"><img src=\"https://upload.cdn.baselinker.com/products/4293/1b1185e011438fbd9a0243cbc846b1ef.jpg\" /></section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p><b>Standardowo w zestawie:</b></p> <ul> <li>9 płytek (każdy o rozmiarze 50x50x2.5 cm)</li> <li>9 dysz z wężem o średnicy 3 mm</li> <li>Skrzynka kontrolna z regulatorem ciśnienia</li> <li>Zielona felga</li> <li>Kwadratowe kostki \"EXIT click blocks\" w kolorze zielonym (160 sztuk)</li> <li>Instrukcja montażu i obsługi</li> <li>Wysokość zraszaczy wodnych &nbsp;10 do 300 cm</li> <li>Aplikacja do pobrania:&nbsp;IOS&nbsp;ANDROID</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n<section class=\"section\">\n\t<div class=\"item item-12\">\n\t\t<section class=\"text-item\">\n<p>&nbsp;</p> <p><b>Specyfikacja:</b></p> <ul> <li>interaktywne urządzenie do zabawy z wodą</li> <li>urządzanie posiada charakter wodno-edukacyjny</li> <li>skrzynka kontrolna obsługiwana jest manualnie lub za pomocą aplikacji Sprinqle</li> <li>możliwość zmiany ułożenia z 3x3 w kształt „gry w klasy”</li> <li>płytki posiadają antypoślizgową fakturę</li> <li>wiek użytkownika: 3 lata +</li> <li>czas złożenia: ok. 60 minut (2 osoby dorosłe)</li> </ul> <p><b>&nbsp;</b></p> <p><b>Skrzynka kontrolna:</b></p> <ul> <li>Kolor: zielony</li> <li>Materiał: plastik</li> <li>Średnica: ø 48 cm</li> <li>Wysokość: 4,5 cm</li> <li>Napięcie: &nbsp;230 - 12V</li> <li>Moc: 48 W</li> <li>Długość kabla zasilającego: 300 cm</li> <li>Typ wtyczki: EU</li> <li>Kod IP: &nbsp;IPX5</li> </ul>\n\t\t</section>\n\t</div>\n</section>\n\n"
+      },
+      "stock": {
+        "bl_5086": 1
+      },
+      "reservations": {
+        "bl_5086": 0
+      },
+      "thresholds": {
+        "bl_5086": 0
+      },
+      "incoming": {
+        "bl_5086": 0
+      },
+      "prices": {
+        "3124": 1009,
+        "9073": 4521.47
+      },
+      "locations": {
+        "bl_5086": ""
+      },
+      "links": {
+        "shop_30180": {
+          "product_id": "12400",
+          "variant_id": "0"
+        }
+      },
+      "average_cost": 0,
+      "average_landed_cost": 0,
+      "images": {
+        "1": "https://upload.cdn.baselinker.com/products/4293/c531cc9dddd40fb41418843cfe936c80.jpg",
+        "2": "https://upload.cdn.baselinker.com/products/4293/5018614a23c5fd663e0fba0dc1547dc7.jpg",
+        "3": "https://upload.cdn.baselinker.com/products/4293/2c28ac1ed25261566e3f635b2f1cc74a.jpg",
+        "4": "https://upload.cdn.baselinker.com/products/4293/ea69336919a6fe110a587621d979cb7d.jpg",
+        "5": "https://upload.cdn.baselinker.com/products/4293/a39a108730b14a3b54a0137ae8574fdf.jpg",
+        "6": "https://upload.cdn.baselinker.com/products/4293/1b1185e011438fbd9a0243cbc846b1ef.jpg",
+        "7": "https://upload.cdn.baselinker.com/products/4293/aa552ee011531c07d42a996bdf8f72dd.jpg",
+        "8": "https://upload.cdn.baselinker.com/products/4293/4aaaa98c851df310d84f4a86b4244877.jpg",
+        "9": "https://upload.cdn.baselinker.com/products/4293/6f2a322ca7311283ddc9c84f9e6a6071.jpg",
+        "10": "https://upload.cdn.baselinker.com/products/4293/4be130ecc8542493c570f4e9b9d5c79f.jpg",
+        "11": "https://upload.cdn.baselinker.com/products/4293/d1ad4db038ef72ec05d4b0a7e625ec0a.jpg"
+      },
+      "videos": {}
+    }
+  }
+}
