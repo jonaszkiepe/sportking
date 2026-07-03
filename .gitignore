@@ -3,6 +3,7 @@
 
 # bulk media exported from the shop (rebuildable via scratchpad scripts; see log)
 /allegro-photos/
+/photos/
 
 # OS / editor junk
 .DS_Store
