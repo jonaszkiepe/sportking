@@ -31,6 +31,11 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - **Allegro** — Polish marketplace channel, 3 accounts, all connected via
   BaseLinker (ids above). Direct Allegro REST access not set up (would need OAuth
   per account) — only needed if BaseLinker's view proves insufficient.
+- **BERG dealer assets** — image databank is a **Marvia DAM** (getmarvia.com:
+  product photos, logos, videos, brochures), reached via the **Dealerzone** B2B
+  portal (login `bergtoys.outliner.me`, an Outliner B2B system). Image-bank
+  access enabled per-dealer; requests via marketing@bergtoys.com. This is the
+  chosen photo source (2026-07-03). Pricelist feed also comes from here.
 
 ## Catalog & business context
 > **⚠ Reconstruction (decided 2026-07-03):** the existing PrestaShop catalog is
