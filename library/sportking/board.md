@@ -14,7 +14,7 @@ kanban-plugin: board
 - [ ] **Photos (high-res, later)**: BERG brand portal (Marvia via `brandportal.berg.com`, Imagebank link in Dealerzone) — deferred until after selling starts, needs access enabled (marketing@bergtoys.com).
 - [ ] Add EXIT (+ other) dealer feeds later; generalise `berg_feed.py` per brand
 - [ ] Category map: BERG categories → Allegro / PrestaShop category trees
-- [ ] Create new Allegro listings from the matched stock (via BaseLinker, dry-run + backup per safety rules)
+- [ ] **Allegro drafts on sklep_Inkontor (26050)** via direct Allegro REST API (BaseLinker API can't create offers). In progress: `allegro_auth.py` device-flow OAuth built; waiting on user to register an Allegro app (client id/secret → .env) + authorize. Then: category map, selling prices, create unpublished draft offers (dry-run + confirm first).
 - [ ] Decide fate of `sportking_pr` shop connection + `sklep_sportking` / `sklep_Inkontor` Allegro accounts
 
 ## In progress

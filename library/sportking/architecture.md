@@ -29,8 +29,14 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   (50219). External storage `shop_30180` (PrestaShop) is connected **read-only**
   for products (`write: false`) — BaseLinker can read but not push product data.
 - **Allegro** — Polish marketplace channel, 3 accounts, all connected via
-  BaseLinker (ids above). Direct Allegro REST access not set up (would need OAuth
-  per account) — only needed if BaseLinker's view proves insufficient.
+  BaseLinker (ids above). **Direct Allegro REST API being set up** for
+  `sklep_Inkontor` (26050) — chosen 2026-07-03 as the account to list BERG on —
+  because the BaseLinker API has **no offer-creation method** (listings are a
+  panel-only operation there). OAuth via `allegro_auth.py` (device code flow);
+  tokens in `.allegro_tokens.json` (git-ignored). Client id/secret in `.env`
+  (`allegro_client_id`, `allegro_client_secret`) from an app the user registers
+  at apps.developer.allegro.pl. Draft offers = POST /sale/product-offers left
+  unpublished (safe: not live).
 - **BERG dealer assets** — image databank is a **Marvia DAM** (getmarvia.com:
   product photos, logos, videos, brochures), reached via the **Dealerzone** B2B
   portal (login `bergtoys.outliner.me`, an Outliner B2B system). Image-bank
