@@ -18,3 +18,6 @@ library/.trash/
 
 # if the code repo lives inside this dir as its own git repo, ignore it here:
 # /app/
+
+# libreoffice lock files
+.~lock.*#
