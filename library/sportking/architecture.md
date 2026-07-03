@@ -33,7 +33,9 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 
 ## Unknowns / to verify
 - PrestaShop version, PHP stack, theme/modules (needs SSH or back office)
-- BaseLinker sync config (direction, stock/price source of truth) — pending API token
+- BaseLinker sync config (direction, stock/price source of truth) — token live
+  (in `.env` as `baselinker_api`, git-ignored); API verified 2026-07-03: one
+  inventory "Sportking" (id 4002, pl, warehouse bl_5086, 2 price groups)
 - Allegro account state and active listings — pending access
 - Whether the -15% promo and stock levels are current
 - Where (if anywhere) custom code lives — this repo currently holds only the vault
