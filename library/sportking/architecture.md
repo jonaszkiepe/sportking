@@ -46,6 +46,22 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   data preserved in `products/photos/` + `products/manifest.csv` for reuse when creating
   the new listings.
 
+### EXIT products are modular (key catalog fact, 2026-07-03)
+- Many EXIT items are **sets assembled from separately-boxed components**, each
+  component box carrying its **own EAN**. The sellable product is the assembly.
+  The stable product identifier is EXIT's **article number** (e.g. `46-15-10-00`
+  = Galaxy portable basketball base-on-wheels), NOT the per-box EAN.
+- Confirmed via warehouse scan batch 1: `8718469469215` (Galaxy base-on-wheels)
+  ×7 + `8719874704397` (Galaxy backboard) ×7 = 7 complete portable-basketball
+  sets, two boxes each. This is why component EANs don't match the old-shop
+  manifest (which was keyed on the shop's set-level product, or never listed them).
+- Consequence for reconstruction: need an EAN → article-number → sellable-set
+  master (best source: EXIT dealer feed) + a bundle map so the scan report can
+  roll component scans up into complete/partial sets. See [[log]] / [[board]].
+- Scope note: of the 17 unmatched EANs in batch 1, only ~10 are EXIT-family
+  (8718469/8719874/8719743); the other 7 are BERG (8715839) — ordinary products
+  the old shop simply never carried, single EAN each, **not** a bundle issue.
+
 ## Server layout (verified 2026-07-03 via SSH, read-only)
 - PrestaShop **9.0.3** at `/home/henrik/sportking/` (henrik = colleague who
   maintains the shop — **hands off PrestaShop code/config**, user-mandated).
