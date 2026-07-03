@@ -20,6 +20,7 @@ kanban-plugin: board
 - [ ] Decide fate of `sportking_pr` shop connection + `sklep_sportking` / `sklep_Inkontor` Allegro accounts
 
 ## In progress
+- [ ] **DECIDE (veloking stock): 12 of 18 surviving veloking offers source from presta products the zero-out set to 0.** Offer qty looks independent of presta stock (10≠7) so likely not at immediate risk. Options pending user: restore stock for those 12 / leave-and-watch / intended. Restore data ready in backups/2026-07-03-presta-stock-before.jsonl. Veloking offers backed up in backups/2026-07-03-veloking-offers.json.
 - [ ] Warehouse count with scanner → EAN list (user; lands in this project soon)
 - [ ] **Verify BaseLinker→presta stock sync actually pushes** scanned qty (catalog products must be LINKED to sportking_pr shop; test: Biky White presta 4 → should become scanned 5)
 - [ ] Create the 17 not-in-presta scanned products (mostly EXIT) as presta products so they can carry stock
