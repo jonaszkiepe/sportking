@@ -1,27 +1,15 @@
-(pulled: architecture, project-rules — VPS rules apply; recon is read-only)
+(pulled: sportking/_moc + architecture — updating the plan to the reconstruction model)
 
-Key received — testing my dedicated key, then I'll do the read-only PrestaShop recon to build that EAN→photos mapping:
+New direction is clear — recording the reconstruction plan across the vault notes:
 
-SSH works. The shop isn't in `/var/www/html` — checking Apache vhosts for the real docroot:
+All references updated. Adding a log line and committing everything, including the now-tracked manifest:
 
-The shop lives at `/home/henrik/sportking/` (henrik = your colleague, presumably). Checking version and DB config:
+Everything's updated and committed. Summary of what changed:
 
-175 MB of originals — small enough to just pull. Rsyncing them down (read-only on the server side), then building the EAN tree:
+**Plan pivot recorded in the vault** — the _moc now carries it as a key decision ("reconstruct, don't revive"): all PrestaShop products discarded, only `sklep_veloking` listings survive, and the scanner EAN list becomes the source of truth for what gets listed. The architecture note got a warning banner marking all legacy-catalog facts as reference material, and the board has the pipeline as cards: warehouse count (in progress, you) → match EAN list against the manifest → create new Allegro listings via BaseLinker.
 
-The shell was still cd'd into `photos/zdj` — retrying from the repo root:
+**Your restructure adopted** — I spotted that you moved the export to `products/photos/<EAN>/` with the manifest at `products/manifest.csv` and deleted the old `photos/` dir. All vault references now point to the new paths, `products/photos/` is git-ignored (177 MB of images), and **`products/manifest.csv` is now tracked in git** — it's the name/EAN/photo mapping and worth versioning.
 
-All done. Here's the rundown:
+For when the scanner list lands: drop it anywhere in `products/` (any format — CSV, plain EAN-per-line, whatever the scanner emits) and I'll diff it against the manifest to tell you which scanned items already have photos + names ready and which need new material. Two things to keep in mind for that step: 38 legacy products had no EAN (their photos live under name-slug dirs, so scanned items missing from the manifest might still have photos there), and 7 EANs were duplicated in the old shop — I flagged them in the manifest's `note` column.
 
-**The deliverable — `~/sportking/allegro-photos/` is built** (177 MB, git-ignored):
-- **`<EAN>/01.jpg, 02.jpg, …`** for the 473 products with an EAN — `01.jpg` is always the shop's cover image, rest follow shop ordering. Pulled fresh from the live DB + original images over SSH (server untouched, read-only).
-- **38 products without EAN** got name-slug dirs (e.g. `gokart-na-pedaly-berg-buddy/`) per your fallback idea.
-- **`manifest.csv`** at the root maps every dir → EAN, product id, reference, full Polish name, image count, and notes. For Allegro bulk-listing this file is the companion piece — you (or I) can work through it row by row.
-- Two edge cases it flags: **7 duplicate EANs** — the same EAN is on two products in the shop, so the second product got a `<ean>-dup-<id>/` dir instead of silently mixing photos; worth a quick look since Allegro will reject duplicate-EAN offers anyway. And **3 active products have no images at all**.
-
-**Your `photos/` dir**: found it after the fact — that's the manual export you meant in item 2. Mine supersedes it (correct UTF-8 names, EAN keys, originals only, no size-variant clutter), so `photos/` (334 MB) is yours to delete when ready. Both media dirs are git-ignored now.
-
-**Keys question**: nothing to load — since you ran `ssh-copy-id`, my dedicated `sportking_claude` key works directly. Your `keys` alias (ssh-agent + passphrase) wouldn't help my session anyway: each command I run gets a fresh shell, so an agent unlocked in one command is gone by the next. The dedicated-key pattern is the right one; keep your own key as-is.
-
-**PrestaShop stays hands-off** — noted in the vault that henrik maintains it; I only read (DB queries + image files). PrestaShop 9.0.3, DB `sportkingdbs`, docroot `/home/henrik/sportking/` — all recorded in the architecture note, everything committed.
-
-Next step when you're ready: pick a first product (or small batch) from `manifest.csv` and I'll draft the Allegro offer flow through BaseLinker — dry-run first, per the safety rules.
+One suggestion meanwhile: I could snapshot the current `sklep_veloking` listings read-only via BaseLinker into `library/sportking/backups/` — that's the "what stays" baseline, and having it before any reconstruction work starts is exactly the strong-backup pattern you asked for. Want me to?

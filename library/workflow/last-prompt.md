@@ -1,7 +1,1 @@
-# Batch: future plan    
-[Prestashop]
-1. I will leave prestashop alone for now since it's maintained by my colleague. i only need a NAME,EAN,PHOTO-ID mapping from the DB. can i somehow load the keys in the claude session? i have an keys alias
-2. There's is a directory with pictures with each id already grouped.
-3. i want you to make a directory where EAN/*.jpg for each EAN. if no EAN then product name. or maybe you have other suggestions. I need this to add products on allegro. 
-[hetzner]
-1. I copied the key.
+i will only be creating new. products all the presta products will be gone. only the one in allegro_veloking will stay. we are reconstructing everything. I'm counting the warehouse right now with a scanner so will have a list with EAN codes ready in this project soon. also u update file structrue so update what is needed.

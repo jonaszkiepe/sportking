@@ -21,8 +21,12 @@ local and has been stale; current goal is to **revive it**.
 - **Plan pivot: full catalog reconstruction.** All existing PrestaShop products
   will be discarded; only the `sklep_veloking` Allegro listings survive. New
   catalog = whatever the physical warehouse count finds.
-- Warehouse count in progress (user, barcode scanner) → an EAN list will land in
-  this project soon and becomes the source of truth for what to list.
+- Warehouse count in progress (user, barcode scanner). First batch analyzed:
+  `products/list.xlsx` (79 scans) → `products/scan-report.csv` — 32 unique EANs
+  (15 with legacy photos/names, 17 unknown to the old shop), 6 bad scans
+  (serial/date codes, need re-scan).
+- User's stock plan (2026-07-03, user executes): zero out PrestaShop product
+  stock, update products from Allegro, replace shop products from BaseLinker.
 - Groundwork done: BaseLinker token + VPS access live, full audit of the old
   catalog (511 products), all product photos exported EAN-keyed to
   `products/photos/` + manifest — ready to match against the scanned EAN list.

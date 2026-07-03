@@ -12,6 +12,7 @@ Every completed piece of work gets one line (newest first). Big features also li
 on [[board]]; this is the full history.
 
 ## 2026-07-03
+- Analyzed first warehouse scan batch (`products/list.xlsx`, 79 rows) → `products/scan-report.csv`: 32 unique EANs / 73 units; 15 EANs matched to legacy photos+names, 17 unknown (mostly 8718469* = likely EXIT Toys, never in old shop); 6 bad scans are `YYMMDD-serial` production codes. Veloking-snapshot suggestion declined (for now). User will zero presta stock + sync from Allegro/BaseLinker himself → [[_moc]].
 - User restructured: photo export now lives at `products/photos/<EAN>/` + `products/manifest.csv` (was `allegro-photos/`; old manual `photos/` deleted). Refs updated in [[_moc]], [[architecture]], [[board]]; manifest.csv now git-tracked, photos ignored.
 - Plan pivot recorded: full catalog reconstruction — presta products discarded, only sklep_veloking listings stay, warehouse scanner count → EAN list incoming as source of truth → [[_moc]] (key decision), [[architecture]] (banner), [[board]] (cards).
 - VPS access live (dedicated key). Read-only recon: PrestaShop 9.0.3 at /home/henrik/sportking (colleague-maintained, hands off), DB sportkingdbs. Exported all 1355 active-product images → `allegro-photos/<EAN>/NN.jpg` + manifest.csv (508 dirs; 38 no-EAN use name slugs, 7 dup-EAN split as `<ean>-dup-<id>`, 3 products imageless). Method: JSONL dump of ps_product/ps_image via PHP over SSH → rsync originals → build_tree.py; server untouched → [[architecture]].
