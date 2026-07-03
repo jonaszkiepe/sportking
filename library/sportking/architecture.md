@@ -15,13 +15,22 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - **Storefront:** PrestaShop — https://sportking.pl (version not exposed publicly).
   Apache 2.4.67 on Debian; TLS via Let's Encrypt, auto-renewal working (cert issued
   2026-06-18). Homepage TTFB ~1.1 s (no page cache in front?).
-- **Hosting:** Hetzner VPS (no SSH/credentials on record — user grants BaseLinker +
-  Allegro access only for now)
+- **Hosting:** Hetzner VPS at 95.217.191.184, alias `ssh sportking` (user jonasz,
+  key `id_ed25519` — passphrase-protected, so Claude uses a dedicated key
+  `~/.ssh/sportking_claude`, authorized 2026-07-03 pending user's ssh-copy-id).
+  **No deploy script exists** — all server changes are live edits; see the VPS
+  safety rules in [[_meta/project-rules]].
 
 ## Integrations
 - **BaseLinker** — order/listing management hub, linked to the PrestaShop store.
   Writes gated by the safety rules in [[_meta/project-rules]] (backup-before-write).
-- **Allegro** — Polish marketplace channel, connected via BaseLinker.
+  Order sources (verified 2026-07-03): shop `sportking_pr` (30180), Allegro
+  accounts `sklep_sportking` (4448), `sklep_Inkontor` (26050), `sklep_veloking`
+  (50219). External storage `shop_30180` (PrestaShop) is connected **read-only**
+  for products (`write: false`) — BaseLinker can read but not push product data.
+- **Allegro** — Polish marketplace channel, 3 accounts, all connected via
+  BaseLinker (ids above). Direct Allegro REST access not set up (would need OAuth
+  per account) — only needed if BaseLinker's view proves insufficient.
 
 ## Catalog & business context (from public site, 2026-07-03)
 - Outdoor/kids gear: trampolines, go-karts, swings, sandboxes, playhouses, kites,
@@ -36,6 +45,7 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - BaseLinker sync config (direction, stock/price source of truth) — token live
   (in `.env` as `baselinker_api`, git-ignored); API verified 2026-07-03: one
   inventory "Sportking" (id 4002, pl, warehouse bl_5086, 2 price groups)
-- Allegro account state and active listings — pending access
+- Allegro account state and active listings — accounts enumerated via BaseLinker;
+  listing-level detail still unchecked
 - Whether the -15% promo and stock levels are current
 - Where (if anywhere) custom code lives — this repo currently holds only the vault

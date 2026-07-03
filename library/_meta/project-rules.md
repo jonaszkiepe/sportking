@@ -33,6 +33,25 @@ so "no mistakes happen from bad prompts or misunderstanding". Hard rules:
 4. **No deletes / no order-state changes** (cancel, refund, ship) without the user
    naming the specific record.
 5. **Log every write** in [[sportking/log]] with what changed and where the backup is.
+6. **Consult heavily.** User re-mandated (2026-07-03): be *very* careful with
+   BaseLinker calls — when any doubt exists about intent or blast radius, ask
+   before calling, even for reads that look unusual.
+
+## VPS safety (Hetzner, `ssh sportking`) — user-mandated
+There is **no deploy script** — every change is a live edit on the production
+server. Hard rules:
+
+1. **Read-only recon freely; changes only with explicit user go-ahead** for the
+   specific change, in this conversation.
+2. **Backup before any change, and recommend it out loud.** Before touching a
+   file: `cp <file> <file>.bak-$(date +%F)` (or a tarball of the dir); before DB
+   changes: `mysqldump` the affected tables to a dated file. State where the
+   backup landed and the exact restore command.
+3. **Be specific.** Show the exact commands (and diffs where applicable) that
+   will run, old → new, before running them. One change at a time; verify the
+   site still responds after each.
+4. **Claude's access:** dedicated key `~/.ssh/sportking_claude` (the user's own
+   `id_ed25519` is passphrase-protected and stays theirs).
 
 ## Reuse before writing (shared libs)
 - (list the project's shared helpers here — duplicated logic is the main bloat source)
