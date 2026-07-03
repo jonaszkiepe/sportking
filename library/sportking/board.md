@@ -21,6 +21,8 @@ kanban-plugin: board
 
 ## In progress
 - [ ] Warehouse count with scanner → EAN list (user; lands in this project soon)
+- [ ] **Verify BaseLinker→presta stock sync actually pushes** scanned qty (catalog products must be LINKED to sportking_pr shop; test: Biky White presta 4 → should become scanned 5)
+- [ ] Create the 17 not-in-presta scanned products (mostly EXIT) as presta products so they can carry stock
 
 ## Done
 - [ ] Access + audit groundwork: BaseLinker token, VPS SSH, legacy catalog audit, EAN-keyed photo export (2026-07-03)
