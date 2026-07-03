@@ -47,7 +47,8 @@ def _call(method, path, body=None, params=None, _retry=True):
         "Content-Type": "application/vnd.allegro.public.v1+json"})
     try:
         r = urllib.request.urlopen(req, timeout=40)
-        return r.status, json.load(r)
+        raw = r.read()
+        return r.status, (json.loads(raw) if raw.strip() else {})  # 204 = empty body
     except urllib.error.HTTPError as e:
         if e.code == 401 and _retry:
             _refresh()
@@ -199,10 +200,62 @@ def cmd_dedupe(do_it):
         rec.write_text(json.dumps(kept, indent=2, ensure_ascii=False))
 
 
+def cmd_delete(do_it):
+    """Delete every draft tracked in the backup file (the ones I created)."""
+    rec = BACKUP / "2026-07-03-allegro-inkontor-drafts.json"
+    mine = json.loads(rec.read_text()) if rec.exists() else []
+    print(f"{'DELETING' if do_it else 'would delete'} {len(mine)} tracked drafts")
+    if not do_it:
+        for x in mine:
+            print(f"  {x['offerId']}  {x.get('name', '')[:44]}")
+        print("\ndry-run. Re-run with --yes")
+        return
+    deleted = []
+    for x in mine:
+        oid = str(x["offerId"])
+        c, _ = _call("DELETE", f"/sale/offers/{oid}")
+        ok = c in (200, 204, 404)  # 404 = already gone
+        print(f"  {'deleted' if ok else 'FAILED ' + str(c)} {oid}  {x.get('name', '')[:36]}")
+        if ok:
+            deleted.append(oid)
+        time.sleep(0.3)
+    remaining = [x for x in mine if str(x["offerId"]) not in deleted]
+    rec.write_text(json.dumps(remaining, indent=2, ensure_ascii=False))
+    print(f"\ndeleted {len(deleted)}; {len(remaining)} still tracked")
+
+
+def cmd_purge(do_it):
+    """Back up, then delete EVERY INACTIVE draft on the account (incl. pre-existing)."""
+    _, d = _call("GET", "/sale/offers", params={"publication.status": "INACTIVE", "limit": 1000})
+    offers = d.get("offers", []) if isinstance(d, dict) else []
+    print(f"{len(offers)} INACTIVE drafts on the account")
+    backup = []
+    for o in offers:
+        _, det = _call("GET", f"/sale/product-offers/{o['id']}")
+        backup.append(det if det else o)
+        time.sleep(0.1)
+    rec = BACKUP / "2026-07-04-inkontor-all-drafts-before-purge.json"
+    rec.write_text(json.dumps(backup, indent=2, ensure_ascii=False))
+    print(f"backed up {len(backup)} drafts -> {rec.relative_to(ROOT)}")
+    if not do_it:
+        for o in offers:
+            print(f"  would delete {o['id']}  {o.get('name', '')[:44]}")
+        print("\ndry-run. Re-run with --yes")
+        return
+    for o in offers:
+        c, _ = _call("DELETE", f"/sale/offers/{o['id']}")
+        print(f"  {'deleted' if c in (200, 204, 404) else 'FAIL ' + str(c)} {o['id']}  {o.get('name', '')[:36]}")
+        time.sleep(0.3)
+    _, d2 = _call("GET", "/sale/offers", params={"publication.status": "INACTIVE", "limit": 1000})
+    print(f"\nremaining INACTIVE drafts: {len(d2.get('offers', []))}")
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if not a or a[0] == "match": cmd_match()
     elif a[0] == "drafts": cmd_drafts()
     elif a[0] == "create": cmd_create("--yes" in a)
     elif a[0] == "dedupe": cmd_dedupe("--yes" in a)
+    elif a[0] == "delete": cmd_delete("--yes" in a)
+    elif a[0] == "purge": cmd_purge("--yes" in a)
     else: print(__doc__)

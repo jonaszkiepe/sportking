@@ -14,9 +14,8 @@ kanban-plugin: board
 - [ ] **Photos (high-res, later)**: BERG brand portal (Marvia via `brandportal.berg.com`, Imagebank link in Dealerzone) — deferred until after selling starts, needs access enabled (marketing@bergtoys.com).
 - [ ] Add EXIT (+ other) dealer feeds later; generalise `berg_feed.py` per brand
 - [ ] Category map: BERG categories → Allegro / PrestaShop category trees
-- [x] **Allegro drafts on sklep_Inkontor (26050)** — done for the 18 scanned products that match Allegro's catalog (price-less, unpublished; `allegro_draft.py`). Ids tracked in backups/ for rollback.
-- [ ] **Allegro: the 14 unmatched scanned products** (EXIT + discontinued BERG) — no Allegro catalog product; need catalog-product creation or manual listing.
-- [ ] **Allegro: finish the drafts** — add selling prices (we only have dealer prices) + photos, then publish. Category map (BERG→Allegro) still useful for the unmatched/manual ones.
+- [x] Allegro drafts on Inkontor: created 17 as proof-of-concept, then **deleted ALL account drafts** (2026-07-04, user request; 24 total incl. 7 pre-existing) — account now has 0 drafts. Backed up in backups/2026-07-04-inkontor-all-drafts-before-purge.json. Plan: re-list from BaseLinker catalog once grouped (article-keyed), not direct-to-Allegro.
+- [ ] **Competitor pricing by EAN**: Allegro `/offers/listing` (buyer search) = 403 AccessDenied — app-level restriction, not scope. Needs Allegro to grant the app listing/buyer-API access, OR use Allegro's built-in price suggestion at publish time, OR website scraping (fragile/ToS-risky). BLOCKED via current API.
 - [ ] Decide fate of `sportking_pr` shop connection + `sklep_sportking` / `sklep_Inkontor` Allegro accounts
 
 ## In progress

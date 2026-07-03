@@ -1,0 +1,2033 @@
+[
+  {
+    "name": "Filament PLA Colorfil 1,75 mm 1000 g – jasnoniebieski (Light Blue)",
+    "productSet": [
+      {
+        "product": {
+          "id": "83347473-b7c5-4ec7-b2fb-88f123405310",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "2629"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248914",
+              "name": "Producent",
+              "values": [
+                "Colorfil"
+              ],
+              "valuesIds": [
+                "248914_2017003"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "233889",
+              "name": "Średnica filamentu",
+              "values": [
+                "1.75"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "233893",
+              "name": "Waga filamentu",
+              "values": [
+                "1000"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "249512",
+              "name": "Kolor",
+              "values": [
+                "niebieski"
+              ],
+              "valuesIds": [
+                "249512_1647422"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "249590",
+              "name": "Rodzaj filamentu",
+              "values": [
+                "PLA"
+              ],
+              "valuesIds": [
+                "249590_1706072"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "245661",
+              "name": "Materiał",
+              "values": [
+                "PLA"
+              ],
+              "valuesIds": [
+                "245661_555501"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "245665",
+              "name": "Przeznaczenie",
+              "values": [
+                "drukarka"
+              ],
+              "valuesIds": [
+                "245665_1"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "248455",
+              "name": "Pasuje do modelu",
+              "values": [
+                "Anycubic",
+                "BambuLab",
+                "Creality",
+                "Elegoo",
+                "Flashforge",
+                "Phrozen",
+                "Prusa"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "17448",
+              "name": "Waga produktu z opakowaniem jednostkowym",
+              "values": [
+                "1.3"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "250792",
+              "name": "Kod taryfy celnej",
+              "values": [
+                "39169090"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "5906269969964"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": null,
+        "safetyInformation": {
+          "description": "List of 3D printer safety warnings based on the requirements of General Product Safety Regulation (EU) 2023/988 (GPSR):\n\n1. Risk of electric shock: Make sure your printer is plugged into an outlet with grounding. Do not touch the plug or cable with wet hands. Avoid using the printer in places with high humidity. 2. Risk of burns: Do not touch the nozzle or work table while the printer is running. Wait until they cool down after printing is complete. 3. Fire risk: Use only consumables recommended by the manufacturer. Do not leave the printer unattended during operation. Make sure that there are no flammable materials near the printer. 4. Risk of eye damage: Wear safety glasses while the printer is running to protect your eyes from material chipping. 5. Risk of inhaling fumes: Use the printer in a well-ventilated area. Avoid inhaling the fumes that arise during printing. 6. Risk of injury: Watch out for the sharp edges of the nozzle, work table, and other printer components. 7. Risk of jamming: Beware of moving parts of the printer to avoid jamming. 8. Risk of suffocation: Keep small printer components and accessories out of reach of children. 9. Risk of falling: Set the printer on a stable surface to minimize the risk of falling. 10. Explosion risk: Do not use damaged or low-quality power supplies. 11. Use the printer according to the manufacturer’s instructions. 12. Regularly check the technical condition of the printer. 13. Store your printer in a dry and clean place. 14. Do not expose the printer to high temperatures. 15. Clean the printer regularly according to the manufacturer’s instructions. 16. In case of failure, contact an authorized service center. 17. After finishing work, disconnect the printer from the power supply. 18. Keep in mind that some 3D printing materials can be toxic. Follow the safety instructions for the material. 19. Do not modify the printer in a way that is not recommended by the manufacturer. 20. Always make sure that children and pets do not have access to a working printer.",
+          "type": "TEXT"
+        },
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/117185/a653a9d64fd9b7643e6a0d6daf4b",
+      "https://a.allegroimg.com/original/1111f9/d79347094167823058c13892ab78"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": null
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": null,
+      "price": null,
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 0,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": null,
+      "handlingTime": "PT24H",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "130503"
+    },
+    "taxSettings": null,
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18672799303",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": []
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "code": "EMPTY_SHIPPING_RATES",
+          "message": "No shipping rates set.",
+          "details": "NON_BLOCKING",
+          "path": "delivery.shippingRates.id",
+          "userMessage": "No shipping price list set.",
+          "metadata": {}
+        },
+        {
+          "code": "RESPONSIBLE_PRODUCER_NOT_SPECIFIED",
+          "message": "Responsible producer is required for every product in the offer",
+          "details": null,
+          "path": "productSet[0].responsibleProducer",
+          "userMessage": "Producent odpowiedzialny jest obowiązkowy dla każdego produktu w ofercie",
+          "metadata": {}
+        },
+        {
+          "code": "ConstraintViolationException.AtLeastOneMode",
+          "message": "You must select at least one sale method and enter the required prices.",
+          "details": "ConstraintViolationException.AtLeastOneMode",
+          "path": "sellingMode.null",
+          "userMessage": "Musisz wybrać przynajmniej jeden sposób sprzedaży oraz podać wymagane ceny.",
+          "metadata": {}
+        }
+      ],
+      "warnings": [],
+      "validatedAt": "2026-06-16T09:17:58.287Z"
+    },
+    "createdAt": "2026-06-16T09:17:15.000Z",
+    "updatedAt": "2026-06-16T09:17:58.288Z"
+  },
+  {
+    "name": "Sunsport Tablica z obręczą do koszykówki",
+    "productSet": [
+      {
+        "product": {
+          "id": "c550606e-1bcf-4f93-a41a-e0fe6b6c4d43",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "SFGW"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "bez marki"
+              ],
+              "valuesIds": [
+                "248811_958954"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "3475",
+              "name": "Wiek dziecka",
+              "values": [
+                "4 lata +"
+              ],
+              "valuesIds": [
+                "3475_50"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "249512",
+              "name": "Kolor",
+              "values": [
+                "czarny"
+              ],
+              "valuesIds": [
+                "249512_1647413"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "250792",
+              "name": "Kod taryfy celnej",
+              "values": [
+                "95069990"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": null,
+        "safetyInformation": null,
+        "marketedBeforeGPSRObligation": null,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/115d8d/d6cc62154ce89421baeb660d477c"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": null
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": "BUY_NOW",
+      "price": null,
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 0,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": null,
+      "handlingTime": "PT24H",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<h2>Sunsport Tablica z obręczą do koszykówki</h2> <p>Tablica do koszykówki PCV. Świetny sprzęt do gry dla najmłodszych.</p> <p>W skład zestawu wchodzi - Tablica do koszykówki PCV - metalowa obręcz (45cm) - siatka na obręcz.</p>"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/115d8d/d6cc62154ce89421baeb660d477c"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "86318"
+    },
+    "taxSettings": null,
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18661395165",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": []
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "code": "EMPTY_SHIPPING_RATES",
+          "message": "No shipping rates set.",
+          "details": "NON_BLOCKING",
+          "path": "delivery.shippingRates.id",
+          "userMessage": "No shipping price list set.",
+          "metadata": {}
+        },
+        {
+          "code": "RESPONSIBLE_PRODUCER_NOT_SPECIFIED",
+          "message": "Responsible producer is required for every product in the offer",
+          "details": null,
+          "path": "productSet[0].responsibleProducer",
+          "userMessage": "Producent odpowiedzialny jest obowiązkowy dla każdego produktu w ofercie",
+          "metadata": {}
+        },
+        {
+          "code": "SAFETY_INFO_NOT_DEFINED",
+          "message": "Safety information was not defined for product",
+          "details": null,
+          "path": "productSet[0].safetyInformation",
+          "userMessage": "Informacja o bezpieczeństwie nie została zdefiniowana dla produktu",
+          "metadata": {}
+        }
+      ],
+      "warnings": [],
+      "validatedAt": "2026-06-11T14:48:53.406Z"
+    },
+    "createdAt": "2026-06-11T14:48:53.000Z",
+    "updatedAt": "2026-06-11T14:48:53.421Z"
+  },
+  {
+    "name": "Szkolna kolorowa kreda Buiten Speel",
+    "productSet": [
+      {
+        "product": {
+          "id": "196ca41a-a5bb-45ee-b9a7-789b627fc923",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "GA06-1"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "bez marki"
+              ],
+              "valuesIds": [
+                "248811_958954"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "17448",
+              "name": "Waga produktu z opakowaniem jednostkowym",
+              "values": [
+                "0.5"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "221389",
+              "name": "Tematyka",
+              "values": [
+                "inna"
+              ],
+              "valuesIds": [
+                "221389_295353"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "250792",
+              "name": "Kod taryfy celnej",
+              "values": [
+                "39269097"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "5904576959463"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": {
+          "id": "eb3b76d4-fbf8-4743-8fe5-12341de6c528"
+        },
+        "safetyInformation": {
+          "description": "List of safety warnings for health and safety articles based on the requirements of Regulation (EU) 2023/988 on general product safety (GPSR):\n\n1. Eye protection:\n * Use safety glasses or goggles to protect your eyes from chipping, dust, chemicals and other hazards. * Check that the glasses are properly fitted and do not limit the field of vision. * Replace damaged safety glasses. 2. Hearing protection:\n * Use ear cups or anti-noise pads in places with high noise levels to prevent hearing damage. * Regularly check the condition of the ear cups and replace damaged or worn-out items. * Match the anti-noise pads to the ear canal. 3. Respiratory protection:\n * Use a mask or filter half mask in an environment contaminated with dust, smoke, gases or steam. * Choose the right filter for the type of contamination. * Replace filters according to manufacturer's instructions. * Check the tightness of the mask before each use. 4. Head protection:\n * Wear a protective helmet in places where there is a risk of hitting the head with falling objects or when working at height. * Check that the helmet is properly fitted and fastened. * Replace the helmet after each impact, even if no damage is seen. 5. Hand protection:\n * Use protective gloves to protect your hands from cuts, burns, chemicals and other hazards. * Choose gloves that are suitable for the type of work and hazards. * Replace damaged gloves. 6. Foot protection:\n * Wear safety shoes with a steel toe cap and non-slip sole in areas where there is a risk of foot injuries. * Check that the shoes are properly fitted and comfortable. * Replace worn-out shoes. 7. Protective clothing:\n * Use workwear to protect your body from dirt, chemicals, heat and other hazards. * Choose the right clothing for the type of work and hazards. * Make sure your clothing is in good condition and not damaged. 8. Fall protection from height:\n * Use safety harnesses, ropes and other safety devices when working at height. * Check the technical condition of the equipment before each use. * Store your equipment in the right place, as directed by the manufacturer. 9. General warnings:\n * Please refer to the instruction manual and follow the manufacturer’s instructions before using any health and safety article. * Regularly check the technical condition of health and safety items and replace damaged or worn-out items. * Store your health and safety items in a dry and clean place, away from heat and moisture sources. * Use health and safety products for their intended purpose. *Please note that health and safety articles do not provide 100% protection, but significantly reduce the risk of injury.",
+          "type": "TEXT"
+        },
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      },
+      {
+        "id": "229205",
+        "name": "Stan opakowania",
+        "values": [
+          "oryginalne"
+        ],
+        "valuesIds": [
+          "229205_340245"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/118dd9/41ea47ba42ffb3246bcc4de79d54",
+      "https://a.allegroimg.com/original/11052d/b29e0122457e81f279e57599fd8e"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": {
+        "id": "2a867156-e73a-4dbe-9186-eb00d414de77"
+      }
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": "BUY_NOW",
+      "price": {
+        "amount": "5.99",
+        "currency": "PLN"
+      },
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 20,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": {
+        "id": "32a804d6-0252-41cc-a5d9-fd7f8e3e8026"
+      },
+      "handlingTime": "PT0S",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/118dd9/41ea47ba42ffb3246bcc4de79d54"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<h2>Szkolna kolorowa kreda Buiten Speel</h2>\n<p>Buiten Speel</p>\n<p>Kolorowa kreda jest produktem znanym od pokoleń. Przystępna cena i nieograniczone możliwości wykorzystania, zachwycają wszystkich. Kosztuje niewiele, a daje nieopisaną radość z zabawy dzieciom i dorosłym. Możliwości łączenia z sobą kolorów i tworzenia rysunków są nieograniczone. Zabawa w rysowanie kolorową kredą rozwija kreatywność naszych pociech i integrują cała rodzinę (15 sztuk).</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "110251"
+    },
+    "taxSettings": {
+      "subject": null,
+      "exemption": null,
+      "rates": [
+        {
+          "rate": "23.00",
+          "countryCode": "PL"
+        }
+      ]
+    },
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": {
+          "price": {
+            "amount": "5.99",
+            "currency": "PLN"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": {
+          "price": {
+            "amount": "1.41",
+            "currency": "EUR"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "34.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "34.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18653060252",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": [
+          {
+            "id": "allegro-business-pl"
+          },
+          {
+            "id": "allegro-sk"
+          },
+          {
+            "id": "allegro-cz"
+          },
+          {
+            "id": "allegro-business-cz"
+          }
+        ]
+      }
+    },
+    "validation": {
+      "errors": [],
+      "warnings": [],
+      "validatedAt": "2026-06-08T14:16:17.337Z"
+    },
+    "createdAt": "2026-06-08T14:16:17.000Z",
+    "updatedAt": "2026-06-08T14:16:26.468Z"
+  },
+  {
+    "name": "Huśtawka drewniana spodek Buiten Speel",
+    "productSet": [
+      {
+        "product": {
+          "id": "ead7edbb-50b4-4cdf-9b81-a1f512c9993d",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "Buiten Speel"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "Buiten Speel"
+              ],
+              "valuesIds": [
+                "248811_2021060"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "3475",
+              "name": "Wiek dziecka",
+              "values": [
+                "18 m +"
+              ],
+              "valuesIds": [
+                "3475_35"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "6941213787750"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": {
+          "id": "eb3b76d4-fbf8-4743-8fe5-12341de6c528"
+        },
+        "safetyInformation": null,
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      },
+      {
+        "id": "229205",
+        "name": "Stan opakowania",
+        "values": [
+          "oryginalne"
+        ],
+        "valuesIds": [
+          "229205_340245"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/11fd6f/48958b534e7eba6396ca609148d4",
+      "https://a.allegroimg.com/original/11052d/b29e0122457e81f279e57599fd8e"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": {
+        "id": "2a867156-e73a-4dbe-9186-eb00d414de77"
+      }
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": "BUY_NOW",
+      "price": {
+        "amount": "99.00",
+        "currency": "PLN"
+      },
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 9,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": {
+        "id": "32a804d6-0252-41cc-a5d9-fd7f8e3e8026"
+      },
+      "handlingTime": "PT0S",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/11fd6f/48958b534e7eba6396ca609148d4"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<h2>Huśtawka drewniana spodek Buiten Speel</h2>\n<p>Buiten Speel</p>\n<p>Huśtawka wykonana z wysokiej jakości wytrzymałego drewna, zawieszona na grubej linie z wytrzymałymi obręczami. Idealna na grubą boczną gałąź w Twoim ogrodzie. Fantastyczna dla każdego. Spróbuj.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "86318"
+    },
+    "taxSettings": {
+      "subject": null,
+      "exemption": null,
+      "rates": [
+        {
+          "rate": "23.00",
+          "countryCode": "PL"
+        }
+      ]
+    },
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": {
+          "price": {
+            "amount": "99.00",
+            "currency": "PLN"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": {
+          "price": {
+            "amount": "23.38",
+            "currency": "EUR"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "565.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "565.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18653060094",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": [
+          {
+            "id": "allegro-business-pl"
+          },
+          {
+            "id": "allegro-sk"
+          },
+          {
+            "id": "allegro-cz"
+          },
+          {
+            "id": "allegro-business-cz"
+          }
+        ]
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "code": "SAFETY_INFO_NOT_DEFINED",
+          "message": "Safety information was not defined for product",
+          "details": null,
+          "path": "productSet[0].safetyInformation",
+          "userMessage": "Informacja o bezpieczeństwie nie została zdefiniowana dla produktu",
+          "metadata": {}
+        }
+      ],
+      "warnings": [],
+      "validatedAt": "2026-06-08T14:16:11.864Z"
+    },
+    "createdAt": "2026-06-08T14:16:11.000Z",
+    "updatedAt": "2026-06-08T14:16:21.026Z"
+  },
+  {
+    "name": "Gokart na pedały dla dzieci BERG Buzzy Bloom od 2 lat",
+    "productSet": [
+      {
+        "product": {
+          "id": "5b2efda4-196b-4051-8097-09a5a61d6de2",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "8715839059434"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "Berg"
+              ],
+              "valuesIds": [
+                "248811_1076734"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "237174",
+              "name": "Szerokość pojazdu",
+              "values": [
+                "49"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "3475",
+              "name": "Wiek dziecka",
+              "values": [
+                "2 lata +"
+              ],
+              "valuesIds": [
+                "3475_40"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "244241",
+              "name": "Rodzaj",
+              "values": [
+                "na pedały"
+              ],
+              "valuesIds": [
+                "244241_498205"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "249512",
+              "name": "Kolor",
+              "values": [
+                "wielokolorowy"
+              ],
+              "valuesIds": [
+                "249512_1647428"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "237178",
+              "name": "Maksymalne obciążenie",
+              "values": [
+                "30"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "237170",
+              "name": "Długość pojazdu",
+              "values": [
+                "83"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "18137",
+              "name": "Certyfikaty, opinie, atesty",
+              "values": [
+                "CE",
+                "EN 71",
+                "TUV"
+              ],
+              "valuesIds": [
+                "18137_8",
+                "18137_16",
+                "18137_1190252"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "250061",
+              "name": "Informacje dot. bezpieczeństwa i zgodności produktu",
+              "values": [
+                "Do użytku pod bezpośrednim nadzorem osoby dorosłej",
+                "Konieczność stosowania środków ochronnych. Nie używać w ruchu ulicznym"
+              ],
+              "valuesIds": [
+                "250061_1794297",
+                "250061_1794299"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "250792",
+              "name": "Kod taryfy celnej",
+              "values": [
+                "95030010"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "8715839059434"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": {
+          "id": "949aeb69-a0ff-41a1-ba93-84c49afa2433"
+        },
+        "safetyInformation": {
+          "description": "List of go-kart safety warnings based on the requirements of General Product Safety Regulation (EU) 2023/988 (GPSR):\n\n1. Risk of Injury:\n* Use the kart only in places intended for this purpose, away from traffic and obstacles. * Always wear a helmet, knee and elbow pads, and appropriate footwear. * Check that the go-kart is in good working condition before each use. * Adjust the speed to suit your child's skills and off-road conditions. * Supervise your child while driving. 2. Risk of Imprisonment:\n* Make sure your child does not have loose clothes or strings that could screw into the moving parts of the go-kart. * Regularly check the technical condition of your vehicle, including screw connections. * Explain to your child the danger of contact with moving parts. 3. Fire Risk:\n* Do not store the go-kart near sources of fire and heat. * If the go-kart is electric, regularly check the status of batteries and wires. 4. Risk of Overload:\n* Observe the maximum load on the kart to avoid damage and loss of control. 5. Allergy risk:\n* If the go-kart has elements made of materials that can cause allergic reactions, make sure that the child is not allergic to them. If an allergic reaction occurs, discontinue use immediately. 6. Battery warnings (if applicable):\n* Batteries may contain hazardous substances. Dispose of used batteries appropriately, in accordance with local regulations. * Do not mix batteries of different types and do not charge disposable batteries. * Make sure the battery compartment is securely closed. 7. Small element warnings:\n* The kart may contain small elements that may pose a choking hazard for young children. Keep small items away from children under 3 years old. 8. Storage:\n* Store your kart in a dry and safe place, away from extreme temperatures and moisture.",
+          "type": "TEXT"
+        },
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      },
+      {
+        "id": "229205",
+        "name": "Stan opakowania",
+        "values": [
+          "oryginalne"
+        ],
+        "valuesIds": [
+          "229205_340245"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/11e011/1c0c60864fef9350aca75e001e39",
+      "https://a.allegroimg.com/original/11f5a4/0dc513c04cf99ad6eb522d355253",
+      "https://a.allegroimg.com/original/11390e/3a5a1fea4b49858316a6aa2310f5",
+      "https://a.allegroimg.com/original/1125eb/cfac26314d979d525b42885d5b70"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": null
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": null,
+      "price": null,
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 0,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": {
+        "id": "fe3bdc6a-5b20-4a30-807e-87c5b76554e1"
+      },
+      "handlingTime": "PT24H",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<h1>Gokart na pedały dla dzieci | BERG Buzzy Bloom| Bezpieczny i stabilny pierwszy gokart dla dzieci (2–5 lat)</h1> <p>BERG Buzzy Bloom to stabilny gokart na pedały zaprojektowany z myślą o najmłodszych dzieciach, które rozpoczynają swoją przygodę z samodzielną jazdą. Konstrukcja oparta na czterech kołach zapewnia większą stabilność i pewniejsze prowadzenie w porównaniu do pojazdów trójkołowych. Dzięki temu dziecko może swobodnie pedałować i skręcać, stopniowo ucząc się kontroli nad pojazdem podczas codziennej zabawy na świeżym powietrzu.</p> <p>Pedały oraz kierownica działają niezależnie od siebie, co sprawia, że nawet podczas skręcania stopy dziecka pozostają stabilnie na pedałach. Jazda jest płynna i intuicyjna, a poruszanie się do przodu i do tyłu odbywa się w naturalny sposób. To rozwiązanie idealnie sprawdza się u dzieci, które dopiero uczą się pedałowania i rozwijają koordynację ruchową.</p> <h2>Bezpieczna konstrukcja i użytkowanie</h2> <p>BERG Buzzy Bloom przeznaczony jest do zabawy na bezpiecznych, płaskich nawierzchniach, takich jak podjazd, chodnik osiedlowy czy plac zabaw. Produkt nie jest przeznaczony do użytku na drogach publicznych, a podczas jazdy zalecany jest nadzór osoby dorosłej. Model nie posiada hamulca, dlatego przy szybszej jeździe należy unikać gwałtownych skrętów.</p> <h2>Opony EVA i dopasowanie do dziecka</h2> <p>Gokart wyposażono w opony z pianki EVA, które są ciche, odporne na przebicia i nie wymagają pompowania. Zapewniają one komfortową i stabilną jazdę oraz sprawiają, że BERG Buzzy Bloom może być używany zarówno na zewnątrz, jak i w zamkniętych przestrzeniach. Regulowane siedzisko umożliwia dopasowanie gokarta do wzrostu dziecka, dzięki czemu pojazd rośnie razem z nim.</p> <h2>Wyjątkowy wygląd BERG Buzzy Bloom</h2> <p>Model BERG Buzzy Bloom wyróżnia się przyjaznym, dziecięcym wyglądem inspirowanym motywami kwiatowymi. Delikatna kolorystyka i dekoracyjne detale sprawiają, że gokart od razu przyciąga uwagę i doskonale wpisuje się w świat dziecięcej zabawy, zachowując jednocześnie solidną jakość wykonania charakterystyczną dla marki BERG.</p> <h2>Koszyk na zabawki z przodu gokarta</h2> <p>BERG Buzzy Bloom został wyposażony w praktyczny koszyk zamontowany z przodu gokarta. Pozwala on dziecku zabrać ze sobą ulubione zabawki, pluszaki lub inne drobiazgi potrzebne do zabawy. Koszyk wzbogaca doświadczenie jazdy i sprawia, że każda przejażdżka staje się elementem kreatywnej zabawy.</p> <h2>Przechowywanie i konserwacja</h2> <p>Aby zachować gokart w dobrym stanie, zaleca się przechowywanie go w suchym miejscu, z dala od wilgoci. Przed jazdą warto regularnie sprawdzać stan podstawowych elementów, takich jak kierownica, napęd oraz koła, aby upewnić się, że produkt działa prawidłowo.</p> <h2>Najważniejsze cechy</h2> <ul> <li>Stabilna konstrukcja oparta na czterech kołach</li> <li>Intuicyjna jazda na pedałach, do przodu i do tyłu</li> <li>Niezależne działanie pedałów i kierownicy</li> <li>Opony z pianki EVA, ciche i odporne na przebicia</li> <li>Regulowane siedzisko dopasowane do wzrostu dziecka</li> <li>Dekoracyjny design inspirowany motywami kwiatowymi</li> <li>Praktyczny koszyk z przodu na zabawki i drobiazgi</li> </ul> <h2>Informacje bezpieczeństwa</h2> <p>Nadzór osoby dorosłej jest wymagany. Produkt nie może być używany na drogach publicznych. Gokart nie posiada hamulca. Należy unikać ostrych skrętów przy dużej prędkości. Produkt przeznaczony jest do użytkowania na bezpiecznych, płaskich nawierzchniach.</p>"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/11e011/1c0c60864fef9350aca75e001e39"
+            },
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/11f5a4/0dc513c04cf99ad6eb522d355253"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/11390e/3a5a1fea4b49858316a6aa2310f5"
+            },
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/1125eb/cfac26314d979d525b42885d5b70"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "86413"
+    },
+    "taxSettings": null,
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18652494241",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": []
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "code": "ConstraintViolationException.AtLeastOneMode",
+          "message": "You must select at least one sale method and enter the required prices.",
+          "details": "ConstraintViolationException.AtLeastOneMode",
+          "path": "sellingMode.null",
+          "userMessage": "Musisz wybrać przynajmniej jeden sposób sprzedaży oraz podać wymagane ceny.",
+          "metadata": {}
+        }
+      ],
+      "warnings": [],
+      "validatedAt": "2026-06-08T10:00:19.039Z"
+    },
+    "createdAt": "2026-06-08T09:59:26.000Z",
+    "updatedAt": "2026-06-08T10:00:28.249Z"
+  },
+  {
+    "name": "Zestaw do koszykówki Exit Toys edycja czarna",
+    "productSet": [
+      {
+        "product": {
+          "id": "81cfc2f5-f00f-4e32-a6bf-276a6df5b38e",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "46.11.10.00"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "Exit Toys"
+              ],
+              "valuesIds": [
+                "248811_2021861"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "237206",
+              "name": "Model",
+              "values": [
+                "edycja czarna"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "216337",
+              "name": "Typ",
+              "values": [
+                "na zewnątrz (outdoor)"
+              ],
+              "valuesIds": [
+                "216337_273945"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "216341",
+              "name": "Rodzaj",
+              "values": [
+                "zestaw"
+              ],
+              "valuesIds": [
+                "216341_273969"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "250792",
+              "name": "Kod taryfy celnej",
+              "values": [
+                "95069990"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "8719874704335"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": {
+          "id": "d32a0fb3-827c-449b-8b6b-f9668070bf3a"
+        },
+        "safetyInformation": {
+          "description": "List of safety warnings for baskets, boards and rims based on the requirements of Regulation (EU) 2023/988 on general product safety (GPSR):\n\n1. Assembly:\n * Make sure the installation of the basket complies with the manufacturer's instructions. Incorrect installation can lead to falls and injuries. * Check the stability of the structure after installation. 2. Usage:\n * Do not hang on the rim. This can cause damage or fall of the entire structure. * Use the basket as intended. Avoid overloading. 3. Weather conditions:\n * For portable baskets, protect the basket from strong winds. * Regularly check the condition of the basket, especially after extreme weather conditions (strong wind, frost, heat). 4. Maintenance:\n * Regularly check the condition of bolts, nuts and other fasteners. Tighten them if needed. * Clean the board regularly to ensure good visibility. 5. Child safety:\n * Supervise children while they play. Make sure that they do not climb the structure and do not use it in a dangerous way. * Make sure that the basketball basket does not pose a threat to children. 6. Damage\n * If I notice any mechanical damage or cracks - do not use the equipment!",
+          "type": "TEXT"
+        },
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/110d1b/a23faa954424a822d75f45de6513"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": null
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": null,
+      "price": null,
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 0,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": null,
+      "handlingTime": "PT24H",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    "external": null,
+    "category": {
+      "id": "121804"
+    },
+    "taxSettings": null,
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18652448967",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": []
+      }
+    },
+    "validation": {
+      "errors": [
+        {
+          "code": "EMPTY_SHIPPING_RATES",
+          "message": "No shipping rates set.",
+          "details": "NON_BLOCKING",
+          "path": "delivery.shippingRates.id",
+          "userMessage": "No shipping price list set.",
+          "metadata": {}
+        },
+        {
+          "code": "ConstraintViolationException.AtLeastOneMode",
+          "message": "You must select at least one sale method and enter the required prices.",
+          "details": "ConstraintViolationException.AtLeastOneMode",
+          "path": "sellingMode.null",
+          "userMessage": "Musisz wybrać przynajmniej jeden sposób sprzedaży oraz podać wymagane ceny.",
+          "metadata": {}
+        }
+      ],
+      "warnings": [],
+      "validatedAt": "2026-06-08T09:37:22.518Z"
+    },
+    "createdAt": "2026-06-08T09:37:11.000Z",
+    "updatedAt": "2026-06-08T09:37:22.519Z"
+  },
+  {
+    "name": "Zestaw ATV Black & Decker",
+    "productSet": [
+      {
+        "product": {
+          "id": "00f407cc-f14b-4d91-ab1a-1fb8b677bad6",
+          "publication": {
+            "status": "LISTED"
+          },
+          "parameters": [
+            {
+              "id": "248811",
+              "name": "Marka",
+              "values": [
+                "Jano"
+              ],
+              "valuesIds": [
+                "248811_950696"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "247181",
+              "name": "Średnica przyłącza",
+              "values": [
+                "2''"
+              ],
+              "valuesIds": [
+                "247181_652341"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "224017",
+              "name": "Kod producenta",
+              "values": [
+                "694"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            },
+            {
+              "id": "223993",
+              "name": "Rodzaj",
+              "values": [
+                "spustowy"
+              ],
+              "valuesIds": [
+                "223993_1935112"
+              ],
+              "rangeValue": null
+            },
+            {
+              "id": "225693",
+              "name": "EAN (GTIN)",
+              "values": [
+                "5908289686524"
+              ],
+              "valuesIds": null,
+              "rangeValue": null
+            }
+          ],
+          "isAiCoCreated": true
+        },
+        "quantity": {
+          "value": 1
+        },
+        "responsiblePerson": null,
+        "responsibleProducer": {
+          "id": "2b316e4c-c093-4a05-9b4f-3975c0828fc3"
+        },
+        "safetyInformation": {
+          "description": "List of valve safety warnings based on the requirements of General Product Safety Regulation (EU) 2023/988 (GPSR):\n\n* Application: Make sure the valve is suitable for the medium (water, gas, oil) and working pressure in your installation. Incorrect selection can cause leaks, damage or failures. * Installation: When installing the valve, disconnect the installation power supply. Incorrect installation can lead to leaks, damage to installations or electrical shocks in the case of electrical installations. * Tightness: Check the tightness of valve connections after installation and before starting the installation. Leaky connections can cause medium loss, material damage or health risks. * Temperature: Do not exceed the acceptable operating temperature of the valve. Too high a temperature can damage the valve or cause it to fail. * Freezing Protection: Protect your valves from freezing, especially in outdoor installations. Frozen water can blow up the valve. * Sharp edges: Watch out for sharp edges and other potential hazards when manipulating the valve. You can cut yourself. * Maintenance: Regularly check the condition of the valves and carry out maintenance according to the manufacturer's recommendations. Maintenance negligence can lead to failure. * Disposal: Dispose of used valves in accordance with local regulations. Improper disposal can harm the environment. * Kids: Keep valves and accessories out of reach of children. Small elements can pose a choking hazard. * Failure: In case of valve failure, disconnect the installation immediately and contact a qualified specialist.",
+          "type": "TEXT"
+        },
+        "marketedBeforeGPSRObligation": false,
+        "deposits": []
+      }
+    ],
+    "parameters": [
+      {
+        "id": "11323",
+        "name": "Stan",
+        "values": [
+          "Nowy"
+        ],
+        "valuesIds": [
+          "11323_1"
+        ],
+        "rangeValue": null
+      }
+    ],
+    "images": [
+      "https://a.allegroimg.com/original/11ec62/ee9b792543138c613375597b9601",
+      "https://a.allegroimg.com/original/11052d/b29e0122457e81f279e57599fd8e"
+    ],
+    "afterSalesServices": {
+      "impliedWarranty": {
+        "id": "346add48-67b3-4920-96d1-bf1fd5b8e550"
+      },
+      "returnPolicy": {
+        "id": "4b517c53-35b0-4bb4-9f0e-4be83c64c59d"
+      },
+      "warranty": {
+        "id": "2a867156-e73a-4dbe-9186-eb00d414de77"
+      }
+    },
+    "payments": {
+      "invoice": "VAT"
+    },
+    "sellingMode": {
+      "format": "BUY_NOW",
+      "price": {
+        "amount": "49.99",
+        "currency": "PLN"
+      },
+      "startingPrice": null,
+      "minimalPrice": null
+    },
+    "stock": {
+      "available": 10,
+      "unit": "UNIT"
+    },
+    "location": {
+      "countryCode": "PL",
+      "province": "KUJAWSKO_POMORSKIE",
+      "city": "Wąbrzeźno",
+      "postCode": "87-200"
+    },
+    "delivery": {
+      "shippingRates": {
+        "id": "32a804d6-0252-41cc-a5d9-fd7f8e3e8026"
+      },
+      "handlingTime": "PT0S",
+      "additionalInfo": null,
+      "shipmentDate": null
+    },
+    "description": {
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "IMAGE",
+              "url": "https://a.allegroimg.com/original/11ec62/ee9b792543138c613375597b9601"
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "type": "TEXT",
+              "content": "<h2>Zestaw ATV Black &amp; Decker</h2>\n<p>Stanley Junior</p>\n<p>Zestaw DIY - Quad metalowy do złożenia Zestaw do składania ATV od Black + Decker został stworzony z myślą o dzieciach powyżej 8 roku życia , które uwielbiają majsterkować i tworzyć od podstaw własne projekty! Tym razem do połączenia jest 50 metalowych elementów , które tworzą szaro-czerwonego quada z czarnymi kołami. Ogromną radość sprawia dzieciom nie tylko sam montaż, ale również późniejsza zabawa pojazdem. Do zestawu dołączono łatwą i przejrzystą instrukcję, dzięki której składanie staje się przyjemnością. Zabawka konstrukcyjna dla ośmiolatka Zabawki STEM to wspaniała okazja do nauki poprzez zabawę. Uczą cierpliwości, logicznego, nieszablonowego myślenia i rozwijają kreatywność! Inspirują do samodzielnej pracy, która owocuje satysfakcją i dumą z realizowanych projektów. Ten niezwykły pojazd może okazać się zarówno częścią kolekcji, jak i bohaterem wielu wyścigów! Quad do składania jest idealnym upominkiem dla najmłodszych fanów motoryzacji i majsterkowania! Cechy: od 8 lat ilość części: 50 DIY – Zrób to sam!  STEM</p>"
+            }
+          ]
+        }
+      ]
+    },
+    "external": {
+      "id": "694"
+    },
+    "category": {
+      "id": "111857"
+    },
+    "taxSettings": {
+      "subject": null,
+      "exemption": null,
+      "rates": [
+        {
+          "rate": "23.00",
+          "countryCode": "PL"
+        }
+      ]
+    },
+    "sizeTable": null,
+    "discounts": {
+      "wholesalePriceList": null
+    },
+    "contact": null,
+    "fundraisingCampaign": null,
+    "messageToSellerSettings": {
+      "mode": "OPTIONAL"
+    },
+    "attachments": [],
+    "b2b": null,
+    "additionalServices": null,
+    "compatibilityList": null,
+    "additionalMarketplaces": {
+      "allegro-business-pl": {
+        "sellingMode": {
+          "price": {
+            "amount": "49.99",
+            "currency": "PLN"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-sk": {
+        "sellingMode": {
+          "price": {
+            "amount": "11.74",
+            "currency": "EUR"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "287.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      },
+      "allegro-hu": {
+        "sellingMode": null,
+        "publication": {
+          "state": "NOT_REQUESTED",
+          "refusalReasons": []
+        }
+      },
+      "allegro-business-cz": {
+        "sellingMode": {
+          "price": {
+            "amount": "287.00",
+            "currency": "CZK"
+          }
+        },
+        "publication": {
+          "state": "PENDING",
+          "refusalReasons": []
+        }
+      }
+    },
+    "warnings": [],
+    "id": "18407241386",
+    "language": "pl-PL",
+    "publication": {
+      "status": "INACTIVE",
+      "duration": null,
+      "endedBy": null,
+      "endingAt": null,
+      "startingAt": null,
+      "republish": false,
+      "marketplaces": {
+        "base": {
+          "id": "allegro-pl"
+        },
+        "additional": [
+          {
+            "id": "allegro-business-pl"
+          },
+          {
+            "id": "allegro-sk"
+          },
+          {
+            "id": "allegro-cz"
+          },
+          {
+            "id": "allegro-business-cz"
+          }
+        ]
+      }
+    },
+    "validation": {
+      "errors": [],
+      "warnings": [],
+      "validatedAt": "2026-03-13T03:48:34.345Z"
+    },
+    "createdAt": "2026-03-13T03:48:34.000Z",
+    "updatedAt": "2026-03-13T03:48:43.492Z"
+  }
+]
