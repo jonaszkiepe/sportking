@@ -41,16 +41,18 @@ def fetch(url):
 
 
 def scrape(article):
+    d = OUTDIR / article
+    if d.is_dir() and any(d.glob("*.jpg")):
+        return -1  # already have it -> resumable: skip
     saved = 0
     for n in range(1, MAX_PER + 1):
         b = fetch(IMG.format(art=article, n=n))
+        time.sleep(0.12)  # gentle on every request, incl. the 404 probe
         if b is None:
             break  # images are sequential from _1; first gap = done
-        d = OUTDIR / article
         d.mkdir(parents=True, exist_ok=True)
         (d / f"{n:02d}.jpg").write_bytes(b)
         saved += 1
-        time.sleep(0.15)
     return saved
 
 
@@ -80,19 +82,19 @@ def main():
     if not articles:
         sys.exit("pass --inventory, --all, or article numbers")
 
-    print(f"scraping {len(articles)} articles from Dealerzone (large/1024px)...")
-    with_photos = total = 0
+    print(f"scraping {len(articles)} articles from Dealerzone (large/1024px)...", flush=True)
+    with_photos = total = skipped = 0
     for i, art in enumerate(articles, 1):
         n = scrape(art)
-        if n:
+        if n == -1:
+            skipped += 1
+        elif n:
             with_photos += 1
             total += n
-        if i % 25 == 0 or n:
-            print(f"  [{i}/{len(articles)}] {art}: {n} imgs")
-    print(f"\ndone: {with_photos}/{len(articles)} articles got photos, {total} images -> {OUTDIR.relative_to(ROOT)}")
-    missing = [a for a in articles if not (OUTDIR / a).is_dir()]
-    if missing:
-        print(f"no photo on Dealerzone for {len(missing)}: {', '.join(missing[:12])}{' ...' if len(missing) > 12 else ''}")
+        if i % 100 == 0 or (n and n > 0):
+            print(f"  [{i}/{len(articles)}] {art}: {'skip' if n == -1 else n} | so far {with_photos} with photos, {total} imgs", flush=True)
+    print(f"\ndone: {with_photos}/{len(articles) - skipped} newly scraped got photos, "
+          f"{total} images ({skipped} already present) -> {OUTDIR.relative_to(ROOT)}", flush=True)
 
 
 if __name__ == "__main__":
