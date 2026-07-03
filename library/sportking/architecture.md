@@ -32,13 +32,19 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   BaseLinker (ids above). Direct Allegro REST access not set up (would need OAuth
   per account) — only needed if BaseLinker's view proves insufficient.
 
-## Catalog & business context (from public site, 2026-07-03)
+## Catalog & business context
+> **⚠ Reconstruction (decided 2026-07-03):** the existing PrestaShop catalog is
+> legacy — all its products will be gone. Only `sklep_veloking` Allegro listings
+> stay. The new catalog comes from the physical warehouse count (scanner → EAN
+> list, incoming). Old-catalog facts below are reference material only.
+
 - Outdoor/kids gear: trampolines, go-karts, swings, sandboxes, playhouses, kites,
   scooters, balance bikes, sports equipment, wooden toys/furniture.
 - Brands: **BERG** and **EXIT Toys** (confirmed main partners), plus Didakites
   (kites), Gepetto (own-brand wooden toys), Buiten Speel. Polish/PLN only.
-- Mostly local sales; shop has been stale — current goal is revival. A "-15%" kite
-  promo spans 20+ products (freshness unknown).
+- Legacy catalog (audited 2026-07-03): 511 active products; photos + name/EAN
+  data preserved in `allegro-photos/` + `manifest.csv` for reuse when creating
+  the new listings.
 
 ## Server layout (verified 2026-07-03 via SSH, read-only)
 - PrestaShop **9.0.3** at `/home/henrik/sportking/` (henrik = colleague who

@@ -1,21 +1,27 @@
-(pulled: _meta/project-rules, sportking/architecture — updating both as I go)
+(pulled: architecture, project-rules — VPS rules apply; recon is read-only)
 
-Working through the batch: commit `library/workflow`, read-only recon on the VPS, enumerate Allegro connections via BaseLinker, then tell you what's still needed.
+Key received — testing my dedicated key, then I'll do the read-only PrestaShop recon to build that EAN→photos mapping:
 
-Done — everything committed. Here's where each item stands:
+SSH works. The shop isn't in `/var/www/html` — checking Apache vhosts for the real docroot:
 
-**1. PrestaShop — what I need: just the SSH key authorized (item 3), nothing else.** Once I'm on the VPS I can read the PrestaShop version, PHP stack, theme, modules, and DB config directly from the filesystem — no back-office login needed for the audit. If we later want to change settings that only live in the admin panel, I'd ask for back-office access then.
+The shop lives at `/home/henrik/sportking/` (henrik = your colleague, presumably). Checking version and DB config:
 
-**2. Allegro — no access needed right now.** All three accounts are already connected to BaseLinker and visible through the API token you gave me: `sklep_sportking` (4448), `sklep_Inkontor` (26050), `sklep_veloking` (50219). I can audit orders and listing state through BaseLinker read-only. Direct Allegro access (OAuth per account) is only worth setting up if BaseLinker's view turns out to be insufficient — I'll tell you if we hit that wall. Interesting find along the way: the PrestaShop↔BaseLinker product connection is **read-only** (`write: false`) — BaseLinker currently can't push product data to the shop. Worth confirming whether that's intentional.
+175 MB of originals — small enough to just pull. Rsyncing them down (read-only on the server side), then building the EAN tree:
 
-**3. Hetzner VPS — one command needed from you.** Your `id_ed25519` key is passphrase-protected, so it works for you interactively but not for my non-interactive shell. I generated a dedicated key for this machine (`~/.ssh/sportking_claude`, same pattern as your veloking keys). To authorize it, run in your terminal (it'll ask for your usual passphrase once):
+The shell was still cd'd into `photos/zdj` — retrying from the repo root:
 
-```
-ssh-copy-id -i ~/.ssh/sportking_claude.pub sportking
-```
+All done. Here's the rundown:
 
-Then tell me and I'll verify with a read-only probe. On safety, agreed and now written into project-rules as hard rules: since there's **no deploy script**, every server change is a live edit — so I'll always (a) recommend and take a backup first (`cp file file.bak-<date>` / `mysqldump` for DB, with the restore command stated), (b) show you the exact commands and old→new diff before running anything, (c) one change at a time, verifying the site responds after each. Recon stays read-only.
+**The deliverable — `~/sportking/allegro-photos/` is built** (177 MB, git-ignored):
+- **`<EAN>/01.jpg, 02.jpg, …`** for the 473 products with an EAN — `01.jpg` is always the shop's cover image, rest follow shop ordering. Pulled fresh from the live DB + original images over SSH (server untouched, read-only).
+- **38 products without EAN** got name-slug dirs (e.g. `gokart-na-pedaly-berg-buddy/`) per your fallback idea.
+- **`manifest.csv`** at the root maps every dir → EAN, product id, reference, full Polish name, image count, and notes. For Allegro bulk-listing this file is the companion piece — you (or I) can work through it row by row.
+- Two edge cases it flags: **7 duplicate EANs** — the same EAN is on two products in the shop, so the second product got a `<ean>-dup-<id>/` dir instead of silently mixing photos; worth a quick look since Allegro will reject duplicate-EAN offers anyway. And **3 active products have no images at all**.
 
-**4. library/workflow — now tracked** and included in the vault commits (it's the last-prompt/last-reply mirror, presumably from a hook).
+**Your `photos/` dir**: found it after the fact — that's the manual export you meant in item 2. Mine supersedes it (correct UTF-8 names, EAN keys, originals only, no size-variant clutter), so `photos/` (334 MB) is yours to delete when ready. Both media dirs are git-ignored now.
 
-Your BaseLinker heads-up is also captured: I added "consult heavily — ask before any call with unclear blast radius" to the safety rules. Backup tech proposal for when we get to writes: every write gets a before-image export to `library/sportking/backups/<date>-<what>.json`, committed to the vault *before* the write executes, so every change has a restorable snapshot in git history. If you want something stronger (e.g. a nightly full-inventory export as a standing safety net), say the word and I'll set it up.
+**Keys question**: nothing to load — since you ran `ssh-copy-id`, my dedicated `sportking_claude` key works directly. Your `keys` alias (ssh-agent + passphrase) wouldn't help my session anyway: each command I run gets a fresh shell, so an agent unlocked in one command is gone by the next. The dedicated-key pattern is the right one; keep your own key as-is.
+
+**PrestaShop stays hands-off** — noted in the vault that henrik maintains it; I only read (DB queries + image files). PrestaShop 9.0.3, DB `sportkingdbs`, docroot `/home/henrik/sportking/` — all recorded in the architecture note, everything committed.
+
+Next step when you're ready: pick a first product (or small batch) from `manifest.csv` and I'll draft the Allegro offer flow through BaseLinker — dry-run first, per the safety rules.

@@ -1,10 +1,7 @@
-# Batch: gathering ingredients
-Reference:
-[heads-up]
-1. Be very careful with baselinker api-calls. Consult with user a lot and create strong backup tech.
-
-Do:
-1. [Prestashop] let me know what you need
-2. [Allegro-connection] there's 3 accounts. i have access to each one if you need access. i'm happy to give you it
-3. [Hetzner VPS] i have ssh acces. it's under ssh sportkingalso be very careful and recommend me to backup before changing anything. and be very specific sine i don't have a deploy script right now.
-4. [library/workflow] everything in the library should be tracked and committed
+# Batch: future plan    
+[Prestashop]
+1. I will leave prestashop alone for now since it's maintained by my colleague. i only need a NAME,EAN,PHOTO-ID mapping from the DB. can i somehow load the keys in the claude session? i have an keys alias
+2. There's is a directory with pictures with each id already grouped.
+3. i want you to make a directory where EAN/*.jpg for each EAN. if no EAN then product name. or maybe you have other suggestions. I need this to add products on allegro. 
+[hetzner]
+1. I copied the key.

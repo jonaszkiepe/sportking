@@ -18,12 +18,20 @@ local and has been stale; current goal is to **revive it**.
 - [[board]] — the plan (big features) · [[log]] — full history (everything, dated).
 
 ## Status (2026-07-03)
-- Vault bootstrapped; baseline context captured. Partners confirmed: BERG + EXIT Toys.
-- Plan: **audit current state first**. Public-site audit done (site live, brands
-  present, TLS healthy) → [[architecture]]. Next: BaseLinker + Allegro audit —
-  waiting on API token / access from the user.
+- **Plan pivot: full catalog reconstruction.** All existing PrestaShop products
+  will be discarded; only the `sklep_veloking` Allegro listings survive. New
+  catalog = whatever the physical warehouse count finds.
+- Warehouse count in progress (user, barcode scanner) → an EAN list will land in
+  this project soon and becomes the source of truth for what to list.
+- Groundwork done: BaseLinker token + VPS access live, full audit of the old
+  catalog (511 products), all product photos exported EAN-keyed to
+  `allegro-photos/` + manifest — ready to match against the scanned EAN list.
 - Live-system safety rules (backup-before-write, read-only default) →
   [[_meta/project-rules]].
 
 ## Key decisions
-- (decisions worth remembering + the why)
+- **2026-07-03 — reconstruct, don't revive.** The stale PrestaShop catalog is
+  not worth salvaging; rebuild from a physical warehouse count (scanner → EAN
+  list). Only `sklep_veloking` Allegro listings stay. Old-catalog data (photos,
+  names, EANs in `allegro-photos/manifest.csv`) is reused as *material* for new
+  listings, not migrated as-is.
