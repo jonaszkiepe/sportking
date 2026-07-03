@@ -40,8 +40,19 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - Mostly local sales; shop has been stale — current goal is revival. A "-15%" kite
   promo spans 20+ products (freshness unknown).
 
+## Server layout (verified 2026-07-03 via SSH, read-only)
+- PrestaShop **9.0.3** at `/home/henrik/sportking/` (henrik = colleague who
+  maintains the shop — **hands off PrestaShop code/config**, user-mandated).
+- DB: MySQL `sportkingdbs`, prefix `ps_`, localhost; creds in
+  `app/config/parameters.php` (read via PHP on the server, never copied out).
+- Catalog: 511 active products, 473 with EAN (38 without, 7 duplicate-EAN
+  groups), 1355 product images (`img/p/`, originals ~175 MB).
+- Photo export: `~/sportking/allegro-photos/<EAN>/NN.jpg` (git-ignored) +
+  `manifest.csv` — built 2026-07-03 for Allegro listing creation; rebuildable
+  (scripts in session scratchpad, method in [[log]]).
+
 ## Unknowns / to verify
-- PrestaShop version, PHP stack, theme/modules (needs SSH or back office)
+- PHP stack details, theme/modules (low priority — PrestaShop stays henrik's)
 - BaseLinker sync config (direction, stock/price source of truth) — token live
   (in `.env` as `baselinker_api`, git-ignored); API verified 2026-07-03: one
   inventory "Sportking" (id 4002, pl, warehouse bl_5086, 2 price groups)
