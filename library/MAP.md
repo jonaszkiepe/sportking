@@ -1,0 +1,29 @@
+---
+type: moc
+audience: both
+updated: 2026-07-03
+summary: The index — every project and note with a one-line summary. Read this first.
+---
+
+# MAP — library index
+
+Read this first; open only what a task needs. See [[_meta/workflow]] for the loop.
+Scan every note's purpose at once: `grep -rh "^summary:" "/home/jonasz/sportking/library" --include=*.md`.
+
+## Projects
+
+| Project | Map | Board (plan) | Log (history) | What |
+|---|---|---|---|---|
+| sportking | [[sportking/_moc]] | [[sportking/board]] | [[sportking/log]] | (one line) |
+
+**Board = big features only (the plan). Log = everything (one dated line per work item).**
+
+## Notes
+
+### sportking
+- [[sportking/architecture]] — **how it works** (to write).
+
+## Meta
+- [[_meta/workflow]] · [[_meta/conventions]] · [[_meta/claude-efficiency]] · [[_meta/prompt-rules]] · [[_meta/suggestions]] · [[_meta/project-rules]]
+- General workflow env lives in the **`~/ai-workflow`** repo, symlinked into `_meta/` + `_templates/`. Project-specific rules: [[_meta/project-rules]] (real file).
+- `_meta/memories/` — Claude's auto-loaded memories (shared across projects; general facts only — see scope-routing).

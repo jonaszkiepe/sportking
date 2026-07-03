@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+*.log
+
+# Obsidian per-machine state (keep the rest of .obsidian if you want shared config)
+library/.obsidian/workspace*
+library/.obsidian/cache
+library/.trash/
+
+# prompt drafting scratch file (working material, not knowledge)
+/prompt.md
+
+# if the code repo lives inside this dir as its own git repo, ignore it here:
+# /app/
