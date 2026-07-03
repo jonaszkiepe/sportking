@@ -1,0 +1,27 @@
+{
+  "captured": "2026-07-03",
+  "account": "sklep_veloking",
+  "source": "BaseLinker Zarządzanie ofertami (offers listed via Base.com), transcribed from panel + verified against PrestaShop by presta_id",
+  "note": "For a fully authoritative export use BaseLinker 'Eksport ofert'. Fields: allegro_id = Allegro auction id, qty_auction/qty_stock as shown, price in PLN.",
+  "count": 18,
+  "offers": [
+    {"allegro_id": "18724225430", "title": "Szczudła BS Toys GA125", "src": "sportking_pr", "presta_id": 163, "ean": "8717775441250", "sku": "GA125", "qty_auction": 2, "qty_stock_shown": 2, "price": 40.00},
+    {"allegro_id": "18724225337", "title": "Tor wodny Exit", "src": "sportking_pr", "presta_id": 1678, "ean": "8720088263013", "sku": "56.20.09.00", "qty_auction": 1, "qty_stock_shown": 1, "price": 1009.00},
+    {"allegro_id": "18724225231", "title": "Bramka do piłki nożnej Flexx składana EXIT", "src": "sportking_pr", "presta_id": 117, "ean": "8718469462360", "sku": "40.00.01.00", "qty_auction": 10, "qty_stock_shown": 7, "price": 89.00},
+    {"allegro_id": "18724224922", "title": "Zmywalne kolorowanki w rozmiarze XL Buiten Speel", "src": "sportking_pr", "presta_id": 176, "ean": "8717775441519", "sku": "GA151", "qty_auction": 5, "qty_stock_shown": 4, "price": 54.00},
+    {"allegro_id": "18724224862", "title": "Buiten Speel - Przybijanka Dino 6+", "src": "sportking_pr", "presta_id": 205, "ean": "8717775442103", "sku": "GA210", "qty_auction": 2, "qty_stock_shown": 18, "price": 64.00},
+    {"allegro_id": "18724224778", "title": "Zabawka stwórz własnego busa Buiten Speel", "src": "sportking_pr", "presta_id": 207, "ean": "8717775442127", "sku": "GA212", "qty_auction": 2, "qty_stock_shown": 21, "price": 64.00},
+    {"allegro_id": "18724224602", "title": "Gokart BERG Rubicon Czerwony", "src": "sportking_pr", "presta_id": 1500, "ean": "8715839066678", "sku": "24.30.13.00", "qty_auction": 5, "qty_stock_shown": 9, "price": 699.99},
+    {"allegro_id": "18724224478", "title": "Gokart na pedały Berg Galaxy", "src": "sportking_pr", "presta_id": 11208, "ean": "8715839080728", "sku": "24.30.07.00", "qty_auction": 1, "qty_stock_shown": 0, "price": 799.99},
+    {"allegro_id": "18724224260", "title": "Rowerek biegowy BERG Biky City Czerwony", "src": "sportking_pr", "presta_id": 11259, "ean": "8715839077766", "sku": "24.75.31.00", "qty_auction": 2, "qty_stock_shown": 3, "price": 469.99},
+    {"allegro_id": "18724224155", "title": "Gokart na pedały Fiat 500", "src": "sportking_pr", "presta_id": 1640, "ean": "8715839050851", "sku": "24.30.10.00", "qty_auction": 1, "qty_stock_shown": 2, "price": 799.99},
+    {"allegro_id": "18724223974", "title": "Zestaw do koszykówki Exit Comet", "src": "sportking_pr", "presta_id": 453, "ean": "8718469466955", "sku": "46.65.10.00", "qty_auction": 1, "qty_stock_shown": 1, "price": 1269.00},
+    {"allegro_id": "18724223806", "title": "Zestaw do koszykówki Exit Galaxy", "src": "Sportking (Katalog)", "presta_id": null, "catalog_id": 1321036659, "ean": "8719874704373", "sku": null, "qty_auction": 2, "qty_stock_shown": 0, "price": 2199.99},
+    {"allegro_id": "18724223727", "title": "Stół do wody i piasku i piknikowy Aksent EXIT (1 ławka) z parasolem", "src": "sportking_pr", "presta_id": 477, "ean": "8718469468911", "sku": "52.05.08.45", "qty_auction": 2, "qty_stock_shown": 5, "price": 509.00},
+    {"allegro_id": "18724223434", "title": "Trenażer ścianka EXIT Kickback Rebounder 84x84 cm", "src": "sportking_pr", "presta_id": 295, "ean": "8718469460724", "sku": "43.01.10.00", "qty_auction": 3, "qty_stock_shown": 4, "price": 380.00},
+    {"allegro_id": "18724223317", "title": "Koło zapasowe do gokartów X-plore BERG", "src": "sportking_pr", "presta_id": 707, "ean": "8715839053227", "sku": "15.63.23.00", "qty_auction": 1, "qty_stock_shown": 2, "price": 489.00},
+    {"allegro_id": "18724223022", "title": "Trampolina EXIT Tiggy dla dziecka 3+ z siatką zabezpieczającą ø140cm czarno", "src": "sportking_pr", "presta_id": 10959, "ean": "8720088262511", "sku": "10.00.70.40", "qty_auction": 3, "qty_stock_shown": 3, "price": 540.00},
+    {"allegro_id": "18724222921", "title": "Rowerek biegowy BERG Biky biały", "src": "sportking_pr", "presta_id": 10, "ean": "8715839025118", "sku": "24.75.02.00", "qty_auction": 4, "qty_stock_shown": 4, "price": 354.00},
+    {"allegro_id": "18724222819", "title": "Trampolina EXIT Tiggy dla dziecka 3+ z siatką zabezpieczającą ø140cm czarno", "src": "sportking_pr", "presta_id": 10959, "ean": "8720088262511", "sku": "10.00.70.40", "qty_auction": 3, "qty_stock_shown": 3, "price": 439.00}
+  ]
+}
