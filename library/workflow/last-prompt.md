@@ -1,1 +1,1 @@
-make a script that does all of this because i'll be executing it after every scan session. create a directory where report/DATE-TIME.csv
+so exittoys has products that consist of other products which is probably why the EAN doesn't much. and it's probably those EANS that don't match to the manifest. how do you propose i solve that problem?

@@ -76,9 +76,26 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 ## Tooling (repo root)
 - **`scan-report.py`** — run after every warehouse scan session (`./scan-report.py`).
   Reads `products/list.xlsx` (scanner output; parses xlsx directly, safe while
-  open in Excel/LibreOffice), joins names from `products/manifest.csv` + photo
-  counts from `products/photos/`, writes `report/<date-time>.csv` and prints a
-  summary incl. bad scans (serial/date codes that need an EAN re-scan).
+  open in Excel/LibreOffice), enriches each EAN against the BERG dealer feed
+  (article no., name, category, dealer price, ACTIVE status) + photo counts,
+  writes a **multi-page** `report/<date-time>.xlsx` (Summary · Inventory ·
+  Unmatched · Bad scans) and refreshes `products/berg-master.csv`.
+- **`berg_feed.py`** — parses `products/dealers/berg-2026.xlsx` into a master
+  keyed by EAN. Links everything on the **article number** (stable; EANs drift
+  yearly). Category = exact pricelist sheet, else inferred from 2-group article
+  prefix (majority vote). Dealer price = pricelist col D (blank = not in 2026
+  range = discontinued). Name/status from Mastersheet.
+- **`lib_xlsx.py`** — dependency-free xlsx read+write (stdlib), so scripts run
+  without openpyxl and read files that are open in Excel.
+- **`products/berg-master.csv`** — store-agnostic product master (article, ean,
+  name, category, dealer_price, status), 6023 rows. The multi-store source of
+  truth; regenerated on every scan-report run. Tracked in git.
+- **`scrape-berg-photos.py`** — article-keyed photo fetch from bergtoys.com
+  (Shopify `products.json`; `variant.sku` = article, filenames embed article+EAN
+  → deterministic mapping). **Limitation found 2026-07-03:** the us.bergtoys.com
+  store carries only 53 articles (0 of our current older/discontinued inventory),
+  and global BERG moved to berg.com (non-Shopify). So this covers only current US
+  range — the real photo source is the BERG **dealer media bank** (see log).
 
 ## Unknowns / to verify
 - PHP stack details, theme/modules (low priority — PrestaShop stays henrik's)
