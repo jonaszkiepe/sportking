@@ -14,14 +14,14 @@ Scan every note's purpose at once: `grep -rh "^summary:" "/home/jonasz/sportking
 
 | Project | Map | Board (plan) | Log (history) | What |
 |---|---|---|---|---|
-| sportking | [[sportking/_moc]] | [[sportking/board]] | [[sportking/log]] | (one line) |
+| sportking | [[sportking/_moc]] | [[sportking/board]] | [[sportking/log]] | PrestaShop shop sportking.pl (Hetzner VPS) + BaseLinker + Allegro; reviving a stale local business |
 
 **Board = big features only (the plan). Log = everything (one dated line per work item).**
 
 ## Notes
 
 ### sportking
-- [[sportking/architecture]] — **how it works** (to write).
+- [[sportking/architecture]] — **how it works** (early draft — stack, hosting, integrations; mostly unverified).
 
 ## Meta
 - [[_meta/workflow]] · [[_meta/conventions]] · [[_meta/claude-efficiency]] · [[_meta/prompt-rules]] · [[_meta/suggestions]] · [[_meta/project-rules]]
