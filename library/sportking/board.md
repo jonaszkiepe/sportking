@@ -10,7 +10,8 @@ kanban-plugin: board
 # sportking — board
 
 ## Backlog
-- [ ] **Photos**: user chose **dealer media bank** (2026-07-03) — user exports BERG asset library from the dealer portal into `products/media-berg/`; Claude builds article-keyed `products/photos-berg/<article>/` from it, merging existing shop export. Awaiting the export file.
+- [ ] **Photos (interim)**: scraping Dealerzone (`scrape-dealerzone-photos.py`, public 1024px, article-keyed) — done for scan batch 1 (16/19 covered w/ legacy export). Next: run `--all` for a full library, decide with user on scope.
+- [ ] **Photos (high-res, later)**: BERG brand portal (Marvia via `brandportal.berg.com`, Imagebank link in Dealerzone) — deferred until after selling starts, needs access enabled (marketing@bergtoys.com).
 - [ ] Add EXIT (+ other) dealer feeds later; generalise `berg_feed.py` per brand
 - [ ] Category map: BERG categories → Allegro / PrestaShop category trees
 - [ ] Create new Allegro listings from the matched stock (via BaseLinker, dry-run + backup per safety rules)

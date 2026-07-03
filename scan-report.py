@@ -24,7 +24,8 @@ from berg_feed import load_master
 
 LIST = ROOT / "products" / "list.xlsx"
 FEED = ROOT / "products" / "dealers" / "berg-2026.xlsx"
-PHOTOS = ROOT / "products" / "photos"
+PHOTOS = ROOT / "products" / "photos"          # legacy shop export, keyed by EAN
+PHOTOS_BERG = ROOT / "products" / "photos-berg"  # Dealerzone/brand assets, keyed by article
 MASTER_CSV = ROOT / "products" / "berg-master.csv"
 REPORT_DIR = ROOT / "report"
 
@@ -47,9 +48,13 @@ def read_scans(path):
     return vals
 
 
-def photo_count(ean):
-    d = PHOTOS / ean
+def _count(d):
     return len(list(d.glob("*.jpg"))) if d.is_dir() else 0
+
+
+def photo_count(ean, article=None):
+    """Photos on hand = legacy EAN-keyed export + Dealerzone/brand article-keyed."""
+    return _count(PHOTOS / ean) + (_count(PHOTOS_BERG / article) if article else 0)
 
 
 def main():
@@ -65,7 +70,7 @@ def main():
     for ean, qty in good.items():
         m = master.get(ean)
         if m:
-            matched.append({"ean": ean, "qty": qty, "photos": photo_count(ean), **m})
+            matched.append({"ean": ean, "qty": qty, "photos": photo_count(ean, m["article"]), **m})
         else:
             unmatched.append({"ean": ean, "qty": qty, "photos": photo_count(ean)})
 

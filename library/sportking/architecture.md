@@ -95,12 +95,23 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - **`products/berg-master.csv`** — store-agnostic product master (article, ean,
   name, category, dealer_price, status), 6023 rows. The multi-store source of
   truth; regenerated on every scan-report run. Tracked in git.
-- **`scrape-berg-photos.py`** — article-keyed photo fetch from bergtoys.com
-  (Shopify `products.json`; `variant.sku` = article, filenames embed article+EAN
-  → deterministic mapping). **Limitation found 2026-07-03:** the us.bergtoys.com
-  store carries only 53 articles (0 of our current older/discontinued inventory),
-  and global BERG moved to berg.com (non-Shopify). So this covers only current US
-  range — the real photo source is the BERG **dealer media bank** (see log).
+- **`scrape-dealerzone-photos.py`** — the working photo source. Dealerzone serves
+  product images at a **public**, predictable URL
+  `dealerzone.net/product/image/large/<article>_<n>.jpg` (no login needed for
+  images; only prices are gated). So it builds `products/photos-berg/<article>/`
+  straight from article numbers in `berg-master.csv` — no page scraping.
+  `--inventory` (scanned articles) / `--all` (whole master) / explicit articles.
+  **Resolution ceiling: `large` = 1024×768** (sizes: small 120×90, medium
+  400×300, large 1024×768; xlarge/zoom/original all 404). Medium quality — fine
+  to start listing; brand-portal Marvia stays the high-res source for later.
+  Coverage: current stock only — older/discontinued articles have no Dealerzone
+  image (fall back to the legacy shop export). Scan batch 1: 6/19 from Dealerzone,
+  16/19 with a photo once combined with the legacy export.
+- **`scrape-berg-photos.py`** — earlier attempt via us.bergtoys.com Shopify;
+  dead end (only 53 articles, 0 of our inventory). Kept for reference only.
+- **`.env` note:** values are wrapped in double quotes; Python parsers must strip
+  them (`.strip().strip('"')`) — an unstripped quote made the Dealerzone login
+  send an invalid email. Shell `export $(… | xargs)` handles quotes already.
 
 ## Unknowns / to verify
 - PHP stack details, theme/modules (low priority — PrestaShop stays henrik's)
