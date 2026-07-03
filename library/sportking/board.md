@@ -10,7 +10,7 @@ kanban-plugin: board
 # sportking — board
 
 ## Backlog
-- [ ] **Photos**: source a full BERG image set — dealer media bank (best) or berg.com scrape; merge with existing export into `products/photos-berg/<article>/`. Decision pending with user.
+- [ ] **Photos**: user chose **dealer media bank** (2026-07-03) — user exports BERG asset library from the dealer portal into `products/media-berg/`; Claude builds article-keyed `products/photos-berg/<article>/` from it, merging existing shop export. Awaiting the export file.
 - [ ] Add EXIT (+ other) dealer feeds later; generalise `berg_feed.py` per brand
 - [ ] Category map: BERG categories → Allegro / PrestaShop category trees
 - [ ] Create new Allegro listings from the matched stock (via BaseLinker, dry-run + backup per safety rules)
