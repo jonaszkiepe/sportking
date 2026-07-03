@@ -43,7 +43,7 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
 - Brands: **BERG** and **EXIT Toys** (confirmed main partners), plus Didakites
   (kites), Gepetto (own-brand wooden toys), Buiten Speel. Polish/PLN only.
 - Legacy catalog (audited 2026-07-03): 511 active products; photos + name/EAN
-  data preserved in `allegro-photos/` + `manifest.csv` for reuse when creating
+  data preserved in `products/photos/` + `products/manifest.csv` for reuse when creating
   the new listings.
 
 ## Server layout (verified 2026-07-03 via SSH, read-only)
@@ -53,7 +53,7 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   `app/config/parameters.php` (read via PHP on the server, never copied out).
 - Catalog: 511 active products, 473 with EAN (38 without, 7 duplicate-EAN
   groups), 1355 product images (`img/p/`, originals ~175 MB).
-- Photo export: `~/sportking/allegro-photos/<EAN>/NN.jpg` (git-ignored) +
+- Photo export: `~/sportking/products/photos/<EAN>/NN.jpg` (git-ignored) +
   `manifest.csv` — built 2026-07-03 for Allegro listing creation; rebuildable
   (scripts in session scratchpad, method in [[log]]).
 

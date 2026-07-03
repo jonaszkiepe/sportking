@@ -10,7 +10,7 @@ kanban-plugin: board
 # sportking — board
 
 ## Backlog
-- [ ] Match scanned EAN list against `allegro-photos/manifest.csv` — what has photos/names ready vs. needs new material
+- [ ] Match scanned EAN list against `products/manifest.csv` — what has photos/names ready vs. needs new material
 - [ ] Create new Allegro listings from the matched stock (via BaseLinker, dry-run + backup per safety rules)
 - [ ] Decide fate of `sportking_pr` shop connection + `sklep_sportking` / `sklep_Inkontor` Allegro accounts
 

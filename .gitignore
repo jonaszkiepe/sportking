@@ -1,9 +1,8 @@
 # secrets — never commit
 .env
 
-# bulk media exported from the shop (rebuildable via scratchpad scripts; see log)
-/allegro-photos/
-/photos/
+# bulk media exported from the shop (rebuildable; see log) — manifest.csv stays tracked
+/products/photos/
 
 # OS / editor junk
 .DS_Store

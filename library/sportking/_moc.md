@@ -25,7 +25,7 @@ local and has been stale; current goal is to **revive it**.
   this project soon and becomes the source of truth for what to list.
 - Groundwork done: BaseLinker token + VPS access live, full audit of the old
   catalog (511 products), all product photos exported EAN-keyed to
-  `allegro-photos/` + manifest — ready to match against the scanned EAN list.
+  `products/photos/` + manifest — ready to match against the scanned EAN list.
 - Live-system safety rules (backup-before-write, read-only default) →
   [[_meta/project-rules]].
 
@@ -33,5 +33,5 @@ local and has been stale; current goal is to **revive it**.
 - **2026-07-03 — reconstruct, don't revive.** The stale PrestaShop catalog is
   not worth salvaging; rebuild from a physical warehouse count (scanner → EAN
   list). Only `sklep_veloking` Allegro listings stay. Old-catalog data (photos,
-  names, EANs in `allegro-photos/manifest.csv`) is reused as *material* for new
+  names, EANs in `products/manifest.csv`) is reused as *material* for new
   listings, not migrated as-is.
