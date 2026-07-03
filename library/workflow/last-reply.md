@@ -1,15 +1,17 @@
-(pulled: sportking/_moc + architecture — updating the plan to the reconstruction model)
+(pulled: board + manifest context from this session)
 
-New direction is clear — recording the reconstruction plan across the vault notes:
+Got it — no veloking snapshot for now, and I'll treat the stock-zeroing/Allegro-update plan as yours to execute. Let me find and analyze `list.xlsx` against the manifest:
 
-All references updated. Adding a log line and committing everything, including the now-tracked manifest:
+79 scans, one EAN per row (duplicates = multiple units, presumably). Analyzing: quantities per EAN, bad scans, and match against the manifest:
 
-Everything's updated and committed. Summary of what changed:
+Analysis done — here's the picture from your first scan batch (`products/list.xlsx`, 79 rows):
 
-**Plan pivot recorded in the vault** — the _moc now carries it as a key decision ("reconstruct, don't revive"): all PrestaShop products discarded, only `sklep_veloking` listings survive, and the scanner EAN list becomes the source of truth for what gets listed. The architecture note got a warning banner marking all legacy-catalog facts as reference material, and the board has the pipeline as cards: warehouse count (in progress, you) → match EAN list against the manifest → create new Allegro listings via BaseLinker.
+**Inventory: 32 unique products, 73 units total.** The full breakdown is in **`products/scan-report.csv`** (committed): EAN, quantity, whether it matched the legacy shop data, name, and how many photos are ready in `products/photos/`.
 
-**Your restructure adopted** — I spotted that you moved the export to `products/photos/<EAN>/` with the manifest at `products/manifest.csv` and deleted the old `photos/` dir. All vault references now point to the new paths, `products/photos/` is git-ignored (177 MB of images), and **`products/manifest.csv` is now tracked in git** — it's the name/EAN/photo mapping and worth versioning.
+- **15 EANs matched** legacy data — names + photos ready to go (e.g. BERG Sun breeze spoiler ×8, Biky biały balance bike ×5, Buzzy Rubicon ×4).
+- **17 EANs are unknown** to the old shop — no name or photos on hand. Most start with `8718469…` which is EXIT Toys' prefix, so these are likely EXIT products the shop never listed. Good news for these: when creating offers by EAN, Allegro usually auto-matches its own product catalog and supplies title, photos, and parameters — so missing legacy data may cost nothing.
+- **6 bad scans confirmed** — they're all `YYMMDD-serial` format (`230331-116754`, `210921-090586`, …): the scanner caught the **production/serial-number barcode** instead of the EAN. Five distinct items need a re-scan — look for the 13-digit barcode (usually labeled EAN) rather than the date-looking sticker.
 
-For when the scanner list lands: drop it anywhere in `products/` (any format — CSV, plain EAN-per-line, whatever the scanner emits) and I'll diff it against the manifest to tell you which scanned items already have photos + names ready and which need new material. Two things to keep in mind for that step: 38 legacy products had no EAN (their photos live under name-slug dirs, so scanned items missing from the manifest might still have photos there), and 7 EANs were duplicated in the old shop — I flagged them in the manifest's `note` column.
+Your stock plan (zero out presta stock, update from Allegro, replace shop products from BaseLinker) is recorded in the vault as yours to execute — I won't touch it. The veloking-snapshot suggestion is shelved per your call.
 
-One suggestion meanwhile: I could snapshot the current `sklep_veloking` listings read-only via BaseLinker into `library/sportking/backups/` — that's the "what stays" baseline, and having it before any reconstruction work starts is exactly the strong-backup pattern you asked for. Want me to?
+One practical note: the report is regenerable in seconds — when you finish scanning (I see `list.xlsx` is still open in LibreOffice), just say "re-run the scan report" and I'll refresh it against the updated file. And whenever you want to start listing, the 15 matched products are the easy first wave: photos, Polish names, and quantities are all sitting ready.

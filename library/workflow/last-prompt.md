@@ -1,1 +1,7 @@
-i will only be creating new. products all the presta products will be gone. only the one in allegro_veloking will stay. we are reconstructing everything. I'm counting the warehouse right now with a scanner so will have a list with EAN codes ready in this project soon. also u update file structrue so update what is needed.
+I'm going to set the presta products to 0 count warehouse and
+just update the prodcuts from allegro and replace the ones in
+the shop from base.
+
+list.xlsx contains product scans in the warehouse. some didn't scan properly with the "-" probably scanned wrong code
+
+[suggestion] no don't do it for now.

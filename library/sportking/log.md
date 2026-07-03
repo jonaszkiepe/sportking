@@ -12,6 +12,7 @@ Every completed piece of work gets one line (newest first). Big features also li
 on [[board]]; this is the full history.
 
 ## 2026-07-03
+- Built `scan-report.py` (repo root, stdlib-only xlsx parser): products/list.xlsx → `report/<date-time>.csv` per scan session; verified identical to the manual batch-1 analysis; replaces one-off products/scan-report.csv → [[architecture]] (Tooling).
 - Analyzed first warehouse scan batch (`products/list.xlsx`, 79 rows) → `products/scan-report.csv`: 32 unique EANs / 73 units; 15 EANs matched to legacy photos+names, 17 unknown (mostly 8718469* = likely EXIT Toys, never in old shop); 6 bad scans are `YYMMDD-serial` production codes. Veloking-snapshot suggestion declined (for now). User will zero presta stock + sync from Allegro/BaseLinker himself → [[_moc]].
 - User restructured: photo export now lives at `products/photos/<EAN>/` + `products/manifest.csv` (was `allegro-photos/`; old manual `photos/` deleted). Refs updated in [[_moc]], [[architecture]], [[board]]; manifest.csv now git-tracked, photos ignored.
 - Plan pivot recorded: full catalog reconstruction — presta products discarded, only sklep_veloking listings stay, warehouse scanner count → EAN list incoming as source of truth → [[_moc]] (key decision), [[architecture]] (banner), [[board]] (cards).

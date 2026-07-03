@@ -57,6 +57,13 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   `manifest.csv` — built 2026-07-03 for Allegro listing creation; rebuildable
   (scripts in session scratchpad, method in [[log]]).
 
+## Tooling (repo root)
+- **`scan-report.py`** — run after every warehouse scan session (`./scan-report.py`).
+  Reads `products/list.xlsx` (scanner output; parses xlsx directly, safe while
+  open in Excel/LibreOffice), joins names from `products/manifest.csv` + photo
+  counts from `products/photos/`, writes `report/<date-time>.csv` and prints a
+  summary incl. bad scans (serial/date codes that need an EAN re-scan).
+
 ## Unknowns / to verify
 - PHP stack details, theme/modules (low priority — PrestaShop stays henrik's)
 - BaseLinker sync config (direction, stock/price source of truth) — token live
