@@ -18,8 +18,12 @@ local and has been stale; current goal is to **revive it**.
 - [[board]] — the plan (big features) · [[log]] — full history (everything, dated).
 
 ## Status (2026-07-03)
-- Vault bootstrapped; baseline business context captured from the user.
-- Revival direction and access (VPS, BaseLinker, Allegro) not yet established.
+- Vault bootstrapped; baseline context captured. Partners confirmed: BERG + EXIT Toys.
+- Plan: **audit current state first**. Public-site audit done (site live, brands
+  present, TLS healthy) → [[architecture]]. Next: BaseLinker + Allegro audit —
+  waiting on API token / access from the user.
+- Live-system safety rules (backup-before-write, read-only default) →
+  [[_meta/project-rules]].
 
 ## Key decisions
 - (decisions worth remembering + the why)
