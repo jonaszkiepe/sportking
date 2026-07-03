@@ -57,6 +57,23 @@ summary: How sportking works — stack, hosting, integrations. Early draft, most
   data preserved in `products/photos/` + `products/manifest.csv` for reuse when creating
   the new listings.
 
+### BERG data inconsistencies — group on ARTICLE NUMBER (2026-07-04)
+Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
+- **Article number `NN.NN.NN.NN` is the ONLY consistent key** across all sources
+  (0 EANs → >1 article in feed). EAN and name both drift → **join on article no.**
+- **Feed names are multi-language** (~1915/6023 contain EN/DE/NL words, e.g.
+  "Kettingkastdelen zwart", "Seitenschürzen-Set"). Polish names live only in the
+  old shop / veloking data → don't use feed names for PL listings.
+- **EAN drift**: feed EAN sheet vs pricelist use different EANs per article
+  year-to-year; old shop had 7 duplicate-EAN groups.
+- **3 scanned items not in 2026 feed** (discontinued): 24.30.13.00 Rubicon,
+  24.75.31.00 Biky City Red, 24.30.07.00 Buzzy Galaxy — only in shop+veloking.
+- **Price gaps**: only 2335/6023 priced; 260 ACTIVE have no price.
+- **Status barely populated**: 5546 blank, 325 ACTIVE, 148 UNDER_CON, 4 ENDING.
+- **Data error**: article 24.60.00.00 = "#BERG Rebl" in feed (only `#` name) but
+  "Reppy Rider" in shop+Allegro.
+- **No category column**: inferred from article prefix; ~6 ambiguous prefixes.
+
 ### EXIT products are modular (key catalog fact, 2026-07-03)
 - Many EXIT items are **sets assembled from separately-boxed components**, each
   component box carrying its **own EAN**. The sellable product is the assembly.
