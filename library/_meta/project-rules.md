@@ -9,7 +9,7 @@ summary: "sportking-specific operating rules — build gates, shared libs, MCP s
 # sportking project rules
 
 The project-specific half of [[claude-efficiency]] (general, lives in
-`~/ai-workflow`, symlinked here). Everything below is about *this* project.
+`~/.ai`, symlinked here). Everything below is about *this* project.
 Fill sections as facts are learned; delete ones that never apply.
 
 ## Environment

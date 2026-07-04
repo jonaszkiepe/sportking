@@ -1,1 +1,1 @@
-../../../ai-workflow/prompt-rules.md
+/home/jonasz/.ai/prompt-rules.md

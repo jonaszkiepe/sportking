@@ -1,1 +1,1 @@
-../../../ai-workflow/claude-efficiency.md
+/home/jonasz/.ai/claude-efficiency.md

@@ -1,1 +1,1 @@
-../../../ai-workflow/workflow.md
+/home/jonasz/.ai/workflow.md

@@ -11,7 +11,7 @@ task needs. Scan every note's purpose: `grep -rh "^summary:" /home/jonasz/sportk
 - **Efficiency & clean-code rules → `/home/jonasz/sportking/library/_meta/claude-efficiency.md`** (general, read it)
   + **`/home/jonasz/sportking/library/_meta/project-rules.md`** (sportking-specific: build gates, shared libs, MCP, deploy)
 - Session protocol → `/home/jonasz/sportking/library/_meta/workflow.md`
-  (general workflow files are symlinks into the `~/ai-workflow` repo)
+  (general workflow files are symlinks into the `~/.ai` repo)
 
 ## Critical always-on rules (details in the library)
 

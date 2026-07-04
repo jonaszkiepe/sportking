@@ -25,5 +25,5 @@ Scan every note's purpose at once: `grep -rh "^summary:" "/home/jonasz/sportking
 
 ## Meta
 - [[_meta/workflow]] · [[_meta/conventions]] · [[_meta/claude-efficiency]] · [[_meta/prompt-rules]] · [[_meta/suggestions]] · [[_meta/project-rules]]
-- General workflow env lives in the **`~/ai-workflow`** repo, symlinked into `_meta/` + `_templates/`. Project-specific rules: [[_meta/project-rules]] (real file).
+- General workflow env lives in the **`~/.ai`** repo, symlinked into `_meta/` + `_templates/`. Project-specific rules: [[_meta/project-rules]] (real file).
 - `_meta/memories/` — Claude's auto-loaded memories (shared across projects; general facts only — see scope-routing).
