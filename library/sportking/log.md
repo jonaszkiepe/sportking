@@ -2,7 +2,7 @@
 project: sportking
 type: log
 audience: both
-updated: 2026-07-03
+updated: 2026-07-04
 summary: Append-only activity log — every piece of work, one dated line, newest first.
 ---
 
@@ -12,6 +12,7 @@ Every completed piece of work gets one line (newest first). Big features also li
 on [[board]]; this is the full history.
 
 ## 2026-07-04
+- Added `User-Agent: sportking-sync/v1.0 (+https://sportking.pl/sportking-app)` to every Allegro REST request — all 5 sites across `allegro_auth.py` (`_post`, `_bearer_get`) and `allegro_draft.py` (`_call`, `_refresh`); defined as a `UA` constant per file. Verified live via read-only `./allegro_auth.py whoami` (auth OK, 105 offers). Identifies our traffic to Allegro (recommended practice; helps avoid generic-client rate limiting).
 - Analyzed BERG data inconsistencies across feed/shop/veloking/Allegro (user prepping to group with incoming EXIT catalog + BERG photos). Key: **article number is the only consistent join key**; feed names multi-language (~1915/6023 EN/DE/NL), EAN drifts, 3 scanned items not in 2026 feed, 2335/6023 priced (260 ACTIVE unpriced), status mostly blank, 1 data error (#BERG Rebl vs Reppy Rider). → [[architecture]] (BERG data inconsistencies section). User removed the 28 BL-catalog imports (clean slate for proper grouping).
 
 ## 2026-07-03

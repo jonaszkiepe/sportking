@@ -18,6 +18,7 @@ TOKENS = ROOT / ".allegro_tokens.json"
 SANDBOX = os.environ.get("ALLEGRO_SANDBOX") == "1"
 OAUTH = "https://allegro.pl.allegrosandbox.pl" if SANDBOX else "https://allegro.pl"
 API = "https://api.allegro.pl.allegrosandbox.pl" if SANDBOX else "https://api.allegro.pl"
+UA = "sportking-sync/v1.0 (+https://sportking.pl/sportking-app)"
 
 env = {}
 for l in open(ROOT / ".env"):
@@ -32,7 +33,7 @@ def _basic():
 
 
 def _post(url, data, auth=True):
-    hdr = {"Content-Type": "application/x-www-form-urlencoded"}
+    hdr = {"Content-Type": "application/x-www-form-urlencoded", "User-Agent": UA}
     if auth:
         hdr["Authorization"] = _basic()
     req = urllib.request.Request(url, data=urllib.parse.urlencode(data).encode(), headers=hdr)
@@ -88,7 +89,8 @@ def _bearer_get(path):
     tok = _load()
     req = urllib.request.Request(f"{API}{path}", headers={
         "Authorization": f"Bearer {tok['access_token']}",
-        "Accept": "application/vnd.allegro.public.v1+json"})
+        "Accept": "application/vnd.allegro.public.v1+json",
+        "User-Agent": UA})
     try:
         return json.load(urllib.request.urlopen(req))
     except urllib.error.HTTPError as e:

@@ -25,6 +25,7 @@ from berg_feed import load_master
 
 API = "https://api.allegro.pl"
 OAUTH = "https://allegro.pl"
+UA = "sportking-sync/v1.0 (+https://sportking.pl/sportking-app)"
 TOKENS = ROOT / ".allegro_tokens.json"
 BACKUP = ROOT / "library" / "sportking" / "backups"
 env = {}
@@ -44,7 +45,8 @@ def _call(method, path, body=None, params=None, _retry=True):
     req = urllib.request.Request(url, data=data, method=method, headers={
         "Authorization": f"Bearer {_tok()}",
         "Accept": "application/vnd.allegro.public.v1+json",
-        "Content-Type": "application/vnd.allegro.public.v1+json"})
+        "Content-Type": "application/vnd.allegro.public.v1+json",
+        "User-Agent": UA})
     try:
         r = urllib.request.urlopen(req, timeout=40)
         raw = r.read()
@@ -65,7 +67,7 @@ def _refresh():
     auth = base64.b64encode(f"{env['allegro_client_id']}:{env['allegro_client_secret']}".encode()).decode()
     req = urllib.request.Request(f"{OAUTH}/auth/oauth/token",
         data=urllib.parse.urlencode({"grant_type": "refresh_token", "refresh_token": t["refresh_token"]}).encode(),
-        headers={"Authorization": f"Basic {auth}", "Content-Type": "application/x-www-form-urlencoded"})
+        headers={"Authorization": f"Basic {auth}", "Content-Type": "application/x-www-form-urlencoded", "User-Agent": UA})
     new = json.load(urllib.request.urlopen(req, timeout=30))
     new["_saved"] = int(time.time())
     TOKENS.write_text(json.dumps(new, indent=2))
