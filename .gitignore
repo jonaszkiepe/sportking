@@ -29,3 +29,6 @@ library/.trash/
 
 # allegro oauth tokens (secret)
 /.allegro_tokens.json
+
+# Ctrl+G capture files (rewritten every turn by capture-reply.sh — churn, not knowledge)
+library/workflow/last-*.md
