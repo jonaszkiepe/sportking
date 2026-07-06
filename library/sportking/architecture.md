@@ -109,13 +109,22 @@ Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
 > (`.env`, `products/`, `library/…/backups`, `report/`) relative to the repo
 > root regardless of its own folder depth.
 
+- **`reporting/ingest-scan.py`** — run this first, on every new scan paste.
+  User always pastes the raw scan export (whatever format the scanner app
+  produces — odc/ods/csv/xlsx) at the **repo root**; this script converts it to
+  xlsx, archives a dated+typed copy to `products/scans/<date>-<full|append>.xlsx`,
+  removes the root paste (the archive is its backup), updates
+  `products/list.xlsx` — **`--full` replaces it outright** (a complete
+  recount), **`--append` concatenates onto it** (new stock scanned on top of
+  the running total) — then auto-runs `scan-report.py`.
+  `./reporting/ingest-scan.py <file> --full|--append`.
 - **`reporting/scan-report.py`** — run after every warehouse scan session
-  (`./reporting/scan-report.py`). Reads `products/list.xlsx` (scanner output;
-  parses xlsx directly, safe while open in Excel/LibreOffice), enriches each
-  EAN against the BERG dealer feed (article no., name, category, dealer price,
-  ACTIVE status) + photo counts, writes a **multi-page** `report/<date-time>.xlsx`
-  (Summary · Inventory · Unmatched · Bad scans) and refreshes
-  `products/berg-master.csv`.
+  (`./reporting/scan-report.py`, or automatically via `ingest-scan.py`). Reads
+  `products/list.xlsx` (scanner output; parses xlsx directly, safe while open
+  in Excel/LibreOffice), enriches each EAN against the BERG dealer feed
+  (article no., name, category, dealer price, ACTIVE status) + photo counts,
+  writes a **multi-page** `report/<date-time>.xlsx` (Summary · Inventory ·
+  Unmatched · Bad scans) and refreshes `products/berg-master.csv`.
 - **`reporting/berg_feed.py`** — parses `products/dealers/berg-2026.xlsx` into a
   master keyed by EAN. Links everything on the **article number** (stable; EANs
   drift yearly). Category = exact pricelist sheet, else inferred from 2-group

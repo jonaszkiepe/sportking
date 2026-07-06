@@ -2,7 +2,7 @@
 project: sportking
 type: moc
 audience: both
-updated: 2026-07-03
+updated: 2026-07-06
 summary: Map of content for sportking.
 ---
 
@@ -16,15 +16,17 @@ local and has been stale; current goal is to **revive it**.
 ## Notes
 - [[architecture]] — **how it works**. The technical source of truth (early draft, mostly unverified).
 - [[board]] — the plan (big features) · [[log]] — full history (everything, dated).
+- [[user-board]] — personal kanban for things only the user can act on.
 
-## Status (2026-07-03)
+## Status (2026-07-06)
 - **Plan pivot: full catalog reconstruction.** All existing PrestaShop products
   will be discarded; only the `sklep_veloking` Allegro listings survive. New
   catalog = whatever the physical warehouse count finds.
-- Warehouse count in progress (user, barcode scanner). First batch analyzed:
-  `products/list.xlsx` (79 scans) → `products/scan-report.csv` — 32 unique EANs
-  (15 with legacy photos/names, 17 unknown to the old shop), 6 bad scans
-  (serial/date codes, need re-scan).
+- Warehouse count in progress (user, barcode scanner), two full recounts so far
+  (each supersedes the last — see `reporting/ingest-scan.py`): batch 1
+  (2026-07-03, 79 scans, 32 unique EANs) and batch 2 (2026-07-06, 229 scans, 107
+  unique EANs, 40 matched / 67 unmatched). Raw batches archived in
+  `products/scans/<date>-<full|append>.xlsx`; reports in `report/`.
 - User's stock plan (2026-07-03, user executes): zero out PrestaShop product
   stock, update products from Allegro, replace shop products from BaseLinker.
 - Groundwork done: BaseLinker token + VPS access live, full audit of the old

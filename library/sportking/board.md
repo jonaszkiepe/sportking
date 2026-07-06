@@ -26,3 +26,4 @@ kanban-plugin: board
 
 ## Done
 - [ ] Access + audit groundwork: BaseLinker token, VPS SSH, legacy catalog audit, EAN-keyed photo export (2026-07-03)
+- [x] Scripts reorganized into concern-based folders (`allegro/`, `shop/`, `reporting/`, `scraping/`, `lib/`) + built `reporting/ingest-scan.py`: paste a raw scan at repo root, it archives to `products/scans/<date>-<full|append>.xlsx`, updates `products/list.xlsx` accordingly, and auto-runs the report (2026-07-06)
