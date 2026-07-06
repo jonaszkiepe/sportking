@@ -129,34 +129,72 @@ def cmd_drafts():
         print(f"  {o.get('id')}  {o.get('name','')[:50]}  stock={((o.get('stock') or {}).get('available'))}")
 
 
+def load_prices():
+    """{ean: {'price': float|None, 'stock': int|None}} from products/prices.xlsx.
+    Only rows with a filled price_pln are returned. Empty file -> {}."""
+    from lib_xlsx import read_sheets
+    path = ROOT / "products" / "prices.xlsx"
+    if not path.exists():
+        return {}
+    rows = next(iter(read_sheets(path).values()))
+    if not rows:
+        return {}
+    hdr = {v: k for k, v in rows[0].items()}
+    out = {}
+    for r in rows[1:]:
+        ean = r.get(hdr.get("ean", ""), "").strip()
+        raw = r.get(hdr.get("price_pln", ""), "").strip().replace(",", ".")
+        if not ean or not raw:
+            continue
+        try:
+            price = float(raw)
+        except ValueError:
+            continue
+        st = r.get(hdr.get("stock", ""), "").strip()
+        out[ean] = {"price": price, "stock": int(float(st)) if st else None}
+    return out
+
+
 def cmd_create(do_it):
+    """Create priced, UNPUBLISHED (INACTIVE) drafts for the catalog-safe wave:
+    EANs that (a) match Allegro's catalog and (b) have a price in prices.xlsx."""
     qty, master = scanned()
+    prices = load_prices()
     have = existing_draft_products() if do_it else set()
-    plan = []
+    plan, no_price = [], 0
     for ean, q in sorted(qty.items(), key=lambda x: -x[1]):
-        p = match_product(ean)
+        if ean not in prices:            # skip: no price filled (or manual/dark tier)
+            no_price += 1
+            continue
+        p = match_product(ean)           # require a catalog product (safe tier)
         time.sleep(0.15)
         if p and p["id"] not in have:
-            plan.append((ean, q, p, master.get(ean, {}).get("name", "")))
-    print(f"draftable now: {len(plan)} products (unmatched ones are skipped)\n")
-    for ean, q, p, nm in plan:
-        print(f"  {'CREATE' if do_it else 'would create'}: {ean} x{q}  {p['name'][:44]}")
+            plan.append((ean, q, p, prices[ean]))
+    print(f"draftable now: {len(plan)} priced catalog products "
+          f"({no_price} skipped: no price filled or not catalog-matched)\n")
+    for ean, q, p, pr in plan:
+        st = pr["stock"] if pr["stock"] is not None else q
+        print(f"  {'CREATE' if do_it else 'would create'}: {ean} x{st}  {pr['price']:.2f} PLN  {p['name'][:38]}")
     if not do_it:
         print("\ndry-run only. Re-run with --yes to create these unpublished drafts.")
         return
     BACKUP.mkdir(parents=True, exist_ok=True)
     rec = BACKUP / "2026-07-03-allegro-inkontor-drafts.json"
     created = json.loads(rec.read_text()) if rec.exists() else []
-    for ean, q, p, nm in plan:
+    for ean, q, p, pr in plan:
+        st = pr["stock"] if pr["stock"] is not None else q
         code, d = _call("POST", "/sale/product-offers", body={
             "productSet": [{"product": {"id": p["id"]}}],
-            "stock": {"available": int(q)},
+            "sellingMode": {"format": "BUY_NOW",
+                            "price": {"amount": f"{pr['price']:.2f}", "currency": "PLN"}},
+            "stock": {"available": int(st)},
             "publication": {"status": "INACTIVE"}})
         ok = code in (200, 201, 202)
         oid = d.get("id") if isinstance(d, dict) else None
-        print(f"  {'OK ' if ok else 'ERR'} {code}  {ean}  offer={oid}  {p['name'][:36]}")
+        print(f"  {'OK ' if ok else 'ERR'} {code}  {ean}  offer={oid}  {pr['price']:.2f}PLN  {p['name'][:30]}")
         if ok:
-            created.append({"offerId": oid, "ean": ean, "qty": q, "productId": p["id"], "name": p.get("name")})
+            created.append({"offerId": oid, "ean": ean, "qty": int(st), "price": pr["price"],
+                            "productId": p["id"], "name": p.get("name")})
         else:
             print("     ", str(d)[:200])
         time.sleep(0.4)

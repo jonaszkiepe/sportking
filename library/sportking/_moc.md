@@ -15,6 +15,7 @@ local and has been stale; current goal is to **revive it**.
 
 ## Notes
 - [[architecture]] — **how it works**. The technical source of truth (early draft, mostly unverified).
+- [[allegro-listing]] — Allegro listing rulebook + deploy workflow (rules, GPSR, fees, `prices.xlsx` → drafts).
 - [[board]] — the plan (big features) · [[log]] — full history (everything, dated).
 - [[user-board]] — personal kanban for things only the user can act on.
 

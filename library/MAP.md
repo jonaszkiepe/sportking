@@ -22,6 +22,7 @@ Scan every note's purpose at once: `grep -rh "^summary:" "/home/jonasz/sportking
 
 ### sportking
 - [[sportking/architecture]] — **how it works** (early draft — stack, hosting, integrations; mostly unverified).
+- [[sportking/allegro-listing]] — **Allegro listing rulebook + deploy workflow** (offer states, images, fees/Allegro Ceny, GPSR, delivery; prices.xlsx → drafts).
 - [[sportking/user-board]] — personal kanban for things only the user can act on (separate from [[sportking/board]]).
 
 ## Meta

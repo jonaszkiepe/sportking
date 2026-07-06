@@ -23,6 +23,8 @@ kanban-plugin: board
 - [ ] Warehouse count with scanner → EAN list (user; ongoing — batch 2 landed 2026-07-06, 229 scans/107 unique EANs, see [[log]])
 - [ ] **Verify BaseLinker→presta stock sync actually pushes** scanned qty (catalog products must be LINKED to sportking_pr shop; test: Biky White presta 4 → should become scanned 5)
 - [ ] Create the 17 not-in-presta scanned products (mostly EXIT) as presta products so they can carry stock
+- [ ] **Allegro deploy — catalog-safe wave (~56)**: fill `price_pln` in `products/prices.xlsx` → `allegro_draft.py create --yes` (priced INACTIVE drafts) → activate per product when ready to sell. Rules + workflow in [[allegro-listing]]. Prereqs mostly in place (delivery/returns/warranty/GPSR-producers on account). OPEN: does BaseLinker import drafts? (verify w/ BL support).
+- [ ] **Allegro deploy — manual wave (~50, override+feed)**: BLOCKED on real photos — our scraped images carry other-shop watermarks (compliance + copyright). Need manufacturer assets or own white packshots + hand-set params/GPSR before listing. See [[allegro-listing]].
 
 ## Done
 - [x] **Scanned-list enrichment: `scripts/reporting/enrich.py`** (2026-07-06). Fills name+category+images per EAN from `ean-overrides.csv` → Allegro catalog → BERG feed; leftovers to `dark-todo.csv`. Batch 2: 107 products, 106 identified (33 override / 56 Allegro / 17 feed), 1 dark, 349 images. Reusable & script-only — future runs just need an agent to resolve any new dark EANs into `ean-overrides.csv`.
