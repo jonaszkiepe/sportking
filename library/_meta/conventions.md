@@ -1,1 +1,1 @@
-/home/jonasz/ai-workflow/conventions.md
+/home/jonasz/.ai-workflow/conventions.md
