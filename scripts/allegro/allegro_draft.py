@@ -6,10 +6,10 @@ parameters and photos). Offers are created with publication.status=INACTIVE and
 NO price -> they are drafts, never live. Only works for EANs Allegro already has
 a catalog product for; the rest are reported as unmatched.
 
-  ./allegro_draft.py match      # read-only: scanned EAN -> Allegro product match
-  ./allegro_draft.py drafts     # read-only: list current INACTIVE draft offers
-  ./allegro_draft.py create     # dry-run: show exactly what would be created
-  ./allegro_draft.py create --yes   # actually create the drafts (records ids)
+  ./scripts/allegro/allegro_draft.py match      # read-only: scanned EAN -> Allegro product match
+  ./scripts/allegro/allegro_draft.py drafts     # read-only: list current INACTIVE draft offers
+  ./scripts/allegro/allegro_draft.py create     # dry-run: show exactly what would be created
+  ./scripts/allegro/allegro_draft.py create --yes   # actually create the drafts (records ids)
 
 Reversible: every created offer id is appended to
 library/sportking/backups/<date>-allegro-inkontor-drafts.json.
@@ -18,8 +18,9 @@ import json, re, sys, time, urllib.request, urllib.error, urllib.parse
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts" / "lib"))
+sys.path.insert(0, str(ROOT / "scripts" / "reporting"))
 from lib_xlsx import read_sheets
 from berg_feed import load_master
 

@@ -7,9 +7,9 @@ sizes: small 120x90 | medium 400x300 | large 1024x768 (max). No login needed for
 images (only prices are gated). So we build straight from the article numbers in
 products/berg-master.csv — no page scraping.
 
-  ./scrape-dealerzone-photos.py --inventory   # articles in the latest scan
-  ./scrape-dealerzone-photos.py --all         # every article in berg-master.csv
-  ./scrape-dealerzone-photos.py 24.75.02.00 ... # specific articles
+  ./scripts/scraping/scrape-dealerzone-photos.py --inventory   # articles in the latest scan
+  ./scripts/scraping/scrape-dealerzone-photos.py --all         # every article in berg-master.csv
+  ./scripts/scraping/scrape-dealerzone-photos.py 24.75.02.00 ... # specific articles
 
 Photos land in products/photos-berg/<article>/NN.jpg (store-agnostic, article-keyed).
 Resolution is medium (1024px) — good enough to start listing; the BERG brand
@@ -19,8 +19,9 @@ import csv, re, sys, time, socket, urllib.request
 from pathlib import Path
 socket.setdefaulttimeout(20)
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts" / "lib"))
+sys.path.insert(0, str(ROOT / "scripts" / "reporting"))
 IMG = "https://www.dealerzone.net/product/image/large/{art}_{n}.jpg"
 OUTDIR = ROOT / "products" / "photos-berg"
 MASTER = ROOT / "products" / "berg-master.csv"

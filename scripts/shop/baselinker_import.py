@@ -2,9 +2,9 @@
 """Import scanned/drafted products into the BaseLinker catalog (inventory 4002),
 keyed by EAN so BaseLinker matches them to the Allegro offers.
 
-  ./baselinker_import.py dryrun      # show exactly what would be added (no writes)
-  ./baselinker_import.py backup      # export current catalog to backups/ (read-only)
-  ./baselinker_import.py import --yes # backup, then addInventoryProduct for each
+  ./scripts/shop/baselinker_import.py dryrun      # show exactly what would be added (no writes)
+  ./scripts/shop/baselinker_import.py backup      # export current catalog to backups/ (read-only)
+  ./scripts/shop/baselinker_import.py import --yes # backup, then addInventoryProduct for each
 
 Default scope = the products drafted on Allegro (scanned EANs that match Allegro's
 catalog). Pass --all to import every scanned product instead.
@@ -14,8 +14,10 @@ product_ids in backups/ for rollback (deleteInventoryProduct).
 import json, sys, time, urllib.request, urllib.parse
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts" / "lib"))
+sys.path.insert(0, str(ROOT / "scripts" / "reporting"))
+sys.path.insert(0, str(ROOT / "scripts" / "allegro"))
 from allegro_draft import scanned, match_product  # reuse scan + Allegro EAN match
 
 INV = 4002

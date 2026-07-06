@@ -4,6 +4,8 @@
 # bulk media (rebuildable; see log) — manifest.csv / berg-master.csv stay tracked
 /products/photos/
 /products/photos-berg/
+/products/photos-allegro/
+/products/photos-web/
 
 # python + derived caches
 __pycache__/

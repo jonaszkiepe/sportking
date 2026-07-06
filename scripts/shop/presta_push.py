@@ -7,15 +7,15 @@ shop (BaseLinker external storage shop_30180). REFUSES to run unless BaseLinker'
 write flag for that shop is enabled (Integrations -> sportking_pr -> allow stock
 update). Uses the pre-captured backup as the product list + restore point.
 
-  ./presta_push.py dryrun       # show exactly what changes (no writes)
-  ./presta_push.py push --yes   # push (only if write is enabled)
+  ./scripts/shop/presta_push.py dryrun       # show exactly what changes (no writes)
+  ./scripts/shop/presta_push.py push --yes   # push (only if write is enabled)
 """
 import json, re, sys, time, urllib.request, urllib.parse
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts" / "lib"))
 from lib_xlsx import read_sheets
 
 STORAGE = "shop_30180"

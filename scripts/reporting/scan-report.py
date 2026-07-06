@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Warehouse scan report — run after every scan session:  ./scan-report.py
+"""Warehouse scan report — run after every scan session:  ./scripts/reporting/scan-report.py
 
 Reads   products/list.xlsx              (scanner output, one EAN per row)
 Enriches against products/dealers/berg-2026.xlsx (article no., name, category,
@@ -17,8 +17,9 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts" / "lib"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib_xlsx import read_sheets, write_xlsx
 from berg_feed import load_master
 

@@ -5,10 +5,10 @@ BERG's Shopify store exposes /products.json (all products, variants, images).
 variant.sku == the BERG article number, and image filenames embed the article
 number and EAN, so photos map to our master deterministically.
 
-  ./scrape-berg-photos.py --index         # (re)build the index only, no downloads
-  ./scrape-berg-photos.py --inventory     # download photos for scanned inventory
-  ./scrape-berg-photos.py --all           # download the whole catalog
-  ./scrape-berg-photos.py 24.75.02.00 ... # download specific articles
+  ./scripts/scraping/scrape-berg-photos.py --index         # (re)build the index only, no downloads
+  ./scripts/scraping/scrape-berg-photos.py --inventory     # download photos for scanned inventory
+  ./scripts/scraping/scrape-berg-photos.py --all           # download the whole catalog
+  ./scripts/scraping/scrape-berg-photos.py 24.75.02.00 ... # download specific articles
 
 Photos land in products/photos-berg/<article>/NN.<ext>. Store-agnostic: keyed by
 the stable article number, reusable for Allegro / PrestaShop / any channel.
@@ -20,7 +20,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 STORE = "https://us.bergtoys.com"   # US storefront; product shots are language-neutral
 INDEX = ROOT / "products" / "dealers" / "berg-shopify-index.json"
 OUTDIR = ROOT / "products" / "photos-berg"
@@ -105,7 +105,8 @@ def inventory_articles():
     # articles for EANs present in the newest scan report's master join = master rows we scanned;
     # simplest: use every article in the master that we have a photo folder OR was scanned.
     # Here: read scanned EANs from products/list.xlsx via the master mapping.
-    sys.path.insert(0, str(ROOT))
+    sys.path.insert(0, str(ROOT / "scripts" / "lib"))
+    sys.path.insert(0, str(ROOT / "scripts" / "reporting"))
     from lib_xlsx import read_sheets
     from berg_feed import load_master
     m = load_master(ROOT / "products" / "dealers" / "berg-2026.xlsx")

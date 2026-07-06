@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Allegro OAuth for the sportking Inkontor account (device code flow).
 
-  ./allegro_auth.py login     # prints a URL + code; you authorize as sklep_Inkontor
-  ./allegro_auth.py whoami     # read-only check: which account + offer count
-  ./allegro_auth.py refresh    # refresh the access token (they expire ~12h)
+  ./scripts/allegro/allegro_auth.py login     # prints a URL + code; you authorize as sklep_Inkontor
+  ./scripts/allegro/allegro_auth.py whoami     # read-only check: which account + offer count
+  ./scripts/allegro/allegro_auth.py refresh    # refresh the access token (they expire ~12h)
 
 Client credentials come from .env (quotes stripped):
     allegro_client_id, allegro_client_secret
@@ -13,7 +13,7 @@ Production Allegro by default; set ALLEGRO_SANDBOX=1 to target the sandbox.
 import os, sys, json, time, base64, urllib.request, urllib.parse
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 TOKENS = ROOT / ".allegro_tokens.json"
 SANDBOX = os.environ.get("ALLEGRO_SANDBOX") == "1"
 OAUTH = "https://allegro.pl.allegrosandbox.pl" if SANDBOX else "https://allegro.pl"
@@ -50,7 +50,7 @@ def _save(tok):
 
 def _load():
     if not TOKENS.exists():
-        sys.exit("no tokens yet — run: ./allegro_auth.py login")
+        sys.exit("no tokens yet — run: ./scripts/allegro/allegro_auth.py login")
     return json.loads(TOKENS.read_text())
 
 
