@@ -35,4 +35,4 @@ what the task needs**, starting at the index:
 
 - (the few rules that must never be missed — keep this list short)
 
-**Env:** before editing `~/.ai`, take the `LOCK` (concurrent sessions) — `env-write-lock` memory.
+**Env:** before editing `~/ai-workflow`, take the `LOCK` (concurrent sessions) — `env-write-lock` memory.

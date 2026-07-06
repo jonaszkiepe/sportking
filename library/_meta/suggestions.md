@@ -1,1 +1,1 @@
-/home/jonasz/.ai/suggestions.md
+/home/jonasz/ai-workflow/suggestions.md
