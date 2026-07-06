@@ -25,8 +25,14 @@ local and has been stale; current goal is to **revive it**.
 - Warehouse count in progress (user, barcode scanner), two full recounts so far
   (each supersedes the last — see `reporting/ingest-scan.py`): batch 1
   (2026-07-03, 79 scans, 32 unique EANs) and batch 2 (2026-07-06, 229 scans, 107
-  unique EANs, 40 matched / 67 unmatched). Raw batches archived in
+  unique EANs). Raw batches archived in
   `products/scans/<date>-<full|append>.xlsx`; reports in `report/`.
+- **Scanned list now filled** via `scripts/reporting/enrich.py`: 106 of 107
+  identified (name+category+images) — 56 Allegro catalog, 17 BERG feed, 33 from
+  the committed `products/ean-overrides.csv`; 1 unidentifiable. **EXIT ended the
+  dealer relationship (2026-07-06)** so no EXIT feed is coming — the Allegro
+  catalog + overrides file replace it. Future scans: script-only, an agent just
+  resolves any new dark EANs into the overrides file.
 - User's stock plan (2026-07-03, user executes): zero out PrestaShop product
   stock, update products from Allegro, replace shop products from BaseLinker.
 - Groundwork done: BaseLinker token + VPS access live, full audit of the old

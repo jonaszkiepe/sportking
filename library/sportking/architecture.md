@@ -84,8 +84,15 @@ Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
   sets, two boxes each. This is why component EANs don't match the old-shop
   manifest (which was keyed on the shop's set-level product, or never listed them).
 - Consequence for reconstruction: need an EAN → article-number → sellable-set
-  master (best source: EXIT dealer feed) + a bundle map so the scan report can
+  master (~~best source: EXIT dealer feed~~ **EXIT dealer feed is off the table —
+  EXIT ended the relationship 2026-07-06**) + a bundle map so the scan report can
   roll component scans up into complete/partial sets. See [[log]] / [[board]].
+- **Data source now that EXIT won't supply:** the **Allegro product catalog**
+  itself, matched by EAN. Allegro already holds most of these products (Polish
+  name, leaf category, images) — it's the channel we sell on, so it's the natural
+  identity source. What Allegro lacks is captured once in a committed
+  `products/ean-overrides.csv` and never re-looked-up. See the enrichment tooling
+  below.
 - Scope note: of the 17 unmatched EANs in batch 1, only ~10 are EXIT-family
   (8718469/8719874/8719743); the other 7 are BERG (8715839) — ordinary products
   the old shop simply never carried, single EAN each, **not** a bundle issue.
@@ -129,6 +136,22 @@ Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
   status) + photo counts, writes a **multi-page** `report/<date-time>.xlsx`
   (Summary · Inventory · Unmatched · Bad scans) and refreshes
   `products/berg-master.csv`.
+- **`scripts/reporting/enrich.py`** — fills the scanned list (name + category +
+  images) per EAN from three deterministic tiers, highest first: (1)
+  `products/ean-overrides.csv` (committed knowledge file: manual + past
+  web-resolved products; also overrides Allegro as a correction lever), (2)
+  **Allegro catalog** live API — strict EAN match via
+  `allegro_draft.match_product`, giving Polish name, leaf category and originals
+  → `products/photos-allegro/<EAN>/NN.jpg`, (3) BERG feed name/category.
+  Unidentified EANs → `products/dark-todo.csv` (same columns as the overrides
+  file, so you fill the blanks and paste the rows straight back; next run folds
+  them in with zero lookups). Writes `products/list-filled.xlsx`. Read-only
+  against Allegro, rerunnable, pure stdlib. This is the answer to EXIT going dark:
+  **script does everything deterministic; an agent only resolves the tiny
+  new-dark tail into `ean-overrides.csv`.** Batch 2: 107 → 33 override / 56
+  Allegro / 17 feed / 1 dark, 349 images. The 33 overrides were seeded by
+  parallel web-lookup agents (mostly EXIT modular cartons; `4260237*` = small
+  foot/BAFF beatBOX Cajons, not Hudora). `photos-web/<EAN>/` holds override images.
 - **`scripts/reporting/berg_feed.py`** — parses `products/dealers/berg-2026.xlsx`
   into a master keyed by EAN. Links everything on the **article number**
   (stable; EANs drift yearly). Category = exact pricelist sheet, else inferred
