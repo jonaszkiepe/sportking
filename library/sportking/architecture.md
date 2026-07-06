@@ -102,40 +102,44 @@ Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
   (scripts in session scratchpad, method in [[log]]).
 
 ## Tooling
-> Scripts reorganized 2026-07-06 into concern-based folders (were flat at repo
-> root): `allegro/` (auth + draft offers), `shop/` (BaseLinker + PrestaShop),
-> `reporting/` (scan-report + BERG feed parsing), `scraping/` (photo sources),
-> `lib/` (shared stdlib xlsx helper). Every script still resolves paths
-> (`.env`, `products/`, `library/…/backups`, `report/`) relative to the repo
-> root regardless of its own folder depth.
+> All code lives under **`scripts/`**, separate from data (`products/`,
+> `report/`) and the vault (`library/`) — reorganized 2026-07-06, first into
+> concern-based folders, then nested under `scripts/` (were flat at repo root
+> originally). Layout: `scripts/allegro/` (auth + draft offers), `scripts/shop/`
+> (BaseLinker + PrestaShop), `scripts/reporting/` (scan-report + BERG feed
+> parsing), `scripts/scraping/` (photo sources), `scripts/lib/` (shared stdlib
+> xlsx helper). Every script still resolves paths (`.env`, `products/`,
+> `library/…/backups`, `report/`) relative to the repo root regardless of its
+> own folder depth.
 
-- **`reporting/ingest-scan.py`** — run this first, on every new scan paste.
-  User always pastes the raw scan export (whatever format the scanner app
-  produces — odc/ods/csv/xlsx) at the **repo root**; this script converts it to
-  xlsx, archives a dated+typed copy to `products/scans/<date>-<full|append>.xlsx`,
-  removes the root paste (the archive is its backup), updates
-  `products/list.xlsx` — **`--full` replaces it outright** (a complete
-  recount), **`--append` concatenates onto it** (new stock scanned on top of
-  the running total) — then auto-runs `scan-report.py`.
-  `./reporting/ingest-scan.py <file> --full|--append`.
-- **`reporting/scan-report.py`** — run after every warehouse scan session
-  (`./reporting/scan-report.py`, or automatically via `ingest-scan.py`). Reads
-  `products/list.xlsx` (scanner output; parses xlsx directly, safe while open
-  in Excel/LibreOffice), enriches each EAN against the BERG dealer feed
-  (article no., name, category, dealer price, ACTIVE status) + photo counts,
-  writes a **multi-page** `report/<date-time>.xlsx` (Summary · Inventory ·
-  Unmatched · Bad scans) and refreshes `products/berg-master.csv`.
-- **`reporting/berg_feed.py`** — parses `products/dealers/berg-2026.xlsx` into a
-  master keyed by EAN. Links everything on the **article number** (stable; EANs
-  drift yearly). Category = exact pricelist sheet, else inferred from 2-group
-  article prefix (majority vote). Dealer price = pricelist col D (blank = not
-  in 2026 range = discontinued). Name/status from Mastersheet.
-- **`lib/lib_xlsx.py`** — dependency-free xlsx read+write (stdlib), so scripts
-  run without openpyxl and read files that are open in Excel.
+- **`scripts/reporting/ingest-scan.py`** — run this first, on every new scan
+  paste. User always pastes the raw scan export (whatever format the scanner
+  app produces — odc/ods/csv/xlsx) at the **repo root**; this script converts
+  it to xlsx, archives a dated+typed copy to
+  `products/scans/<date>-<full|append>.xlsx`, removes the root paste (the
+  archive is its backup), updates `products/list.xlsx` — **`--full` replaces
+  it outright** (a complete recount), **`--append` concatenates onto it** (new
+  stock scanned on top of the running total) — then auto-runs
+  `scan-report.py`. `./scripts/reporting/ingest-scan.py <file> --full|--append`.
+- **`scripts/reporting/scan-report.py`** — run after every warehouse scan
+  session (`./scripts/reporting/scan-report.py`, or automatically via
+  `ingest-scan.py`). Reads `products/list.xlsx` (scanner output; parses xlsx
+  directly, safe while open in Excel/LibreOffice), enriches each EAN against
+  the BERG dealer feed (article no., name, category, dealer price, ACTIVE
+  status) + photo counts, writes a **multi-page** `report/<date-time>.xlsx`
+  (Summary · Inventory · Unmatched · Bad scans) and refreshes
+  `products/berg-master.csv`.
+- **`scripts/reporting/berg_feed.py`** — parses `products/dealers/berg-2026.xlsx`
+  into a master keyed by EAN. Links everything on the **article number**
+  (stable; EANs drift yearly). Category = exact pricelist sheet, else inferred
+  from 2-group article prefix (majority vote). Dealer price = pricelist col D
+  (blank = not in 2026 range = discontinued). Name/status from Mastersheet.
+- **`scripts/lib/lib_xlsx.py`** — dependency-free xlsx read+write (stdlib), so
+  scripts run without openpyxl and read files that are open in Excel.
 - **`products/berg-master.csv`** — store-agnostic product master (article, ean,
   name, category, dealer_price, status), 6023 rows. The multi-store source of
   truth; regenerated on every scan-report run. Tracked in git.
-- **`scraping/scrape-dealerzone-photos.py`** — the working photo source.
+- **`scripts/scraping/scrape-dealerzone-photos.py`** — the working photo source.
   Dealerzone serves product images at a **public**, predictable URL
   `dealerzone.net/product/image/large/<article>_<n>.jpg` (no login needed for
   images; only prices are gated). So it builds `products/photos-berg/<article>/`
@@ -147,9 +151,9 @@ Cross-checked dealer feed vs old shop vs veloking offers vs Allegro catalog.
   Coverage: current stock only — older/discontinued articles have no Dealerzone
   image (fall back to the legacy shop export). Scan batch 1: 6/19 from Dealerzone,
   16/19 with a photo once combined with the legacy export.
-- **`scraping/scrape-berg-photos.py`** — earlier attempt via us.bergtoys.com
-  Shopify; dead end (only 53 articles, 0 of our inventory). Kept for reference
-  only.
+- **`scripts/scraping/scrape-berg-photos.py`** — earlier attempt via
+  us.bergtoys.com Shopify; dead end (only 53 articles, 0 of our inventory).
+  Kept for reference only.
 - **`.env` note:** values are wrapped in double quotes; Python parsers must strip
   them (`.strip().strip('"')`) — an unstripped quote made the Dealerzone login
   send an invalid email. Shell `export $(… | xargs)` handles quotes already.

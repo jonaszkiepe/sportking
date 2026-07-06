@@ -10,7 +10,7 @@ kanban-plugin: board
 # sportking — board
 
 ## Backlog
-- [ ] **Photos (interim)**: scraping Dealerzone (`scraping/scrape-dealerzone-photos.py`, public 1024px, article-keyed) — done for scan batch 1 (16/19 covered w/ legacy export). Next: run `--all` for a full library, decide with user on scope.
+- [ ] **Photos (interim)**: scraping Dealerzone (`scripts/scraping/scrape-dealerzone-photos.py`, public 1024px, article-keyed) — done for scan batch 1 (16/19 covered w/ legacy export). Next: run `--all` for a full library, decide with user on scope.
 - [ ] **Photos (high-res, later)**: BERG brand portal (Marvia via `brandportal.berg.com`, Imagebank link in Dealerzone) — deferred until after selling starts, needs access enabled (marketing@bergtoys.com).
 - [ ] Add EXIT (+ other) dealer feeds later; generalise `berg_feed.py` per brand
 - [ ] Category map: BERG categories → Allegro / PrestaShop category trees
@@ -26,4 +26,4 @@ kanban-plugin: board
 
 ## Done
 - [ ] Access + audit groundwork: BaseLinker token, VPS SSH, legacy catalog audit, EAN-keyed photo export (2026-07-03)
-- [x] Scripts reorganized into concern-based folders (`allegro/`, `shop/`, `reporting/`, `scraping/`, `lib/`) + built `reporting/ingest-scan.py`: paste a raw scan at repo root, it archives to `products/scans/<date>-<full|append>.xlsx`, updates `products/list.xlsx` accordingly, and auto-runs the report (2026-07-06)
+- [x] Scripts reorganized into `scripts/` (concern-based subfolders: `allegro/`, `shop/`, `reporting/`, `scraping/`, `lib/` — separated from `products/`/`report/` data) + built `scripts/reporting/ingest-scan.py`: paste a raw scan at repo root, it archives to `products/scans/<date>-<full|append>.xlsx`, updates `products/list.xlsx` accordingly, and auto-runs the report (2026-07-06)
