@@ -2,7 +2,7 @@
 project: sportking
 type: log
 audience: both
-updated: 2026-07-04
+updated: 2026-07-06
 summary: Append-only activity log — every piece of work, one dated line, newest first.
 ---
 
@@ -10,6 +10,10 @@ summary: Append-only activity log — every piece of work, one dated line, newes
 
 Every completed piece of work gets one line (newest first). Big features also live
 on [[board]]; this is the full history.
+
+## 2026-07-06
+- **Second warehouse scan batch landed** (`new_raport.odc`, a LibreOffice Calc export mislabeled `.odc`). Archived batch 1's raw scan file to `products/list-2026-07-03-batch1.xlsx`, converted the new batch to xlsx (`products/list-2026-07-06-batch2.xlsx`) and set it as the active `products/list.xlsx`, then ran the report tooling. Result: 229 scans, 107 unique EANs, 40 matched to the BERG feed, 67 unmatched, 0 bad scans → `report/2026-07-06_17-43-35.xlsx`. → [[board]].
+- **Reorganized the 9 root-level Python scripts into concern-based folders**: `allegro/` (auth + draft offers), `shop/` (BaseLinker import + PrestaShop push), `reporting/` (scan-report + BERG feed parsing), `scraping/` (photo sources), `lib/` (shared stdlib xlsx helper). Fixed each script's `ROOT` computation and `sys.path` wiring so cross-imports and repo-root-relative paths (`.env`, `products/`, `library/…/backups`, `report/`) still resolve correctly regardless of folder depth; verified every moved script imports cleanly and re-ran scan-report end-to-end. → [[architecture]] (Tooling).
 
 ## 2026-07-04
 - Added `User-Agent: sportking-sync/v1.0 (+https://sportking.pl/sportking-app)` to every Allegro REST request — all 5 sites across `allegro_auth.py` (`_post`, `_bearer_get`) and `allegro_draft.py` (`_call`, `_refresh`); defined as a `UA` constant per file. Verified live via read-only `./allegro_auth.py whoami` (auth OK, 105 offers). Identifies our traffic to Allegro (recommended practice; helps avoid generic-client rate limiting).
