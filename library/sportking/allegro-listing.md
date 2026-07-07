@@ -26,10 +26,12 @@ The 107 scanned products (see [[log]], `enrich.py`) split by how they were ident
 - **Manual wave (~50)** — override + BERG-feed-only (`source=override`/`berg-feed`).
   **Not** in Allegro's catalog, so each needs a hand-built offer with **our own
   images**. Our web-scraped images are unsafe (see Images below) → these are on
-  HOLD until real photos exist. **Triage view:** `scripts/reporting/build_dashboard.py`
+  HOLD until real photos exist. **Triage pipeline:** `scripts/reporting/build_dashboard.py`
   → `report/dashboard.html` — served card grid (`python3 -m http.server` from repo
-  root), "To do" tab = this wave, shows what images each product currently has
-  (web/berg/allegro thumbnails) + per-product status you can track as you shoot photos.
+  root), "Pipeline (manual)" tab = this wave in **3 stages**: ① Unverified (unsafe) →
+  ② Verified but `<3` images → ③ Ready to push (verified + ≥3 imgs). You toggle
+  "images verified" per product; stage = that flag + live image count. Drop own
+  photos into `products/photos-web/<EAN>/`, rerun the script, products climb ②→③.
 - **Dark (1)** — `8731869663717`, unidentified. Physical check ([[user-board]]).
 
 ## Workflow (script-only)
