@@ -1,7 +1,7 @@
 ---
 type: reference
 audience: claude
-updated: 2026-07-03
+updated: 2026-07-07
 tags: [efficiency, workflow]
 summary: "sportking-specific operating rules — build gates, shared libs, MCP servers, deploy. Pairs with the general claude-efficiency rules."
 ---
@@ -9,7 +9,7 @@ summary: "sportking-specific operating rules — build gates, shared libs, MCP s
 # sportking project rules
 
 The project-specific half of [[claude-efficiency]] (general, lives in
-`~/.ai`, symlinked here). Everything below is about *this* project.
+`~/ai-workflow`, symlinked here). Everything below is about *this* project.
 Fill sections as facts are learned; delete ones that never apply.
 
 ## Environment
@@ -61,6 +61,8 @@ server. Hard rules:
 - Real gate: (build/test command + gotchas)
 
 ## Deploy & git
-- Vault repo: Claude commits, never pushes. Code repo: commits stay the user's
-  unless asked.
+- Vault repo: Claude commits, never pushes. **Code repo: standing commit
+  opt-in granted** (user, 2026-07-06 "commit everything" ×2; recorded at
+  gardening 2026-07-07) — Claude may commit `scripts/`+data unprompted. Solo
+  repo; never push; honor `.gitignore` (no secrets, no large regenerables).
 - (deploy runbook pointers)

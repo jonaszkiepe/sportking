@@ -1,7 +1,7 @@
 ---
 type: moc
 audience: both
-updated: 2026-07-06
+updated: 2026-07-07
 summary: The index — every project and note with a one-line summary. Read this first.
 ---
 
@@ -27,5 +27,5 @@ Scan every note's purpose at once: `grep -rh "^summary:" "/home/jonasz/sportking
 
 ## Meta
 - [[_meta/workflow]] · [[_meta/conventions]] · [[_meta/claude-efficiency]] · [[_meta/prompt-rules]] · [[_meta/suggestions]] · [[_meta/project-rules]] · [[_meta/claude-root]] (the repo-root `CLAUDE.md` — symlinked, auto-loads; start sessions at the repo root)
-- General workflow env lives in the **`~/.ai`** repo, symlinked into `_meta/` + `_templates/`. Project-specific rules: [[_meta/project-rules]] (real file).
+- General workflow env lives in the **`~/ai-workflow`** repo, symlinked into `_meta/` + `_templates/`. Project-specific rules: [[_meta/project-rules]] (real file).
 - `_meta/memories/` — Claude's auto-loaded general memories (shared across projects); project-only ones live in `_meta/project-memories/` (+ `_index.md`) — see scope-routing.
