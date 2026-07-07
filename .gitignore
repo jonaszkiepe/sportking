@@ -9,6 +9,8 @@
 
 # python + derived caches
 __pycache__/
+# rolling regenerable — rebuild via scripts/reporting/build_dashboard.py
+/report/dashboard.html
 /products/dealers/berg-shopify-index.json
 
 # OS / editor junk

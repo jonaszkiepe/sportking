@@ -2,7 +2,7 @@
 project: sportking
 type: log
 audience: both
-updated: 2026-07-06
+updated: 2026-07-07
 summary: Append-only activity log — every piece of work, one dated line, newest first.
 ---
 
@@ -10,6 +10,9 @@ summary: Append-only activity log — every piece of work, one dated line, newes
 
 Every completed piece of work gets one line (newest first). Big features also live
 on [[board]]; this is the full history.
+
+## 2026-07-07
+- **Manual-triage dashboard built (`scripts/reporting/build_dashboard.py` → `report/dashboard.html`).** Purpose: give the user a short, focused visual worklist for the ~50 products that need their own photos, instead of digging through folders — the catalog-safe wave (56, `source=allegro`) is auto-handled by the price-sheet→draft pipeline, so it's split off. Reads `list-filled.xlsx` + scans the photo dirs; single self-contained HTML, **two tabs** ("To do" = manual wave override/berg-feed/dark, "Auto / catalog-safe" = allegro), card grid with per-product image thumbnails (tagged by source: web/berg/allegro), search + filters (no-image / has-image / status), and **per-product status tracking** (needs-photo / in-progress / ready) persisted in browser localStorage with CSV export/import. **Win:** wired BERG assets in — `berg-master.csv` gives ean→article and `photos-berg/` is keyed by article, so 5 of the 17 previously-blank berg-feed products now show reference photos. Served locally (`python3 -m http.server` from repo root → `/report/dashboard.html`); regenerate anytime, refresh reflects new photos. Result: 107 products (51 to-do, 56 auto), **14 to-do still with NO image on file**. `report/dashboard.html` is a rolling regenerable → gitignored; the script is committed. Verified end-to-end (page 200, all 3 image kinds resolve over the server). → [[allegro-listing]].
 
 ## 2026-07-06
 - **Allegro deploy: rules researched + pricing/draft plumbing built** → new [[allegro-listing]]. Goal: push the scanned catalog to `sklep_Inkontor` (26050). Key decisions/findings: (1) **Deploy in two waves** — catalog-EAN matches (~56, `source=allegro`) are compliant by construction (Allegro supplies photos/params) → deploy first; override+feed (~50) need own photos (scraped ones carry other-shop watermarks = compliance + copyright risk) → HOLD. (2) **0-stock parking is impossible** — Allegro auto-ends any offer at stock 0 (`endedBy: EMPTY_STOCK`); safe park state = INACTIVE drafts; activation (stock≥1) is go-live *and* the BaseLinker-import trigger (BaseLinker pulls ACTIVE by default, drafts likely not — VERIFY w/ BL support). (3) The "price drops, seller refunded" mechanic = **Allegro Ceny** (Allegro funds the discount, seller nets ~set price); **no Buy-Now price floor** (`minimalPrice` = auction-only) → set prices ≥ break-even ourselves. (4) **GPSR** mandatory, NOT from catalog — but account already has producers Berg/BS Toys/exit/Gepetto registered; BERG/EXIT = EU so no "responsible person" needed. (5) Account probe: 16 shipping rates + return/warranty/rękojmia all present, 0 active offers. Tooling: `build_price_sheet.py` → `products/prices.xlsx` (user fills `price_pln`, merge-aware, catalog rows first); extended `allegro_draft.py create` to make **priced INACTIVE drafts** for catalog+priced EANs only. Prices come from the hand-filled column (user decision 2026-07-06). → [[architecture]], [[board]].

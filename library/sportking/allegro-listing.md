@@ -3,7 +3,7 @@ project: sportking
 type: note
 audience: both
 status: draft
-updated: 2026-07-06
+updated: 2026-07-07
 summary: Allegro listing rulebook + deploy workflow — offer states, images, fees, GPSR, delivery; how we push the scanned catalog to Inkontor as drafts.
 ---
 
@@ -26,7 +26,10 @@ The 107 scanned products (see [[log]], `enrich.py`) split by how they were ident
 - **Manual wave (~50)** — override + BERG-feed-only (`source=override`/`berg-feed`).
   **Not** in Allegro's catalog, so each needs a hand-built offer with **our own
   images**. Our web-scraped images are unsafe (see Images below) → these are on
-  HOLD until real photos exist.
+  HOLD until real photos exist. **Triage view:** `scripts/reporting/build_dashboard.py`
+  → `report/dashboard.html` — served card grid (`python3 -m http.server` from repo
+  root), "To do" tab = this wave, shows what images each product currently has
+  (web/berg/allegro thumbnails) + per-product status you can track as you shoot photos.
 - **Dark (1)** — `8731869663717`, unidentified. Physical check ([[user-board]]).
 
 ## Workflow (script-only)
